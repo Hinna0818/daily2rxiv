@@ -41,7 +41,7 @@ class AppConfig:
     limit: int = 30
     sources: tuple[str, ...] = DEFAULT_SOURCES
     use_llm: bool = True
-    openai_model: str = "gpt-5-mini"
+    openai_model: str = "gpt-4.1-mini"
     arxiv_categories: tuple[str, ...] = DEFAULT_ARXIV_CATEGORIES
     arxiv_terms: tuple[str, ...] = DEFAULT_ARXIV_TERMS
     biorxiv_lookback_days: int = 3
@@ -59,7 +59,7 @@ class AppConfig:
         sources: tuple[str, ...],
         use_llm: bool,
     ) -> "AppConfig":
-        model = os.getenv("DAILY2RXIV_OPENAI_MODEL", "gpt-5-mini")
+        model = os.getenv("DAILY2RXIV_OPENAI_MODEL", "gpt-4.1-mini")
         categories = _csv_env("DAILY2RXIV_ARXIV_CATEGORIES", DEFAULT_ARXIV_CATEGORIES)
         terms = _csv_env("DAILY2RXIV_ARXIV_TERMS", DEFAULT_ARXIV_TERMS)
         lookback_days = int(os.getenv("DAILY2RXIV_BIORXIV_LOOKBACK_DAYS", "3"))
