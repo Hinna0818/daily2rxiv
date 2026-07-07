@@ -36,6 +36,8 @@ class SummarizeRenderPipelineTests(unittest.TestCase):
             result = summarize_paper(paper, use_llm=True, model="test-model")
         self.assertEqual(result.method, "fallback")
         self.assertIn("该研究摘要显示", result.summary)
+        self.assertIn("单细胞", result.title_zh)
+        self.assertIn("单细胞", result.abstract_zh)
         self.assertTrue(result.keywords)
 
     def test_fallback_handles_missing_abstract(self):
@@ -51,6 +53,9 @@ class SummarizeRenderPipelineTests(unittest.TestCase):
         markdown = render_markdown(build_payload([paper], config))
         self.assertIn("# daily2rxiv Digest - 2026-07-06", markdown)
         self.assertIn("## arxiv", markdown)
+        self.assertIn("Original title:", markdown)
+        self.assertIn("中文摘要:", markdown)
+        self.assertIn("Abstract:", markdown)
         self.assertIn("Summary (fallback)", markdown)
         self.assertIn("Keywords:", markdown)
 
@@ -64,6 +69,8 @@ class SummarizeRenderPipelineTests(unittest.TestCase):
             self.assertTrue(latest_path.exists())
             data = json.loads(json_path.read_text(encoding="utf-8"))
             self.assertEqual(data["paper_count"], 1)
+            self.assertIn("title_zh", data["papers"][0])
+            self.assertIn("abstract_zh", data["papers"][0])
 
     def test_pipeline_uses_mocked_fetchers_and_writes_outputs(self):
         with tempfile.TemporaryDirectory() as tmpdir:

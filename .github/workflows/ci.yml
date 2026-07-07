@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      DAILY2RXIV_OPENAI_MODEL: gpt-4.1-mini
+      DAILY2RXIV_OPENAI_MODEL: gpt-5.4
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -43,7 +43,7 @@ jobs:
           python - <<'PY'
           import os
           from daily2rxiv.models import Paper
-          from daily2rxiv.summarize import summarize_paper
+          from daily2rxiv.summarize import summarize_with_openai
 
           paper = Paper(
               id="llm-smoke",
@@ -58,14 +58,17 @@ jobs:
               published_date="2026-07-07",
               url="https://example.com",
           )
-          result = summarize_paper(
+          result = summarize_with_openai(
               paper,
-              use_llm=True,
-              model=os.getenv("DAILY2RXIV_OPENAI_MODEL", "gpt-4.1-mini"),
+              model=os.getenv("DAILY2RXIV_OPENAI_MODEL", "gpt-5.4"),
           )
           print("summary_method=", result.method)
+          print("title_zh=", result.title_zh[:160])
+          print("abstract_zh=", result.abstract_zh[:240])
           print("summary=", result.summary[:240])
           print("keywords=", ", ".join(result.keywords))
           if result.method != "llm":
               raise SystemExit("Expected LLM summary, got fallback.")
+          if not result.title_zh or not result.abstract_zh:
+              raise SystemExit("Expected Chinese title and abstract translation.")
           PY

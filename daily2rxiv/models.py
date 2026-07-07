@@ -11,6 +11,8 @@ class SummaryResult:
     summary: str
     keywords: list[str]
     method: str
+    title_zh: str = ""
+    abstract_zh: str = ""
 
 
 @dataclass(slots=True)
@@ -25,6 +27,8 @@ class Paper:
     doi: str | None = None
     category: str | None = None
     raw: dict[str, Any] = field(default_factory=dict)
+    title_zh: str | None = None
+    abstract_zh: str | None = None
     summary: str | None = None
     keywords: list[str] = field(default_factory=list)
     summary_method: str | None = None
@@ -38,6 +42,8 @@ class Paper:
         return f"url:{self.url.lower().strip()}"
 
     def with_summary(self, result: SummaryResult) -> "Paper":
+        self.title_zh = result.title_zh
+        self.abstract_zh = result.abstract_zh
         self.summary = result.summary
         self.keywords = result.keywords
         self.summary_method = result.method

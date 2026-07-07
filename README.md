@@ -11,8 +11,8 @@ daily2rxiv 是一个每日论文摘要生成器，面向想快速浏览前沿生
   - `data/YYYY-MM-DD/digest.md`
   - `data/latest.json`
 - 摘要：
-  - 配置 `OPENAI_API_KEY` 时可调用 OpenAI 生成中文概括。
-  - 没有 API key 或调用失败时自动使用规则摘要，项目仍可运行。
+  - 配置 `OPENAI_API_KEY` 时可调用 OpenAI 生成中文标题、中文摘要、中文概括和关键词。
+  - 没有 API key 或调用失败时自动使用规则版中文标题/摘要草稿和规则摘要，项目仍可运行。
 
 ## 本地运行
 
@@ -44,7 +44,7 @@ python -m daily2rxiv fetch --sources arxiv,biorxiv,medrxiv --no-llm
 ## 配置
 
 - `OPENAI_API_KEY`：可选，存在时启用 LLM 摘要。
-- `DAILY2RXIV_OPENAI_MODEL`：可选，默认 `gpt-4.1-mini`。
+- `DAILY2RXIV_OPENAI_MODEL`：可选，默认 `gpt-5.4`。
 - `DAILY2RXIV_ARXIV_CATEGORIES`：可选，逗号分隔的 arXiv 分类。
 - `DAILY2RXIV_ARXIV_TERMS`：可选，逗号分隔的 arXiv 检索词。
 - `DAILY2RXIV_BIORXIV_LOOKBACK_DAYS`：可选，bioRxiv/medRxiv 当天为空时向前回看的天数，默认 3。

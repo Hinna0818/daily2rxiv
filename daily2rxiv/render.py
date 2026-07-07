@@ -61,6 +61,7 @@ def render_markdown(payload: dict[str, object]) -> str:
         lines.extend([f"## {source}", ""])
         for index, paper in enumerate(source_papers, start=1):
             title = _escape_md(str(paper.get("title") or "Untitled"))
+            title_zh = _escape_md(str(paper.get("title_zh") or ""))
             url = str(paper.get("url") or "")
             authors = ", ".join(str(author) for author in paper.get("authors", [])[:5])
             if len(paper.get("authors", [])) > 5:
@@ -75,14 +76,25 @@ def render_markdown(payload: dict[str, object]) -> str:
                 if item
             )
             summary = str(paper.get("summary") or "暂无摘要。")
+            abstract = str(paper.get("abstract") or "")
+            abstract_zh = str(paper.get("abstract_zh") or "")
             method = str(paper.get("summary_method") or "unknown")
             keywords = ", ".join(str(item) for item in paper.get("keywords", []))
 
-            lines.append(f"### {index}. [{title}]({url})" if url else f"### {index}. {title}")
+            heading = title_zh or title
+            lines.append(
+                f"### {index}. [{heading}]({url})" if url else f"### {index}. {heading}"
+            )
+            if title_zh and title_zh != title:
+                lines.append(f"- Original title: {title}")
             if authors:
                 lines.append(f"- Authors: {authors}")
             if meta:
                 lines.append(f"- Meta: {meta}")
+            if abstract_zh:
+                lines.append(f"- 中文摘要: {abstract_zh}")
+            if abstract:
+                lines.append(f"- Abstract: {_clip(abstract, 420)}")
             lines.append(f"- Summary ({method}): {summary}")
             if keywords:
                 lines.append(f"- Keywords: {keywords}")
@@ -99,3 +111,9 @@ def _source_counts(papers: list[Paper]) -> dict[str, int]:
 
 def _escape_md(value: str) -> str:
     return value.replace("[", "\\[").replace("]", "\\]")
+
+
+def _clip(value: str, max_chars: int) -> str:
+    if len(value) <= max_chars:
+        return value
+    return value[: max_chars - 1].rstrip() + "..."
