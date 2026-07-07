@@ -20,3 +20,52 @@ jobs:
         run: python -m compileall daily2rxiv tests
       - name: Unit tests
         run: python -m unittest discover -s tests
+  llm-smoke:
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      DAILY2RXIV_OPENAI_MODEL: gpt-5.4-mini
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install package
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[llm]"
+      - name: OpenAI summary smoke test
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "OPENAI_API_KEY is not configured; skipping LLM smoke test."
+            exit 0
+          fi
+          python - <<'PY'
+          import os
+          from daily2rxiv.models import Paper
+          from daily2rxiv.summarize import summarize_paper
+
+          paper = Paper(
+              id="llm-smoke",
+              source="test",
+              title="Single-cell genomics reveals immune programs in disease",
+              abstract=(
+                  "Single-cell genomics can identify disease-associated immune "
+                  "programs across patient cohorts. The study benchmarks models "
+                  "and reports robust cell-state signals linked to treatment response."
+              ),
+              authors=["daily2rxiv"],
+              published_date="2026-07-07",
+              url="https://example.com",
+          )
+          result = summarize_paper(
+              paper,
+              use_llm=True,
+              model=os.getenv("DAILY2RXIV_OPENAI_MODEL", "gpt-5.4-mini"),
+          )
+          print("summary_method=", result.method)
+          print("summary=", result.summary[:240])
+          print("keywords=", ", ".join(result.keywords))
+          if result.method != "llm":
+              raise SystemExit("Expected LLM summary, got fallback.")
+          PY
