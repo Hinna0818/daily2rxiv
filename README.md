@@ -44,7 +44,7 @@ python -m daily2rxiv fetch --sources arxiv,biorxiv,medrxiv --no-llm
 ## 配置
 
 - `OPENAI_API_KEY`：可选，存在时启用 LLM 摘要。
-- `DAILY2RXIV_OPENAI_MODEL`：可选，默认 `gpt-5.4-mini`。
+- `DAILY2RXIV_OPENAI_MODEL`：可选，默认 `gpt-5-mini`。
 - `DAILY2RXIV_ARXIV_CATEGORIES`：可选，逗号分隔的 arXiv 分类。
 - `DAILY2RXIV_ARXIV_TERMS`：可选，逗号分隔的 arXiv 检索词。
 - `DAILY2RXIV_BIORXIV_LOOKBACK_DAYS`：可选，bioRxiv/medRxiv 当天为空时向前回看的天数，默认 3。

@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      DAILY2RXIV_OPENAI_MODEL: gpt-5.4-mini
+      DAILY2RXIV_OPENAI_MODEL: gpt-5-mini
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -61,7 +61,7 @@ jobs:
           result = summarize_paper(
               paper,
               use_llm=True,
-              model=os.getenv("DAILY2RXIV_OPENAI_MODEL", "gpt-5.4-mini"),
+              model=os.getenv("DAILY2RXIV_OPENAI_MODEL", "gpt-5-mini"),
           )
           print("summary_method=", result.method)
           print("summary=", result.summary[:240])
