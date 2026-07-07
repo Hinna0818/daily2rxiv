@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json
-from datetime import date
+from datetime import date, timedelta
 from urllib.parse import quote
 
 from daily2rxiv.http import HttpGetter
@@ -17,16 +17,37 @@ def fetch_biorxiv(
     run_date: date,
     limit: int,
     http_get: HttpGetter,
+    lookback_days: int = 3,
+) -> list[Paper]:
+    for offset in range(lookback_days + 1):
+        query_date = run_date - timedelta(days=offset)
+        papers = _fetch_biorxiv_date(
+            server=server,
+            query_date=query_date,
+            limit=limit,
+            http_get=http_get,
+        )
+        if papers:
+            return papers
+    return []
+
+
+def _fetch_biorxiv_date(
+    *,
+    server: str,
+    query_date: date,
+    limit: int,
+    http_get: HttpGetter,
 ) -> list[Paper]:
     cursor = 0
     papers: list[Paper] = []
-    interval = f"{run_date.isoformat()}/{run_date.isoformat()}"
+    interval = f"{query_date.isoformat()}/{query_date.isoformat()}"
     while len(papers) < limit:
         url = (
             f"{BIORXIV_API_URL}/{quote(server)}/"
             f"{quote(interval, safe='/')}/{cursor}/json"
         )
-        page = parse_biorxiv_payload(http_get(url), server=server, fallback_date=run_date)
+        page = parse_biorxiv_payload(http_get(url), server=server, fallback_date=query_date)
         if not page:
             break
         papers.extend(page)

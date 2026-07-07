@@ -1,11 +1,13 @@
 {
   "date": "2026-07-07",
-  "generated_at": "2026-07-07T05:06:07.863337+00:00",
+  "generated_at": "2026-07-07T05:17:24.320172+00:00",
   "generated_by": "daily2rxiv",
   "source_count": {
-    "arxiv": 30
+    "arxiv": 30,
+    "biorxiv": 30,
+    "medrxiv": 30
   },
-  "paper_count": 30,
+  "paper_count": 90,
   "papers": [
     {
       "id": "2607.05396v1",
@@ -914,6 +916,2171 @@
         "over",
         "inference",
         "heterogeneous"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.04.736504",
+      "source": "biorxiv",
+      "title": "Individualized parcellation reveals functional boundaries in human prefrontal cortex",
+      "abstract": "Human prefrontal cortex (PFC) supports diverse higher-order cognitive functions during task execution. Increasing evidence suggests that these functions are organized along large-scale gradients, such as a rostro-caudal axis supporting progressively abstract-to-concrete information processing. At the same time, regional specialization within PFC, including focal patches selective for specific stimulus categories, suggests the presence of discrete functional boundaries. Whether PFC organization is best characterized by continuous gradients or discrete subdivisions remains unresolved. Here we show that task-evoked functional organization in PFC exhibits substantial inter-individual variability, limiting the usefulness of conventional group atlases in testing for functional boundaries. To address this challenge, we estimated individualized functional parcellations by combining a group atlas with task-evoked fMRI data spanning diverse cognitive tasks. The group atlas revealed large-scale functional gradients across PFC, whereas individualized parcellations additionally uncovered sharp functional boundaries obscured by group averaging. Moreover, functional organization in PFC was substantially more fine-grained than in other association cortices, consistent with its integrative role in cognitive control. Together, these findings suggest that PFC organization reflects an individualized mosaic of fine-grained functional subdivisions embedded within broader large-scale gradients, with important implications for defining core constructs such as the multiple-demand system.",
+      "authors": [
+        "Xiang, J. D.",
+        "Zhi, D.",
+        "Arafat, B.",
+        "Nettekoven, C.",
+        "Diedrichsen, J.",
+        "Mur, M."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736504v1",
+      "doi": "10.64898/2026.07.04.736504",
+      "category": "neuroscience",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Human prefrontal cortex (PFC) supports diverse higher-order cognitive functions during task execution. Increasing evidence suggests that these functions are organized along large-scale gradients, such as a rostro-caudal axis supporting progressively abstract-to-concrete information processing.",
+      "keywords": [
+        "functional",
+        "individualized",
+        "boundaries",
+        "gradients",
+        "organization"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.736394",
+      "source": "biorxiv",
+      "title": "Presynaptic Terminals Dynamically Modulate Spontaneous Release Frequency During Early Synaptic Plasticity Through and Entropic Force Framework",
+      "abstract": "Spontaneous synaptic transmission has been established as essential for the maintenance of synaptic weights during action potential-induced transmission. However, spontaneous transmission also changes during synaptic plasticity and has been shown to, in part, mediate changes in synaptic weights. Despite decades of research, a coherent framework for understanding the complex molecular processes that support presynaptic spontaneous transmission during maintenance and plasticity has remained elusive. We show here that presynapses modulate spontaneous transmission frequency during the early time-course of plasticity following entropic force theory. We use live primary hippocampal cultures as a model system and induce plasticity using an established Long-Term Potentiation (LTP) protocol. We then use a combination of electron microscopy, fluorescence microscopy, and computational modeling to show how spontaneous release frequency dynamically changes during early plasticity. We use our entropic force theory to show how the dynamically changing synaptic vesicle pool structure mediates spontaneous release changes. Lastly, we show how these changes are altered in the presence of P301L tau leading to degeneration. The results from this study provide new insights that not only help understand normal synaptic function but also aid in understanding neurodegeneration.",
+      "authors": [
+        "Wilson, P.",
+        "Stephens, H.",
+        "Cotter, R.",
+        "Mennon, M.",
+        "Plank, B.",
+        "Reed, M.",
+        "Gramlich, M."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736394v1",
+      "doi": "10.64898/2026.07.03.736394",
+      "category": "neuroscience",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Spontaneous synaptic transmission has been established as essential for the maintenance of synaptic weights during action potential-induced transmission. However, spontaneous transmission also changes during synaptic plasticity and has been shown to, in part, mediate changes in synaptic weights.",
+      "keywords": [
+        "spontaneous",
+        "synaptic",
+        "during",
+        "plasticity",
+        "transmission"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.05.735345",
+      "source": "biorxiv",
+      "title": "Astrocyte-to-microglia purinergic signaling mediates synaptic shielding and promotes neuronal activity",
+      "abstract": "How glial cells sense and regulate neuronal hypoactivity remains poorly understood. Using in vivo imaging in anesthetized, sleeping, and behaving mice, we identified a glial purinergic signaling mechanism that converts neuronal hypoactivity into local circuit regulation. Cortical hypoactivity increased spatially confined ATP release through astrocytic pannexin-1 hemichannels, which were structurally enriched near perisomatic parvalbumin-positive boutons. Local ATP release directed microglial process movement and stabilized bulbous endings through microglial P2Y12 signaling, accompanied by localized Ca2+ activity in microglial processes. Disruption of astrocytic pannexin-1 or microglial P2Y12 impaired bulbous-ending stabilization and abolished rebound increases in neuronal activity during emergence from anesthesia. Similar ATP release and bulbous-ending formation were observed during chemogenetic neuronal silencing or natural sleep in freely behaving mice. These findings identify astrocyte-to-microglia purinergic signaling as a mechanism that converts neuronal hypoactivity into synapse-selective microglial regulation of circuit activity.",
+      "authors": [
+        "Haruwaka, K.",
+        "Liu, J.",
+        "Liang, Y.",
+        "Matsumoto, S.",
+        "Kleidonas, D.",
+        "Shi, W.",
+        "Zhao, S.",
+        "Liu, Y. U.",
+        "Umpierre, A. D.",
+        "Xie, Z.",
+        "Jing, M.",
+        "Wu, L.-J."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.05.735345v1",
+      "doi": "10.64898/2026.07.05.735345",
+      "category": "neuroscience",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：How glial cells sense and regulate neuronal hypoactivity remains poorly understood. Using in vivo imaging in anesthetized, sleeping, and behaving mice, we identified a glial purinergic signaling mechanism that converts neuronal hypoactivity into local circuit regulation.",
+      "keywords": [
+        "neuronal",
+        "microglial",
+        "signaling",
+        "activity",
+        "hypoactivity"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.05.736600",
+      "source": "biorxiv",
+      "title": "Behavior Differentially Shapes Spontaneous Cortical Network Dynamics Across Frequencies",
+      "abstract": "The rapid and coordinated propagation of neural activity across a network of distributed brain regions underpins complex behavior and cognition. Yet how multiple distributed processes are facilitated in parallel across timescales and behavioral states remains unclear. Using simultaneous fast wide-field voltage and hemodynamic imaging in awake mice, we show that behavior differentially shapes cortical network dynamics across frequencies and signal types. Although static functional connectivity preserved canonical networks across frequencies, the underlying dynamics diverged. Low-frequency and hemodynamic activity were dominated by behavior-dependent persistence of network states, whereas higher-frequency activity exhibited stable network structure with modulation through changes in state expression. Despite these differences, shared network organization was preserved across timescales and signal types. This indicates that similar functional connectivity can arise from distinct temporal dynamics. These findings reveal that cortical networks are governed by frequency-dependent principles through which behavior shapes the persistence and expression of large-scale brain states.",
+      "authors": [
+        "Meyer-Baese, L.",
+        "Jaeger, D.",
+        "Keilholz, S."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.05.736600v1",
+      "doi": "10.64898/2026.07.05.736600",
+      "category": "neuroscience",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：The rapid and coordinated propagation of neural activity across a network of distributed brain regions underpins complex behavior and cognition. Yet how multiple distributed processes are facilitated in parallel across timescales and behavioral states remains unclear.",
+      "keywords": [
+        "network",
+        "across",
+        "behavior",
+        "dynamics",
+        "shapes"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.05.736624",
+      "source": "biorxiv",
+      "title": "A comparison of sharpening and dampening accounts of the role of expectation in shaping the neural fidelity of early visual representations",
+      "abstract": "The natural environment is spatiotemporally structured, and the brain exploits this regularity to predict and prepare for upcoming sensory stimuli. Such predictive processing is thought to increase neural efficiency by reducing metabolic expenditure and altering the fidelity with which newly encountered stimuli are encoded. Competing theoretical frameworks propose this is achieved either through sharpening, whereby expected events are encoded more precisely, or dampening, whereby expected events are suppressed and encoded less precisely. Despite clear, opposing predictions, evidence in humans for each account remains mixed due to methodological and analytical inconsistencies. Here we addressed these issues using probabilistic visual paradigm combined with functional magnetic resonance imaging (fMRI) and electroencephalography (EEG). We used population receptive field (pRF) mapping of fMRI data and inverted encoding of EEG data to compare the fidelity and timecourse of activity in visual areas in response to expected, unexpected, and random stimuli. Both methods produced a consistent pattern of results. Post hoc analysis of EEG data revealed that the apparent effect of expectancy was better explained by local spatiotemporal stimulus properties than the global expectancy manipulation. Although this pattern resembled sensory adaptation, it was more consistent with an expectation of temporal stability combined with dampening, in which both the aggregate response to expected features and their representational fidelity are suppressed. Taken together, our findings suggest that predictive processing may operate through dampening, with ecological advantages for high-fidelity encoding of unexpected sensory events.",
+      "authors": [
+        "Rideaux, R.",
+        "Hu, Z.",
+        "Chidley, K.",
+        "Cloos, M.",
+        "Schwarzkopf, D. S.",
+        "Mattingley, J. B."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.05.736624v1",
+      "doi": "10.64898/2026.07.05.736624",
+      "category": "neuroscience",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：The natural environment is spatiotemporally structured, and the brain exploits this regularity to predict and prepare for upcoming sensory stimuli. Such predictive processing is thought to increase neural efficiency by reducing metabolic expenditure and altering the fidelity with which newly encountered stimuli are encoded.",
+      "keywords": [
+        "dampening",
+        "fidelity",
+        "expected",
+        "visual",
+        "sensory"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.05.736606",
+      "source": "biorxiv",
+      "title": "Striatal Dopamine at Learned Sequence Boundaries Sustains Birdsong",
+      "abstract": "Phasic striatal dopamine has been implicated in the initiation of well-trained action sequences in reward-guided tasks. Whether such signals also support natural skills learned without explicit cues or immediate rewards remains unknown. Using birdsong as a model of a naturally learned, skilled vocal behavior, we found that dopamine transients accompany the initiation of song sequences. These transients emerged during learning, shifting from later phases of the sequence toward sequence onset as song matured. Temporally targeted optogenetic inhibition of dopamine signaling at sequence onsets disrupted the maintenance of learned song, resulting in the gradual and severe deterioration of adult song. Thus, phasic dopamine signaling at sequence initiation develops during learning of a natural skilled behavior and is required for its long-term maintenance.",
+      "authors": [
+        "Xiao, L.",
+        "Roberts, T. F."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.05.736606v1",
+      "doi": "10.64898/2026.07.05.736606",
+      "category": "neuroscience",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Phasic striatal dopamine has been implicated in the initiation of well-trained action sequences in reward-guided tasks. Whether such signals also support natural skills learned without explicit cues or immediate rewards remains unknown.",
+      "keywords": [
+        "dopamine",
+        "sequence",
+        "learned",
+        "song",
+        "initiation"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.736382",
+      "source": "biorxiv",
+      "title": "Fundamental-realized niche contrasts shape multi-scale species coexistence",
+      "abstract": "Ecological theory states that the geographic ranges and coexistence of species are determined by fundamental and realized niches - the sets of environments where a species intrinsic population growth rate is positive in the absence and presence of competitors, respectively. Yet large-scale tests of niche theory have been hampered by the challenge to obtain sufficient data on demography and competition. Here, we quantify fundamental and realized niches by combining data on variation in fundamental demographic rates, community composition and the abiotic environment across the global geographic ranges of 29 shrub species from the South African Fynbos biome (a global biodiversity hotspot). Estimated pairwise competition coefficients and fundamental-realized niche contrasts reveal multi-scale mechanisms of species coexistence. At small scales, species generally exert stronger competition on themselves than on other species. At biogeographical scales, more competitive species have narrower fundamental niches but are not significantly better dispersed, which provides evidence for a generalist-specialist trade-off rather than a competition-colonization trade-off. Under both present and future climates, interspecific competition more strongly limits the realized niches and geographic ranges of generalist species. The large-scale application of niche theory thus identifies key forces shaping biodiversity and indicates that generalist species may be more strongly impacted by climate change than previously thought.",
+      "authors": [
+        "Pagel, J.",
+        "Treurnicht, M.",
+        "Esler, K. J.",
+        "Schurr, F. M."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736382v1",
+      "doi": "10.64898/2026.07.03.736382",
+      "category": "ecology",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Ecological theory states that the geographic ranges and coexistence of species are determined by fundamental and realized niches - the sets of environments where a species intrinsic population growth rate is positive in the absence and presence of competitors, respectively.",
+      "keywords": [
+        "species",
+        "niche",
+        "fundamental",
+        "niches",
+        "competition"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.735260",
+      "source": "biorxiv",
+      "title": "An Atlas of Short Linear Motif-Mediated Human Protein-Protein Interactions",
+      "abstract": "Short linear motifs (SLiMs) within intrinsically disordered protein regions mediate transient interactions crucial for cell physiology. However, the global interaction landscape of human SLiMs remains largely uncharted. Here we present the Atlas of SLiM-mediated Human protein-protein Interactions (ASHI), which maps more than 20,000 interactions by screening over 800 human protein domains against a library of one million peptides tiling the human disordered proteome. ASHI expands the SLiM interactome, uncovers novel binding modes for known peptide-binding domains, and reveals unexpected peptide-binding activities in enzymes, chaperones, RNA-binding proteins, and modification-reader domains. Furthermore, intrinsically disordered regions emerge as densely encoded interaction platforms where interaction specificity is governed by diverse mechanisms, including key motif determinants, flanking residues, competition, and multivalency. These data provide an unprecedented foundation for modeling dynamic interaction networks, interpreting disease-associated variants, and decoding the dark proteome.",
+      "authors": [
+        "Madhu, P.",
+        "Benz, C.",
+        "Simonetti, L.",
+        "Winters, M. J.",
+        "Subbanna, M. S.",
+        "Kliche, J.",
+        "Gomez-Lucas, L.",
+        "Kotb, H. M.",
+        "Krystkowiak, I.",
+        "Segal, D.",
+        "Darling, W. T. P.",
+        "Larsen-Ledet, S.",
+        "Vieler, M.",
+        "Zupancic, A.",
+        "Konstantinou, A.",
+        "Mihalic, F.",
+        "Varga, J. K.",
+        "Pagano, L.",
+        "Lüchow, S.",
+        "Kraemer, A.",
+        "Ellingboe, L.",
+        "Görlitz, K.",
+        "Righetto, G. L.",
+        "Kossmann, C.",
+        "Xiong, R.",
+        "Schueler-Furman, O.",
+        "Halabelian, L.",
+        "Santhakumar, V.",
+        "Arrowsmith, C.",
+        "Knapp, S.",
+        "Erdelyi, M.",
+        "Stein, A.",
+        "Vincentelli, R.",
+        "Pryciak, P. M.",
+        "Davey, N. E.",
+        "Ivarsson, Y."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.735260v1",
+      "doi": "10.64898/2026.07.03.735260",
+      "category": "biochemistry",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Short linear motifs (SLiMs) within intrinsically disordered protein regions mediate transient interactions crucial for cell physiology. However, the global interaction landscape of human SLiMs remains largely uncharted.",
+      "keywords": [
+        "human",
+        "interactions",
+        "interaction",
+        "disordered",
+        "domains"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.736217",
+      "source": "biorxiv",
+      "title": "OrthoGLMM: Phylogenetic Association Testing for Gene Content and Trait Evolution",
+      "abstract": "Motivation: Comparative genome projects can now assemble and annotate hundreds of species, creating an opportunity to test whether species-level traits are associated with repeated changes in gene content. These tests must account for shared ancestry, sparse orthogroups, rare trait origins, and thousands of simultaneous associations. Results: We present OrthoGLMM, a phylogenetically informed framework for the association of traits and orthogroup presence/absence or copy number across species. OrthoGLMM combines deterministic GLMM scans with solver-rerun empirical calibration and calibrated FDR estimation. In three benchmark datasets, OrthoGLMM recovered expected signals for bacterial diazotrophy, plant nodulation, and marine mammals. Availability and Implementation: Source code, documentation, example data, and reproducibility scripts will be available at http://github.com/jguhlin/OrthoGLMM.",
+      "authors": [
+        "Guhlin, J. G.",
+        "Keddell, P.",
+        "Dearden, P."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736217v1",
+      "doi": "10.64898/2026.07.03.736217",
+      "category": "bioinformatics",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Motivation: Comparative genome projects can now assemble and annotate hundreds of species, creating an opportunity to test whether species-level traits are associated with repeated changes in gene content. These tests must account for shared ancestry, sparse orthogroups, rare trait origins, and thousands of simultaneous associations.",
+      "keywords": [
+        "orthoglmm",
+        "association",
+        "gene",
+        "content",
+        "trait"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.736118",
+      "source": "biorxiv",
+      "title": "Drosben, an affordable system for scalable survival analysis in Drosophila",
+      "abstract": "Survival analysis is a workhorse assay in Drosophila research to evaluate somatic fitness. It is indispensable in the study of ageing and insightful in immunity, metabolism, radiobiology, toxicology, ecology, and others. While conceptually simple, lifespan measurement is labour-intensive because it requires the continuous manual maintenance of large experimental cohorts. Here, we describe Drosben, an approach that combines a 3D-printed device to transfer flies from several vials simultaneously, a paper system for quick data recording and accompanying software that automatically digitalises life tables for analysis. We show that using Drosben reduces the time investment to perform lifespan assays by ~85%, with improved speed regardless of experience handling Drosophila vials. Using Drosben, we address the effects on longevity of chronic feeding of indole-acetic acid (IAA), naphthalene-acetic acid (NAA) and trimethoprim (TMP) -- compounds used to control heterologous targeted protein degradation systems. We find that IAA and NAA have noticeable deleterious effects while TMP has a small protective effect specifically in females. We further show that strong static magnetic fields do not affect Drosophila lifespan. Our work suggests that Drosben can cheaply accelerate research where lifespan is used as a life history trait.",
+      "authors": [
+        "Trinca, T. M.",
+        "Berenguer-Molins, P.",
+        "Fernandez-Garcia, C.",
+        "de Navascues, J."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736118v1",
+      "doi": "10.64898/2026.07.02.736118",
+      "category": "physiology",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Survival analysis is a workhorse assay in Drosophila research to evaluate somatic fitness. It is indispensable in the study of ageing and insightful in immunity, metabolism, radiobiology, toxicology, ecology, and others.",
+      "keywords": [
+        "drosben",
+        "drosophila",
+        "lifespan",
+        "analysis",
+        "system"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.01.735713",
+      "source": "biorxiv",
+      "title": "Increased CA3 burst activity in Doc2α and Syt7 knockout mice",
+      "abstract": "The hippocampal CA3 subfield is central to associative learning and memory consolidation. The principal cells of the CA3, pyramidal neurons, execute these functions by generating hypersynchronous bursts that feed forward to the CA1. Extensive recurrent collateral connections within the CA3 neuron population are crucial for the generation of this burst activity. Double C2 domain-containing protein (Doc2) and synaptotagmin 7 (Syt7) are high-affinity calcium sensors implicated in asynchronous synaptic vesicle (SV) release and in the exocytosis of dense-core vesicles (DCVs). Additionally, Doc2 is a sensor for miniature neurotransmission, whereas Syt7 is involved in synaptic facilitation and SV replenishment. Both Doc2 and Syt7 are expressed in the hippocampus, but their potential roles in spontaneous excitatory network activity remain unanswered. Using whole-cell recordings in disinhibited acute hippocampal slices obtained from juvenile Doc2- and Syt7- knockout (KO) mice (P15-21), we report increased CA3 burst generation without changes in spontaneous excitatory postsynaptic current (sEPSC) frequency or amplitude. Moreover, the intrinsic properties of CA3 pyramidal neurons, such as the resting membrane potential, firing rate and input resistance, are unchanged. We propose that this novel burst phenotype in Doc2- and Syt7- KO mice is unrelated to changes in SV release but might be mediated by changes in neuropeptide release from DCVs. Regardless of the underlying mechanisms, this work reveals that both proteins act to regulate network activity. The hippocampal CA3 subfield is central to associative learning and memory consolidation. The principal cells of the CA3, pyramidal neurons, execute these functions by generating hypersynchronous bursts that feed forward to the CA1. Extensive recurrent collateral connections within the CA3 neuron population are crucial for the generation of this burst activity. Double C2 domain-containing protein (Doc2) and synaptotagmin 7 (Syt7) are high-affinity calcium sensors implicated in asynchronous synaptic vesicle (SV) release and in the exocytosis of dense-core vesicles (DCVs). Additionally, Doc2 is a sensor for miniature neurotransmission, whereas Syt7 is involved in synaptic facilitation and SV replenishment. Both Doc2 and Syt7 are expressed in the hippocampus, but their potential roles in spontaneous excitatory network activity remain unanswered. Using whole-cell recordings in disinhibited acute hippocampal slices obtained from juvenile Doc2- and Syt7- knockout (KO) mice (P15-21), we report increased CA3 burst generation without changes in spontaneous excitatory postsynaptic current (sEPSC) frequency or amplitude. Moreover, the intrinsic properties of CA3 pyramidal neurons, such as the resting membrane potential, firing rate and input resistance, are unchanged. We propose that this novel burst phenotype in Doc2- and Syt7- KO mice is unrelated to changes in SV release but might be mediated by changes in neuropeptide release from DCVs. Regardless of the underlying mechanisms, this work reveals that both proteins act to regulate network activity.",
+      "authors": [
+        "Salaka, R. J.",
+        "Chapman, E. R."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.735713v1",
+      "doi": "10.64898/2026.07.01.735713",
+      "category": "neuroscience",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：The hippocampal CA3 subfield is central to associative learning and memory consolidation. The principal cells of the CA3, pyramidal neurons, execute these functions by generating hypersynchronous bursts that feed forward to the CA1.",
+      "keywords": [
+        "burst",
+        "activity",
+        "doc2",
+        "syt7",
+        "release"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.04.736475",
+      "source": "biorxiv",
+      "title": "Symbiotic yeasts of a bark beetle transform major tree defenses into beetle protectants",
+      "abstract": "The Eurasian spruce bark beetle Ips typographus, a major forest pest on Norway spruce (Picea abies), forms intimate associations with several types of microbial symbionts. While previous research has focused primarily on filamentous fungi, yeasts have remained largely unexplored. Here, we show that yeasts associated with I. typographus may contribute to host tree colonization by providing defensive benefits. Dominant yeasts (Yamadazyma, Kuraishia, Nakazawaea, and Wickerhamomyces), which are phylogenetically related to other insect-associated Saccharomycotina, significantly attract adult beetles. Moreover, several yeasts inhibit the growth of the pathogenic fungus Trichoderma harzianum in vitro, and beetle eggs benefit from the presence of Kuraishia capsulata by reduced fungal infection under semi-natural conditions. Strikingly, these effects are mediated by the yeasts' transformation of the tree's defensive stilbene glycosides into antimicrobial aglycones and phenolic acids that accumulate in beetle galleries. These findings reveal a previously unrecognized role of symbiotic yeasts in converting spruce defensive stilbene glycosides into antimicrobial aglycones and oxidative cleavage products that accumulate in beetle galleries, and might contribute to the survival of their bark beetle host.",
+      "authors": [
+        "Banos Quintana, A. P.",
+        "Santiago-Padilla, L. M.",
+        "Reichelt, M.",
+        "Sun, R.",
+        "Kaltenpoth, M.",
+        "Gershenzon, J.",
+        "Lehenberger, M."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736475v1",
+      "doi": "10.64898/2026.07.04.736475",
+      "category": "ecology",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：The Eurasian spruce bark beetle Ips typographus, a major forest pest on Norway spruce (Picea abies), forms intimate associations with several types of microbial symbionts. While previous research has focused primarily on filamentous fungi, yeasts have remained largely unexplored. Here, we show that yeasts associated with I.",
+      "keywords": [
+        "yeasts",
+        "beetle",
+        "bark",
+        "tree",
+        "spruce"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.03.30.715161",
+      "source": "biorxiv",
+      "title": "Phylogenomics of the mega genus Bulbophyllum (Orchidaceae) with implications for infrageneric classification in the Asian clade",
+      "abstract": "Understanding evolutionary relationships in hyperdiverse plant groups remains a major challenge in systematics. The orchid genus Bulbophyllum, the second largest genus of flowering plants, represents an exceptional example of phylogenetic and morphological complexity. Relationships, particularly within the species-rich Asian clade, have remained poorly resolved due to extensive morphological variation and limited resolution in previous phylogenetic studies. Here, we reconstructed phylogenetic relationships using 63 plastid genes from 355 specimens representing 322 species and 65 of the 97 recognised sections of Bulbophyllum. Our analyses confirmed that the genus comprises five major evolutionary lineages comprised of species predominantly from Australasia, Madagascar, Continental Africa, Neotropics, and Asia. We provide the first robust phylogenetic evidence for a dichotomous split within the Asian clade into two well-supported lineages: the Asian-Malesian clade and the Malesian-Papuasian clade, with the latter containing a strongly supported Papuasian subclade. Additionally, this study supports the monophyly of several currently recognised sections while clarifying relationships in previously problematic groups. This study provides the most comprehensive plastid-based phylogenomic framework for Bulbophyllum to date and establishes a foundation for future taxonomic revision and integrative analyses of diversification and trait evolution within this hyperdiverse genus.",
+      "authors": [
+        "Nanjala, C.",
+        "Simpson, L.",
+        "Hu, A.-Q.",
+        "Patel, V.",
+        "Nicholls, J. A.",
+        "Bent, S. J.",
+        "Gale, S. W.",
+        "Fischer, G. A.",
+        "Goedderz, S.",
+        "Schuiteman, A.",
+        "Crayn, D.",
+        "Clements, M. A.",
+        "Nargar, K."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715161v2",
+      "doi": "10.64898/2026.03.30.715161",
+      "category": "evolutionary biology",
+      "raw": {
+        "version": "2",
+        "type": "new results",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Understanding evolutionary relationships in hyperdiverse plant groups remains a major challenge in systematics. The orchid genus Bulbophyllum, the second largest genus of flowering plants, represents an exceptional example of phylogenetic and morphological complexity.",
+      "keywords": [
+        "genus",
+        "clade",
+        "bulbophyllum",
+        "relationships",
+        "phylogenetic"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.736422",
+      "source": "biorxiv",
+      "title": "The Microglial Protein sTREM2 Inhibits the Bacterial Functional Amyloid CsgA and Suppresses Amyloid-Dependent Biofilm Formation",
+      "abstract": "Protein misfolding and aggregation, including amyloid fibril formation, underlie a large class of human diseases including prominent neurological disorders such as Alzheimer's and Parkinson's disease. A small number of human proteins have been identified that inhibit amyloidogenesis. One such protein is sTREM2, a soluble receptor liberated from microglia, the resident macrophages of the central nervous system. The extracellular domain of TREM2 is shed upon proteolytic cleavage to create sTREM2, which has previously been shown to inhibit amyloid-{beta} aggregation in vitro. TREM2 is also expressed by intestinal macrophages, which are known to directly bind the bacterial amyloid curli and mount cytokine responses upon exposure. Here we show that sTREM2 is a sub-stoichiometric inhibitor of CsgA amyloidogenesis, CsgA being the major protein component of curli that drives biofilm formation in uropathogenic Escherichia coli and many other proteobacteria. In vitro, sTREM2 potently and sub-stoichiometrically inhibited CsgA amyloidogenesis in a dose-dependent manner. Kinetic modeling indicated that sTREM2 slowed primary and secondary nucleation, rather than altering fiber elongation. When added exogenously to bacterial growth medium, sTREM2 significantly suppressed curli-dependent pellicle biofilm formation without affecting bacterial growth. These findings establish sTREM2 as a member of the small group of human proteins capable of inhibiting bacterial functional amyloidogenesis, suggesting that gut-resident TREM2-expressing macrophages, which are already known to interact with curli, may employ sTREM2 as a physiologically relevant defense against bacterial amyloid formation.",
+      "authors": [
+        "Balistreri, A.",
+        "Gomulinski, M.",
+        "Chapman, M. R.",
+        "Kelly, J. W."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736422v1",
+      "doi": "10.64898/2026.07.03.736422",
+      "category": "biochemistry",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Protein misfolding and aggregation, including amyloid fibril formation, underlie a large class of human diseases including prominent neurological disorders such as Alzheimer's and Parkinson's disease. A small number of human proteins have been identified that inhibit amyloidogenesis.",
+      "keywords": [
+        "strem2",
+        "bacterial",
+        "formation",
+        "protein",
+        "amyloid"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.736320",
+      "source": "biorxiv",
+      "title": "The anaerobic cryo-EM structure of the methanogenic Mtr complex reveals a nitrogenase-like cluster bound to its active site",
+      "abstract": "Methanogenic archaea conserve energy by coupling methyl-group transfer to the generation of a chemiosmotic sodium-ion (Na+) gradient. This central energy-conserving step is catalyzed by the membrane-bound N5-methyl-H4MPT:coenzyme M methyltransferase (Mtr). Here, we present high-resolution cryo-electron microscopy structures of the Mtr complex from Methanosarcina mazei determined under strictly anaerobic conditions. The structures reveal an unexpected, electron-dense metallocluster embedded within the central cavity of the MtrCDE trimer in the membrane plane. Based on the unique topology and density we modeled it as an [FeSC] L-type cluster. It is positioned adjacent to both the coenzyme M substrate and the corrinoid cofactor of MtrA in the MtrA-MtrCDE engaged state, thereby being located right at the catalytic core of the enzyme. We could further show that binding of MtrA to MtrCDE triggers rearrangements within the interface of MtrDE that widen a putative ion-conduction pathway. The proximity of the conserved sodium-binding site to the catalytic center suggests a putative link between methyl-transfer chemistry and Na+ translocation. In a broader context, these findings improve our understanding of how methyl transfer, analogous to redox chemistry, can drive chemiosmotic energy conversion.",
+      "authors": [
+        "Reif-Trauttmansdorff, T.",
+        "Kumar, A.",
+        "Pascoa, T.",
+        "Herderig, E.",
+        "Bohn, S.",
+        "Schmitz, R.",
+        "Hochberg, G.",
+        "Schuller, J."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736320v1",
+      "doi": "10.64898/2026.07.03.736320",
+      "category": "biochemistry",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Methanogenic archaea conserve energy by coupling methyl-group transfer to the generation of a chemiosmotic sodium-ion (Na+) gradient. This central energy-conserving step is catalyzed by the membrane-bound N5-methyl-H4MPT:coenzyme M methyltransferase (Mtr).",
+      "keywords": [
+        "anaerobic",
+        "methanogenic",
+        "complex",
+        "cluster",
+        "site"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.01.735807",
+      "source": "biorxiv",
+      "title": "A control-validated pan-proteome deep-learning pipeline nominates GPR35 as a candidate target of the orphan bacterial metabolite ligiamycin A",
+      "abstract": "Most microbial natural products with documented bioactivity lack an identified molecular target, which limits their development. We present an open, control-validated computational pipeline for natural-product target hypothesis generation. It combines a pan-proteome deep-learning drug-target interaction (DTI) model (a graph neural-network ligand encoder, an ESM-2 protein language-model encoder, and bidirectional cross-attention) with bias-corrected ranking and control-anchored molecular docking. Applying it to ligiamycin A, a 2022-described Streptomyces/Achromobacter co-culture decalin-amino-maleimide with no reported target, we find that the predicted interactions of the compound are dominated by class-A G-protein-coupled receptors. Using a drug with a known target (losartan) we identify and correct a frequent-hitter bias in the raw model; after correction the standout candidates are uniformly class-A GPCRs, led by the orphan receptor GPR35. Structure-based docking with matched positive and negative controls across three candidates corroborates GPR35 specifically: ligiamycin A scores comparably to the known GPR35 agonist zaprinast at the agonist pocket (-8.1 vs -8.3 kcal/mol; non-binder floor -5.5), whereas FFAR1 is excluded and histamine H2 is inconclusive. We propose GPR35 as a prioritized, experimentally testable target and release the workflow as a reusable tool. The result is a computational hypothesis that requires experimental validation.",
+      "authors": [
+        "Martin",
+        "J."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.735807v1",
+      "doi": "10.64898/2026.07.01.735807",
+      "category": "bioinformatics",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Most microbial natural products with documented bioactivity lack an identified molecular target, which limits their development. We present an open, control-validated computational pipeline for natural-product target hypothesis generation.",
+      "keywords": [
+        "target",
+        "gpr35",
+        "ligiamycin",
+        "control-validated",
+        "pan-proteome"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.04.28.721293",
+      "source": "biorxiv",
+      "title": "Emergent particle collection by cyanobacteria through gliding motility and filament buckling",
+      "abstract": "Cyanobacterial macrostructures such as mats, aggregates, and stromatolites are observed in diverse habitats. These structures incorporate organic and inorganic matter and form microenvironments enabling biochemical transformations. Macrostructures are found to be associated with motile, filamentous cyanobacteria, but to what extent, and how filament motility can drive macrostructure formation is unclear. To address this question, we study macrostructure formation in a well-characterised freshwater cyanobacterial community dominated by the filamentous cyanobacterium Fluctiforma draycotensis. We discover an emergent particle collection behaviour that results in aggregate macrostructures composed of a solid core surrounded by an outer layer dominated by entangled cyanobacterial filaments. We show that the particle collection and subsequent aggregate formation result from the gliding motility of the cyanobacteria. Developing a novel 3D model of active filament movement, we analyse how filament morphology and mechanical properties affect movement dynamics, particle collection, and filament entanglement. We predict that particle collection requires filaments above a certain length and flexibility. We confirm the resulting prediction of length dependence of particle collection behavior with shortened filaments of F. draycotensis and naturally short Pseudanabaena sp. filaments. Together, our results show that filamentous cyanobacteria can use gliding motility to actively engineer their environments through particle collection and macrostructure formation, and that this ability is confined to a part of the filament phase space in terms of length and flexibility. These insights will allow better prediction of macrostructure formation in natural habitats and specific cyanobacterial species, and the engineering of cyanobacterial macrostructures for biotechnological applications.",
+      "authors": [
+        "Poon, R.",
+        "Cremin, K.",
+        "Scarampi, A.",
+        "Coates, M.",
+        "Thery, A.",
+        "soyer, o. s."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.28.721293v2",
+      "doi": "10.64898/2026.04.28.721293",
+      "category": "biophysics",
+      "raw": {
+        "version": "2",
+        "type": "new results",
+        "license": "cc_by_nc",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Cyanobacterial macrostructures such as mats, aggregates, and stromatolites are observed in diverse habitats. These structures incorporate organic and inorganic matter and form microenvironments enabling biochemical transformations.",
+      "keywords": [
+        "particle",
+        "collection",
+        "filament",
+        "cyanobacterial",
+        "formation"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.01.735778",
+      "source": "biorxiv",
+      "title": "Platelet GARP-dependent activation of TGF-β1 limits inflammation and promotes cardiac repair after myocardial infarction",
+      "abstract": "Platelets are increasingly recognized as active regulators of inflammation beyond their canonical hemostatic functions. Although platelets rapidly accumulate in the injured myocardium after myocardial infarction (MI), the mechanisms by which they coordinate the inflammatory response remain poorly understood. Glycoprotein A repetitions predominant (GARP) is a membrane receptor that presents latent transforming growth factor-{beta}1 (TGF-{beta}1) on activated platelets and supports its activation. Given the central role of TGF-{beta}1 in inflammation and tissue repair, we hypothesized that platelet GARP-dependent activation of TGF-{beta}1 regulates inflammatory resolution and repair after MI. Using mice with megakaryocyte- and platelet-specific Garp deletion, we demonstrate that loss of platelet GARP selectively impaired generation of bioactive TGF-{beta}1 without altering platelet reactivity. Following permanent coronary artery ligation, platelet-specific Garp deficiency markedly increased mortality from ventricular rupture and exacerbated adverse left ventricular remodeling, independent of initial infarct size. Transcriptomic and histological analyses revealed heightened endothelial cell activation, increased leukocyte recruitment, delayed inflammatory resolution, and defective extracellular matrix deposition in the absence of platelet GARP. Mechanistically, platelet GARP-dependent TGF-{beta}1 signaling restrained endothelial activation after MI. Together, these findings identify platelet GARP-mediated activation of TGF-{beta}1 as a critical platelet-intrinsic counter-regulatory checkpoint that limits endothelial-driven inflammation and promotes infarct stabilization. Our study reveals an unexpected protective immunoregulatory function of platelets in cardiac repair after ischemic injury.",
+      "authors": [
+        "Dufeys, C.",
+        "Bodart, J.",
+        "Ginion, A.",
+        "Ambroise, J.",
+        "Trusgnach, N.",
+        "Ollivier, E. L.",
+        "Bouzin, C.",
+        "Brusa, D.",
+        "Michiels, C.",
+        "Senis, Y. A.",
+        "Nagy, Z.",
+        "Marino, A.",
+        "Bertrand, L.",
+        "Beauloye, C.",
+        "Lucas, S.",
+        "Horman, S."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.735778v1",
+      "doi": "10.64898/2026.07.01.735778",
+      "category": "pathology",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Platelets are increasingly recognized as active regulators of inflammation beyond their canonical hemostatic functions. Although platelets rapidly accumulate in the injured myocardium after myocardial infarction (MI), the mechanisms by which they coordinate the inflammatory response remain poorly understood.",
+      "keywords": [
+        "platelet",
+        "tgf-",
+        "beta",
+        "activation",
+        "garp"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.03.02.709083",
+      "source": "biorxiv",
+      "title": "Subjective ratings reveal Poisson-like noise underlying perception",
+      "abstract": "A fundamental goal of sensory neuroscience is to understand how stimuli map into perceptual experience. Insights into this process traditionally rely on measurements of discrimination sensitivity, but these cannot identify the internal noise distribution underlying perception because they conflate it with transducer gain. Here, using visual contrast, we show that the variability of subjective ratings provides access to this noise. The analysis of this variability alongside mean responses reveals an internal representation comprising a sigmoidal transducer and Poisson-like noise that quantitatively predicts discrimination sensitivity without free parameters. These predictions include the classic pedestal effect and Weber-like behavior, which now we can attribute to the transducer nonlinearities and signal-dependent noise, respectively. We empirically establish that a single stochastic representation underlies subjective ratings and objective discrimination.",
+      "authors": [
+        "Rodriguez-Arribas, C.",
+        "Lopez-Moliner, J.",
+        "Linares, D."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709083v3",
+      "doi": "10.64898/2026.03.02.709083",
+      "category": "neuroscience",
+      "raw": {
+        "version": "3",
+        "type": "confirmatory results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：A fundamental goal of sensory neuroscience is to understand how stimuli map into perceptual experience. Insights into this process traditionally rely on measurements of discrimination sensitivity, but these cannot identify the internal noise distribution underlying perception because they conflate it with transducer gain.",
+      "keywords": [
+        "noise",
+        "subjective",
+        "ratings",
+        "discrimination",
+        "transducer"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.04.736506",
+      "source": "biorxiv",
+      "title": "CatESO: Differentiable Enzyme Sequence Optimization Guided by Substrate-Aware kcat Prediction",
+      "abstract": "Enzymes drive biological chemistry and offer greener routes to chemicals, materials and medicines, yet their broader use as biocatalysts is often limited by insufficient catalytic turnover. Improving turnover is hard: measured rate constants are scarce and protein sequence space is vast. Deep-learning models now predict the turnover number, Kcat, with growing accuracy, but they are typically applied after sequence generation to score or filter candidates, which separates the kinetic objective from the design itself. To bridge the gap between sequence generation and kinetic evaluation, we introduce CatESO, a differentiable sequence optimizer that enables direct, gradient-guided design of substrate-specific catalytic turnover. By backpropagating through a cross-modal Kcat predictor under continuous sequence relaxation, CatESO co-optimizes predicted catalytic activity, evolutionary plausibility and structural integrity in one end-to-end framework, using ESM-2 and ESMFold to keep designs evolutionarily plausible and foldable. Across seven stringent out-of-distribution enzymes spanning EC classes 1-7, CatESO raised model-predicted Kcat for the vast majority of designs, with a median predicted fold change of 1.52 while every variant retained a pLDDT above 70. Against RFdiffusion3-LigandMPNN pipeline and ZymCtrl, CatESO struck a better balance between predicted activity and structural confidence. By making substrate-conditioned kinetic objectives differentiable, CatESO carries differentiable protein design beyond structure- and binding-centred goals to enzyme catalytic function, giving a general route to function-oriented enzyme engineering.",
+      "authors": [
+        "Gan, Z.",
+        "Xu, Y.",
+        "Xu, J.",
+        "Wu, Z.",
+        "Huang, J.",
+        "Yin, J.",
+        "Chen, G.",
+        "Zhang, J. Z. H."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736506v1",
+      "doi": "10.64898/2026.07.04.736506",
+      "category": "biochemistry",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Enzymes drive biological chemistry and offer greener routes to chemicals, materials and medicines, yet their broader use as biocatalysts is often limited by insufficient catalytic turnover. Improving turnover is hard: measured rate constants are scarce and protein sequence space is vast.",
+      "keywords": [
+        "cateso",
+        "sequence",
+        "differentiable",
+        "kcat",
+        "catalytic"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.736419",
+      "source": "biorxiv",
+      "title": "Fibroblasts impair muscle stem cell self-renewal via excessive fibronectin deposition in viscoelastic hydrogel co-cultures",
+      "abstract": "Muscle satellite cells (SCs) regenerate skeletal muscle, but their regenerative capacity declines with age, in part due to extracellular matrix (ECM) remodeling and aberrant fibroblast activation within the SC niche. In regenerating young mouse muscle, fibronectin remodeling is transient, whereas in aged mouse muscle, fibronectin remodeling is prolonged and disorganized. Fibroblasts in aged mice are activated, increasing fibronectin deposition and expressing elevated -smooth muscle actin (SMA), which negatively influence SC fate. We develop a viscoelastic hydrogel co-encapsulation system, enabling three-dimensional co-culture of intact myofibers with primary fibroblasts. Using this 3D co-culture system, we show that fibroblasts from young mice support SC quiescence and self-renewal, whereas fibroblasts from aged mice aberrantly activate SCs and promote their differentiation on myofibers isolated from either young or aged mice. Knocking down fibronectin (Fn1) in fibroblasts from aged mice partially restores SC function, promoting quiescence and limiting differentiation. Using a novel 3D hydrogel co-culture system, we demonstrate that fibroblast-deposited fibronectin is a key age-associated regulator negatively affecting SC fate within the SC niche of aged mice.",
+      "authors": [
+        "Chang, T.-L.",
+        "Vallery, T. K.",
+        "Zlatkov, T. S.",
+        "Olwin, B. B.",
+        "Anseth, K. S."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736419v1",
+      "doi": "10.64898/2026.07.03.736419",
+      "category": "bioengineering",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Muscle satellite cells (SCs) regenerate skeletal muscle, but their regenerative capacity declines with age, in part due to extracellular matrix (ECM) remodeling and aberrant fibroblast activation within the SC niche.",
+      "keywords": [
+        "fibroblasts",
+        "muscle",
+        "fibronectin",
+        "aged",
+        "mice"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.04.736482",
+      "source": "biorxiv",
+      "title": "Residual Hair Biomaterial Particulates Improve Dermal Regeneration and Combined with Electrical Stimulation Accelerates Skin Wound Closure",
+      "abstract": "Objective: To evaluate the effect of residual hair (RH) biomaterial particulates, biphasic electrical stimulation (ES), and their combination (RHES) on the kinetics and quality of skin wound healing. Method: Eighteen adult albino mice received bilateral, splinted 10-mm full-thickness dorsal excisional wounds and were randomly assigned to one of three animal groups producing four wound-level treatment conditions: untreated control (-) (n = 12), RH (n = 12), ES (n = 6), and combined RHES (n = 6 wounds). Daily wound images were segmented using an AI-assisted workflow: a U-Net (ResNet34 encoder, ImageNet-pretrained, trained on a parallel single-expert tracing study with held-out validation Dice = 0.906) generated initial boundary predictions, each reviewed and corrected as needed. Wound size measures (perimeter, area, equivalent diameter [D_eq], circularity, aspect ratio) were normalized to the day-0 value of each wound and analyzed by linear mixed-effects regression with mouse identity as a random intercept and mouse body weight as a covariate. On day 7, wounds were excised, fixed, processed for histology, and analyzed by Masson's trichrome (collagen content in granulation tissue) and GAP-43 immunohistochemistry (a marker of regenerative cellular activity). Results: All three treatments significantly accelerated wound closure compared to (-) (Day x Treatment interaction {chi}2(3) = 36.4, ***p < 0.0001). The closure-rate advantages on the log-D_eq scale were ES -0.047/day (***p < 0.0001), RHES -0.029/day (***p = 0.0005), and RH -0.022/day (**p = 0.0015). By day 7, mean D_eq had decreased to 0.58 of the day-0 value in ES, 0.69 in RHES, 0.73 in RH, and 0.79 in (-). Tissue analyses revealed treatment-specific differences in healing quality: RH and RHES wounds contained 6.1x and 8.5x more collagen in granulation tissue than (-) (both **p = 0.002 vs (-); both **p = 0.009 vs ES), and showed approximately 16x and 27x greater mean GAP-43 expression than (-), respectively; the RHES increase remained significant after Bonferroni correction (adjusted *p = 0.042), whereas the RH increase did not (adjusted p = 0.058). ES alone did not significantly increase either collagen content or GAP-43 expression. Wound shape was more circular and more stable across days in RH-containing groups. Mouse body weight did not predict closure, whereas image-derived dryness, eschar coverage, and wound contraction were significant negative predictors of measured wound size. Conclusion: ES, RH, and RHES each significantly improve wound closure kinetics. The improvement appears mechanistically distinct: ES principally accelerates closure rate, while RH principally enhances tissue-level regenerative markers (collagen deposition and GAP-43 expression). RHES combines both advantages.",
+      "authors": [
+        "Saparova, D.",
+        "Mahmood, Z.",
+        "Samuel, H.",
+        "Barayuga, J.",
+        "Mody, J.",
+        "Radecker, N.",
+        "de Guzman, R. C."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736482v1",
+      "doi": "10.64898/2026.07.04.736482",
+      "category": "bioengineering",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Objective: To evaluate the effect of residual hair (RH) biomaterial particulates, biphasic electrical stimulation (ES), and their combination (RHES) on the kinetics and quality of skin wound healing.",
+      "keywords": [
+        "wound",
+        "rhes",
+        "closure",
+        "wounds",
+        "collagen"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.04.736481",
+      "source": "biorxiv",
+      "title": "Comparative assessment of gene drive release patterns and spread with a hex-based model for large-scale simulations",
+      "abstract": "Spatial population genetic and ecological modeling is often necessary to predict outcomes accurately. One example is gene drive, a rapid process involving spread of gene drive alleles through a population, usually to suppress pests or reduce transmission of vector-borne disease. Several existing models have been used to assess gene drive and other spatial processes. However, each of these has limitations, such as high computational cost and limited scalability, difficulty in incorporating environmental factors and complex lifecycles, or potentially simplified spatial structure. To overcome these challenges, we propose a hexagon-based computational framework that is designed to mimic continuous space for rapid genetic wave advances. This allows us to accurately simulate a larger spatial domain with lower computational investment. We implemented this model and compared the wave speeds of different gene drives with those obtained from other models. The results showed good agreement when hexagon width and dispersal were properly calibrated. We then determined optimal circular and linear (along roads) release patterns for a variety of gene drives and Wolbachia bacteria. To demonstrate the application of our framework to a hypothetical scenario, we constructed a model Culex quinquefasciatus mosquitoes on Hainan Island. We then evaluated the outcome of different gene drive release strategies, showing the transgenic insect release level necessary to achieve high gene drive coverage and how this could be further optimized based on mosquito and human distribution. Overall, our hex-based population genetic framework provides a flexible platform for realistic and large-scale models for gene drive and related applications.",
+      "authors": [
+        "Li, J.",
+        "Shi, C.",
+        "Champer, J."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736481v1",
+      "doi": "10.64898/2026.07.04.736481",
+      "category": "ecology",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Spatial population genetic and ecological modeling is often necessary to predict outcomes accurately. One example is gene drive, a rapid process involving spread of gene drive alleles through a population, usually to suppress pests or reduce transmission of vector-borne disease.",
+      "keywords": [
+        "gene",
+        "drive",
+        "release",
+        "spatial",
+        "model"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.04.736495",
+      "source": "biorxiv",
+      "title": "Biodiversity knowledge and conservation shortfalls in Rivulidae fishes",
+      "abstract": "The biodiversity crisis is exacerbated by persistent gaps in taxonomic, geographic, and conservation knowledge. This study provides a comprehensive assessment of Linnean, Wallacean, and conservation shortfalls in Rivulidae (Cyprinodontiformes), one of the most diverse families of Neotropical freshwater fishes. To this end, an extensive dataset was compiled, comprising 494 valid species, 51 synonyms, 3,419 occurrence records, and information on life cycle, distribution, and conservation status. The Linnean shortfall remains open: after 1975, the rate of species description increased sharply, and estimates indicate that 103 species remain undescribed (95% CI: 53-212). The year of species description was influenced by detectability and accessibility factors, with larger species, more widely distributed species, and species occurring in more densely populated areas being described earlier. The Wallacean shortfall was broad and spatially uneven: only 5.34% of the region was considered adequately sampled. The conservation shortfall was also substantial: 179 species are threatened with extinction, 69 species remain Not Evaluated, and 62 are Data Deficient. The mean time between taxonomic description and first IUCN extinction-risk assessment was 25.7 years. Moreover, 59.9% of species have no records within protected areas, including 69.3% of threatened species. These findings synthesize an urgent challenge: biodiversity knowledge and conservation shortfalls must be overcome simultaneously to protect species that are still being discovered, remain poorly documented spatially, and are restricted to habitats under intense anthropogenic pressure. The conservation of Rivulidae cannot wait for complete knowledge; action amid uncertainty is necessary to prevent both known and unknown species from disappearing.",
+      "authors": [
+        "Costa, J. H. A. d.",
+        "Guedes, G. H. S."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736495v1",
+      "doi": "10.64898/2026.07.04.736495",
+      "category": "ecology",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：The biodiversity crisis is exacerbated by persistent gaps in taxonomic, geographic, and conservation knowledge. This study provides a comprehensive assessment of Linnean, Wallacean, and conservation shortfalls in Rivulidae (Cyprinodontiformes), one of the most diverse families of Neotropical freshwater fishes.",
+      "keywords": [
+        "species",
+        "conservation",
+        "knowledge",
+        "biodiversity",
+        "shortfalls"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.735954",
+      "source": "biorxiv",
+      "title": "'Who Goes There?' Quantifying Scavenger-Carcass Activity at Mass Mortality Events",
+      "abstract": "Mass mortality events (MMEs) create sudden pulses of carrion that can alter how vertebrate scavengers use carcass resources, including the frequency, duration, and timing of species-carcass contacts. These changes could have implications for pathogen transmission at the scavenger-carcass interface. We aimed to develop and apply a reproducible analytical framework for using camera-trap data to quantify transmission-relevant vertebrate activity at carcass sites under differing carrion biomass scenarios. We studied experimental carcass plots (single carcass ~43 kg; 'mass mortality' plots [10 carcasses, >350 kg total]; 6 of each) in Australia's alpine ecosystem. The framework integrated descriptive summaries (bipartite network analysis, Kaplan-Meier curves) and marked temporal point-process models to characterise structural and temporal dimensions of species-carcass activity. Mass mortality plots had greater overall visitation duration, occurring as sustained activity (50% of visitation event volume by day 17), compared with intense then rapidly declining activity at single carcasses (50% by day 8). Mass mortality plots also had higher predicted daily arrival probability and contact hours across most species, indicating an extended window for pathogen transmission. This framework provides empirically derived contact parameters for MME-related disease spread models using camera-trap data to identify potential transmission pathways at the scavenger-carcass interface.",
+      "authors": [
+        "Barton, K. A.",
+        "Finnerty, P. B.",
+        "Bonat, S. J.",
+        "Martinez-Lopez, B.",
+        "Meisuria, N. Y.",
+        "Newsome, T. M.",
+        "Peel, A. J.",
+        "Smith, J. A.",
+        "Brookes, V. J."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.735954v1",
+      "doi": "10.64898/2026.07.03.735954",
+      "category": "ecology",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Mass mortality events (MMEs) create sudden pulses of carrion that can alter how vertebrate scavengers use carcass resources, including the frequency, duration, and timing of species-carcass contacts. These changes could have implications for pathogen transmission at the scavenger-carcass interface.",
+      "keywords": [
+        "activity",
+        "mass",
+        "mortality",
+        "carcass",
+        "plots"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.733347",
+      "source": "biorxiv",
+      "title": "Anthropogenic subsidies reshape Ruby-throated Hummingbird (Archilochus colubris) interactions across spatial and temporal contexts: evidence from community-collected data",
+      "abstract": "1. Ruby-throated hummingbirds (Archilochus colubris) exhibit flower preferences and readily visit human subsidies like feeders. However, foraging behavior and plant-animal interactions may vary across spatial, temporal, and landscape gradients. Despite the popularity and ubiquity of Ruby-throated Hummingbirds in the eastern U.S., there has never been a quantitative assessment of their flower preferences or feeder use across broad scales. 2. We investigated how feeder visitation, flower visitation, and flower trait preferences vary by latitude, season, and land use in the northeastern United States using over 6 million occurrence records of Ruby-throated Hummingbirds and flowering plants, >2,100 annotated hummingbird-flower interactions, and >2,700 feeder visit occurrences. 3. We found that hummingbird feeder use declined over the year, increased with latitude, and was higher in developed landscapes. Flower visitation increased over the year across all latitudes, with higher visitation in developed landscapes. Finally, we found that native plant use diverged between landscapes, such that the probability of visiting a native flower increased over time in non-developed land uses but declined over time in developed ones, demonstrating that hummingbirds track the advancement of native floral phenology and use non-native, cultivated flowers as a human subsidy due to either availability or preferences. 4. Our preference and network models revealed that while hummingbird-plant network structure was similar across landscapes, the composition of important taxa shifted from native, wild species like Monarda and Impatiens to non-native, cultivated species like Salvia. 5. Using trait-based models of flower visitation, we found that hummingbirds preferred native, tubular, and red/orange flowers fitting the hummingbird pollination syndrome despite visiting >260 different plant species. Red and orange flowers were preferred across all seasons, suggesting color may be a reliable signal of nectar availability across species and contexts. Native and tubular flowers were strongly preferred during the breeding season; however, preferences relaxed during spring and fall migration. 6. These findings reveal the consistent preferences of Ruby-throated Hummingbirds for native, tubular, and red/orange flowers, and underscore how spatial and temporal factors reshape foraging behavior and trait preferences. Our results also highlight the value of community-collected data in characterizing plant-pollinator interactions across broad spatial and temporal scales.",
+      "authors": [
+        "Narango, D. L.",
+        "Jones, A.",
+        "Rebozo, R.",
+        "Sosa, P.",
+        "Hallworth, M."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.733347v1",
+      "doi": "10.64898/2026.07.03.733347",
+      "category": "ecology",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：1. Ruby-throated hummingbirds (Archilochus colubris) exhibit flower preferences and readily visit human subsidies like feeders. However, foraging behavior and plant-animal interactions may vary across spatial, temporal, and landscape gradients.",
+      "keywords": [
+        "across",
+        "flower",
+        "preferences",
+        "native",
+        "hummingbirds"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.736436",
+      "source": "biorxiv",
+      "title": "Stereoselective Covalent Targeting of BTK(C481S) and Kinases with β-Lactone Electrophiles",
+      "abstract": "The cysteine to serine mutation at residue 481 of Bruton's tyrosine kinase (BTK) is the most common mechanism of clinical resistance against ibrutinib for the treatment of mantle cell lymphoma and chronic lymphocytic leukemia. We report small molecule ligands containing chiral {beta}-lactone electrophiles to address this challenge. The asymmetric warhead enabled stereoselective covalent modification of wild-type and ibrutinib-resistant mutant BTK(C481S) through distinct sites of reactivity. Building on these findings, we developed kinase-directed {beta}-lactone probes and demonstrated that individual enantiomers preferentially engage distinct subsets of the kinome. These studies establish {beta}-lactones as stereochemically encodable covalent warheads whose stereochemistry can serve as a selectivity filter in covalent drug discovery.",
+      "authors": [
+        "Wang, C.",
+        "Barzova, P. E.",
+        "Robles, J.",
+        "Toriki, E. S.",
+        "Garcia, F. J.",
+        "McKenna, J. M.",
+        "Schirle, M.",
+        "Zhang, Z."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736436v1",
+      "doi": "10.64898/2026.07.03.736436",
+      "category": "biochemistry",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：The cysteine to serine mutation at residue 481 of Bruton's tyrosine kinase (BTK) is the most common mechanism of clinical resistance against ibrutinib for the treatment of mantle cell lymphoma and chronic lymphocytic leukemia. We report small molecule ligands containing chiral {beta}-lactone electrophiles to address this challenge.",
+      "keywords": [
+        "covalent",
+        "lactone",
+        "beta",
+        "stereoselective",
+        "c481s"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.735619",
+      "source": "biorxiv",
+      "title": "Combined computational and experimental analysis confirm donor-dependent optimization of critical processing parameters for improving mesenchymal stromal cell potency and expansion attributes",
+      "abstract": "Mesenchymal Stromal Cells (MSC) face several heterogeneity challenges hindering clinical and commercial success. Employing a multiple response model, interplay between donor heterogeneity, and critical processing parameters (CPPs), effects on MSC potency and cell expansion attributes were investigated through computed composite attribute scores. Twelve unique CPP combinations were tested in thirteen marrow-derived MSC(M) and five adipose-tissue MSC(AT) training and test datasets, respectively. Donor heterogeneity and select CPP conditions affected a curated gene panel (surrogate for MSC potency); while MSC expansion was primarily influenced by CPPs. Model performances were evaluated against clinical effectiveness data from a previously deployed clinical trial; top-performing model predicted donor rankings coincided with clinical effectiveness data, validating the modeling approach used. Our model predicted that only 8% of tested donors were agnostic to CPPs; a majority (62%) of donors showed CPP-dependent optimal composite quality attributes, with MSC seeding density as a key driver; medium supplementation and oxygen preferences were highly donor dependent. Approximately 30% of donors performed poorly at all conditions tested and may be prospectively identified using a subset of genes (TGFB, VEGF, PDCD1LG1, PDCD1LG2, IDO). Model predicted optimal parameters worked for 69% of tested donors, while sub-optimal parameters worked for only 23% of donors and were confirmed in an independent CD14+ macrophage assay. Our integrated computational and experimental framework predictably identified interactive effects of donor heterogeneity and CPP conditions to optimize MSC potency attributes.",
+      "authors": [
+        "Kolade, O.",
+        "P. Robb, K.",
+        "Audet, J.",
+        "Viswanathan, S."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.735619v1",
+      "doi": "10.64898/2026.07.03.735619",
+      "category": "bioengineering",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Mesenchymal Stromal Cells (MSC) face several heterogeneity challenges hindering clinical and commercial success. Employing a multiple response model, interplay between donor heterogeneity, and critical processing parameters (CPPs), effects on MSC potency and cell expansion attributes were investigated through computed composite attribute scores.",
+      "keywords": [
+        "model",
+        "donor",
+        "donors",
+        "parameters",
+        "potency"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.736311",
+      "source": "biorxiv",
+      "title": "Water as a thermal contrast agent for artificial-intelligence-enhanced in vivo mid-infrared thermography",
+      "abstract": "In vivo infrared thermography is limited by the inherently poor spatial resolution at long wavelengths, low contrast, and the lack of biocompatible contrast agents. Here, we present 3-5 m mid-wave infrared (MWIR) thermography enhanced by an artificial intelligence (AI) network and cold phosphate-buffered saline (PBS) as a thermal contrast agent for noninvasive in vivo imaging with high contrast and resolution. MWIR imaging enabled high thermal sensitivity with microscale spatial resolution, strong relative thermal contrast, and facilitated visualization of the subcutaneous vasculature in the human arm, hand, ankle, the femoral artery and vein in rats, and the femoral vessels in mice, with image contrast further enhanced by AI networks. In a 4T1 tumor-bearing mouse model, AI-enhanced MWIR resolved early-stage tumors of ~2.3 mm and metastases as small as ~1.7 mm. Using cold PBS as a MWIR thermal contrast agent, we achieved precise tumor boundary visualization and real-time imaging-guided tumor resection. AI-enhanced MWIR offers a promising solution for early diagnosis and improved surgical precision.",
+      "authors": [
+        "Xu, S.",
+        "Liu, Y.",
+        "Xu, D.",
+        "Dai, Z.",
+        "Ye, W.",
+        "Zhan, X.",
+        "Wang, F."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736311v1",
+      "doi": "10.64898/2026.07.03.736311",
+      "category": "bioengineering",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：In vivo infrared thermography is limited by the inherently poor spatial resolution at long wavelengths, low contrast, and the lack of biocompatible contrast agents.",
+      "keywords": [
+        "contrast",
+        "thermal",
+        "mwir",
+        "agent",
+        "vivo"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.736346",
+      "source": "biorxiv",
+      "title": "Estimating Body Segment Properties for Adults AcrossDiverse Body Morphologies: A Data-Driven GeometricFramework",
+      "abstract": "Accurate estimation of body segment inertial properties is essential for biomechanical analyses, yet commonly used scaling methods rely on limited datasets and do not generalize well across diverse adult body morphologies. We developed a data-driven framework that estimates segment lengths, masses, centers of mass, and moments of inertia using regression models trained on large anthropometric datasets (ANSUR II and NHANES) combined with a geometric representation of 16 body segments. The framework uses height, weight, and sex as primary inputs and incorporates waist and hip circumferences or other length and cross-sectional measurements when available to refine body-shape predictions. For individuals with obesity, additional geometric rules redistribute excess mass based on segment-specific volume changes. The resulting models reproduced segment lengths, cross-sectional dimensions, and lumped segment masses within the ranges observed in the training datasets and outperformed published regression equations, particularly at higher body mass index (BMI) values. To promote broad adoption, we provide an open-source API in Python that performs the full parameter estimation using the trained models. This framework offers an accurate and accessible method for estimating adult body segment properties across a wide range of body sizes and shapes, supporting improved motion analysis, musculoskeletal simulation, and clinical biomechanics.",
+      "authors": [
+        "d Angelis, O.",
+        "Choi, C. W.",
+        "Sureshkumar, H.",
+        "Merone, M.",
+        "Gill, S. V.",
+        "Song, S."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736346v1",
+      "doi": "10.64898/2026.07.03.736346",
+      "category": "bioengineering",
+      "raw": {
+        "version": "1",
+        "type": "new results",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Accurate estimation of body segment inertial properties is essential for biomechanical analyses, yet commonly used scaling methods rely on limited datasets and do not generalize well across diverse adult body morphologies.",
+      "keywords": [
+        "body",
+        "segment",
+        "properties",
+        "datasets",
+        "framework"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.02.24.26346790",
+      "source": "medrxiv",
+      "title": "Early life blood pressure and cognitive function in mid/late life: A synthetic longitudinal cohort analysis",
+      "abstract": "BACKGROUND. Hypertension is a well-studied dementia risk factor. The effects of hypertension on cognitive aging may vary by life stage, yet most prior studies have focused on mid- or late-life blood pressure. This gap reflects the lack of longitudinal cohorts spanning both childhood blood pressure measurements and later-life cognitive assessments. To address this gap, we examined the association between early-life blood pressure and mid/late-life cognition using a synthetic cohort approach. METHODS. Using data fusion as a guiding framework, we pooled the Bogalusa Heart Study (BHS), which provides early-life blood pressure data (ages 4-16), with the CARDIA study, which provides mid/late-life cognitive data (ages 58-70), to create a synthetic longitudinal cohort. The cohorts overlapped between ages 17-57. Cognition comprised raw and z-scores measures of executive function, memory, and processing speed. Early life systolic blood pressure (SBP) was defined as a time-weighted average of SBP measurements between ages 4 and 16. We pooled data by exact- and distance-matching 10 BHS participants to each CARDIA participant on hypothesized mediators & confounders of the early life SBP and cognition relationship that overlapped in age of measurement between the two cohorts, including sociodemographics and ~midlife measures of blood pressure, cognition, and vascular risk factors. Confounder-adjusted random intercept models were used to estimate the association between early-life SBP and cognitive outcomes. RESULTS. There was no significant association between early life SBP and mid/late-life cognitive raw scores: executive function [{beta} (95% CI) = 0.285 (-0.867, 1.437)], memory [-0.019 (-0.308, 0.269)], or processing speed [-0.188 (-1.611, 1.236]. Likewise, no associations were observed when using Z-scored cognitive outcomes. CONCLUSIONS. We observed no evidence that early life SBP was associated with mid/late-life cognition, although interpretation of these findings depends on strong assumptions about cohort comparability and linkage validity that underpin the synthetic cohort approach. While our results lacked precision, we demonstrate a possible signal in the expected direction (i.e., greater systolic blood pressure results in worse cognitive functioning across all domains) that could be the focus of future work.",
+      "authors": [
+        "Bustillo, A. J.",
+        "Zeki Al Hazzouri, A.",
+        "Glymour, M. M.",
+        "Kezios, K."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.02.24.26346790v2",
+      "doi": "10.64898/2026.02.24.26346790",
+      "category": "epidemiology",
+      "raw": {
+        "version": "2",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：BACKGROUND. Hypertension is a well-studied dementia risk factor. The effects of hypertension on cognitive aging may vary by life stage, yet most prior studies have focused on mid- or late-life blood pressure. This gap reflects the lack of longitudinal cohorts spanning both childhood blood pressure measurements and later-life cognitive assessments.",
+      "keywords": [
+        "blood",
+        "pressure",
+        "cognitive",
+        "life",
+        "early"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357113",
+      "source": "medrxiv",
+      "title": "Cohort profile: the Cohort for Risk Prediction Model Evaluation (CORE) for external validation of models identifying high-risk pregnant women in the early second trimester.",
+      "abstract": "Purpose: The Cohort for Risk Prediction Model Evaluation (CORE) was established to externally validate prediction models that identify high-risk pregnancies in the early second trimester. Such models are often developed on small, single-source datasets and seldom tested elsewhere. Recent evidence shows that only about 6-10% models are ever externally validated which raises concerns about whether they perform reliably in new and diverse populations. In the maternal perinatal space, CORE addresses this gap by providing an Indian second-trimester cohort with harmonised imaging and outcome data on which existing risk prediction models can be validated. Participants. CORE includes 964 pregnant women aged over 18 years, enrolled at the Hamdard Institute of Medical Sciences and Research (HIMSR), New Delhi, between August 2021 and March 2023. Women were recruited before 20 weeks of gestation and followed up at 18-22 weeks for an ultrasound scan and at delivery. At all time points, a structured set of sociodemographic, clinical, and obstetric data was captured, together with ultrasound images at 18-20 weeks from which fetal biometry and cervical length were measured. Findings to date: The median maternal age was 27.6 years; 51% had a normal body-mass index (BMI) and 30% were overweight. There were almost equal number of Nulliparous (480, 50%) and multiparous (484, 50%). About 41% prevalence of history of prior preterm in multiparous women. Outcomes were available for 750 participants (23 abortions, 3 stillbirths, 724 singleton live births). Among the 724 live births, 80/724 (11%) were preterm, 190/716 (26.5%) were small for gestational age (SGA) and 40/716 (5.6%) were large for gestational age (LGA) by INTERGROWTH-21st standards and 260/716 (35.6%) of newborns were categorized into small vulnerable newborn (SVN). Future plans. CORE will be used to externally validate and, in aggregate with similar cohorts, help improve risk-prediction models for pregnant women in India and comparable settings. We invite collaborators to use this resource; clinical and imaging data are available under a controlled-access model on reasonable request. Strengths and limitations of this study Prospective cohort with data-collection and ultrasound protocols harmonised with the GARBH-Ini and AMANHI cohorts, enabling like-for-like pooled and cross-cohort analyses. A two-tier ultrasound quality-assurance process, with retention of both clean (unannotated) and caliper-annotated images, supports validation of image-based prediction models. Sample size informed by precision-based guidance for the external validation of prediction models, providing adequate power to assess model discrimination for the principal outcomes. Single-site, hospital-based recruitment from a limited geographical catchment, which constrains direct generalisability and makes the cohort most valuable when pooled with comparable cohorts. No continuous follow-up between 20 weeks of gestation and delivery, limiting the assessment of temporal change and longer-term outcomes.",
+      "authors": [
+        "Jain, R. s.",
+        "Sharma, N.",
+        "Khurana, A.",
+        "Wadhwa, N.",
+        "Tripathi, R.",
+        "Jain, A.",
+        "Bhatnagar, S.",
+        "Thiruvengadam, R.",
+        "Desiraju, B. K."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357113v2",
+      "doi": "10.64898/2026.07.02.26357113",
+      "category": "obstetrics and gynecology",
+      "raw": {
+        "version": "2",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Purpose: The Cohort for Risk Prediction Model Evaluation (CORE) was established to externally validate prediction models that identify high-risk pregnancies in the early second trimester. Such models are often developed on small, single-source datasets and seldom tested elsewhere.",
+      "keywords": [
+        "models",
+        "cohort",
+        "prediction",
+        "core",
+        "women"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.1101/2025.11.06.25339656",
+      "source": "medrxiv",
+      "title": "Geographic variation in delays for endoscopy and imaging in England since COVID: analysis of monthly diagnostics data",
+      "abstract": "Aims Diagnostic testing delays in England worsened during the COVID-19 pandemic, but it is unclear how quickly waiting times are recovering, and whether the speed of recovery varies locally. We aimed to: (1) ascertain whether imaging and endoscopy delays improved since the pandemic and in the past year; (2) quantify variation between local areas (sub-Integrated Care Boards) in delays (accounting for that expected by chance), and whether variation widened or narrowed in the past year; and (3) ascertain whether current trends in delays differ between local areas. Methods We analysed publicly available monthly data from NHS England on the proportion of patients waiting 6 weeks or longer for eight diagnostic tests (four imaging and four endoscopy) across 103 local areas in England from January 2019 to April 2026. Trends over time were described. To assess recent changes, we compared proportions waiting 6+ weeks in April 2026 with April 2025 using mixed-effects binomial logistic regression, with random intercepts and slopes for local areas. Geographic variation beyond chance, and change in variation in the past year was quantified using modelled random effect variances. This was translated into 25th to 75th percentile values to give the middle 50% distribution of local areas. Local area-specific trends were examined using modelled conditional estimates. Findings Although the proportion of patients waiting 6 weeks or longer for imaging and endoscopy tests has partially reduced since the pandemic, this appears to have stalled in the past year and even increased for gastro-intestinal endoscopies and MRI. From April 2025 to April 2026, delays increased significantly for gastroscopy (22% to 30%; p < 0.001), colonoscopy (25% to 30%; p = 0.002), flexible sigmoidoscopy (27% to 33%; p < 0.001), and MRI (15% to 25%; p < 0.001), without significant improvement for other tests. There was substantial geographic variation beyond chance, with between three- to five-fold differences between the middle 50% of local areas (i.e. 25th to 75th percentiles). The magnitude of geographic variation was persistent in the past year, and significantly increased for MRI. Individual local areas experienced markedly different changes since April 2025, including over a 50% reduction in delays in some areas and doubling in others. Conclusions Diagnostic testing delays in England have not returned to pre-pandemic levels, and recent progress has stalled or reversed for key endoscopy services. Substantial and persistent geographic variation remains, with divergent local trends. Policy responses should prioritise both reducing overall waiting times and addressing underlying drivers of local volatility in diagnostic capacity, demand, and service organisation.",
+      "authors": [
+        "White, B.",
+        "Barclay, M. E.",
+        "Lyratzopoulos, G.",
+        "Swann, R.",
+        "Francetic, I.",
+        "Sutton, M.",
+        "Abel, G."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.11.06.25339656v2",
+      "doi": "10.1101/2025.11.06.25339656",
+      "category": "health systems and quality improvement",
+      "raw": {
+        "version": "2",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Aims Diagnostic testing delays in England worsened during the COVID-19 pandemic, but it is unclear how quickly waiting times are recovering, and whether the speed of recovery varies locally.",
+      "keywords": [
+        "local",
+        "variation",
+        "delays",
+        "areas",
+        "april"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357135",
+      "source": "medrxiv",
+      "title": "Poor sleep is robustly correlated with accelerated aging but the evidence for causation is mixed",
+      "abstract": "Sleep gets worse with age and is correlated with risk for disease and mortality. The possibility that poor sleep causes aging to accelerate has prompted interest in improving sleep to slow aging and prevent disease. However, the existing evidence on the link between poor sleep and accelerated aging is unclear. Here, we tested for correlation and causation between poor sleep and accelerated aging using five independent datasets of adults (total N > 64,000). We found strong evidence for a correlation between poor sleep and fast aging that is consistent across young, middle, and late adulthood and across aging biomarkers derived from different tissues and modalities. We found that this correlation is robust to the influence of chronic disease burden, but not to the influence of shared genetic and early environmental factors among twins. Finally, we found mixed evidence for a causal influence of poor sleep on accelerated aging using Mendelian randomization. Our findings indicate that the correlation between poor sleep and accelerated aging is highly robust; however, the claim that poor sleep causes aging to accelerate is not consistently supported.",
+      "authors": [
+        "Whitman, E. T.",
+        "Prather, A. A.",
+        "Mutz, J.",
+        "Arseneault, L.",
+        "Baranger, D. A. A.",
+        "Elliott, M. L.",
+        "Fisher, H. L.",
+        "Ireland, D.",
+        "Knodt, A. R.",
+        "Kositzke, C.",
+        "Leng, Y.",
+        "Reuben, A.",
+        "Sugden, K.",
+        "Williams, B. S.",
+        "Xie, J. K.",
+        "Yuan, A.",
+        "Moffitt, T. E.",
+        "Caspi, A.",
+        "Hariri, A. R.",
+        "the Alzheimer's Disease Neuroimaging Initiative,"
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357135v1",
+      "doi": "10.64898/2026.07.02.26357135",
+      "category": "psychiatry and clinical psychology",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Sleep gets worse with age and is correlated with risk for disease and mortality. The possibility that poor sleep causes aging to accelerate has prompted interest in improving sleep to slow aging and prevent disease. However, the existing evidence on the link between poor sleep and accelerated aging is unclear.",
+      "keywords": [
+        "sleep",
+        "aging",
+        "poor",
+        "accelerated",
+        "evidence"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26356844",
+      "source": "medrxiv",
+      "title": "Global COVID-19 vaccination uptake across the emergency and early post-emergency periods, 2021-2024",
+      "abstract": "COVID-19 vaccination helped change the course of the pandemic and remains critical for protecting high-risk groups. We analyzed data submitted to WHO to describe COVID-19 vaccination coverage during the emergency period from 2021-2023 and annual uptake in 2024, the first post-emergency calendar year after the Public Health Emergency of International Concern designation was lifted. By end-2023, global complete primary series coverage reached 65% in the total population, 82% among older adults, and 91% among health and care workers (HCWs), across reporting countries. Booster coverage was lower, at 33%, 60%, and 69%, respectively. Across indicators, disparities by country income group and region emerged early and persisted through 2024. In 2024, vaccination of older adults and HCWs was limited and heterogeneous. These findings underscore the need for stronger, sustainably financed adult immunization platforms and associated monitoring systems to enhance life-course vaccination benefits and to support future outbreak, epidemic, and pandemic responses.",
+      "authors": [
+        "Brooks, D. J.",
+        "Germann, A.",
+        "Craw, L.",
+        "Dumolard, L.",
+        "Nedelec, Y.",
+        "Acma, A.",
+        "Schultz, C.",
+        "Mboussou, F.",
+        "Atagbaza, A.",
+        "Doshi, R. H.",
+        "Pastore, R.",
+        "Contreras, M.",
+        "Velandia Gonzalez, M.",
+        "Leon, R.",
+        "Mere, O.",
+        "Kissa, J.",
+        "Emmanuel Njambe, T. O.",
+        "Gonzales, G.",
+        "Bayutas, B.",
+        "Chang Blanc, D.",
+        "Von Dobschuetz, S.",
+        "Wilder-Smith, A.",
+        "Gacic-Dobo, M.",
+        "Van Kerkhove, M. D.",
+        "O'Brien, K. L."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26356844v1",
+      "doi": "10.64898/2026.07.02.26356844",
+      "category": "public and global health",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：COVID-19 vaccination helped change the course of the pandemic and remains critical for protecting high-risk groups.",
+      "keywords": [
+        "vaccination",
+        "covid-19",
+        "across",
+        "emergency",
+        "coverage"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357163",
+      "source": "medrxiv",
+      "title": "COVID-19 mRNA Vaccination Reduces Guillain-Barre Syndrome Risk: Evidence from a Large Longitudinal Cohort Study",
+      "abstract": "Abstract The association between COVID-19 vaccination and Guillain-Barre syndrome (GBS) has been previously investigated with inconsistent results, largely due to limited data and lack of concurrent controls. To address this problem, a large longitudinal cohort study was conducted using National COVID Cohort Collaborative (N3C) data. While COVID-19 infection was associated with increased GBS occurrence, COVID-19 vaccination was associated with significantly reduced GBS risk relative to unexposed (unvaccinated and uninfected) control, corresponding to a 61% lower 30-day risk (incidence risk ratio: IRR = 0.39, P < 0.01), consistent with multivariable Cox regression showing a similar reduction (adjusted hazard ratio: aHR = 0.41, P < 0.01). This protective association was observed only among recipients of mRNA vaccines (BNT162b2: IRR = 0.38, P < 0.01; mRNA-1273: IRR = 0.24, P < 0.01), but not among recipients of adenoviral-vector vaccines (IRR = 1.38, P > 0.05). Prior COVID-19 vaccination also reduced infection-associated GBS risk. Additional factors associated with GBS risk included sex, vaccine dose, and pre-existing comorbidities such as stroke, neurological disorders, and autoimmune diseases. Overall, our N3C large-scale study provides evidence that COVID-19 mRNA vaccination reduces GBS risk, supporting the safety profile of mRNA vaccines and warranting further mechanistic investigation.",
+      "authors": [
+        "Li, J.",
+        "Pan, Y.",
+        "Han, Y.",
+        "Zhou, C.",
+        "Zhao, L.",
+        "He, Y."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357163v1",
+      "doi": "10.64898/2026.07.02.26357163",
+      "category": "public and global health",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Abstract The association between COVID-19 vaccination and Guillain-Barre syndrome (GBS) has been previously investigated with inconsistent results, largely due to limited data and lack of concurrent controls. To address this problem, a large longitudinal cohort study was conducted using National COVID Cohort Collaborative (N3C) data.",
+      "keywords": [
+        "risk",
+        "covid-19",
+        "vaccination",
+        "mrna",
+        "cohort"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357167",
+      "source": "medrxiv",
+      "title": "Effect of Intensive vs Standard Blood Pressure Control According to APOE ε4 Genotype: A Secondary Analysis of SPRINT",
+      "abstract": "Importance: Apolipoprotein E (APOE) {varepsilon}4 is the strongest genetic risk factor for sporadic dementia, yet whether the benefits of intensive systolic blood pressure (SBP) control differ by APOE {varepsilon}4 carrier status remains unknown. This is among the first randomized evaluations of intensive SBP control on all-cause dementia by APOE {varepsilon}4 status in US adults without diabetes. Objective: To compare effects of intensive vs standard SBP control on incident all-cause probable dementia between APOE {varepsilon}4 carriers and non-carriers. Design, Setting, and Participants: Secondary analysis of the Systolic Blood Pressure Intervention Trial (SPRINT), a multicenter randomized trial of adults [&ge;]50 years with hypertension and increased cardiovascular risk, but without diabetes, prior stroke, or dementia. Primary cognitive follow-up ended July 2018. Participants were further followed with telephone-based outcome assessment from 2019 through 2023. Interventions: Intensive SBP control (goal <120 mm Hg) vs standard SBP control (goal <140 mm Hg). Main Outcomes and Measures: The primary outcome was all-cause probable dementia. Secondary outcomes were mild cognitive impairment (MCI); MCI or dementia; MCI, dementia, or death; and all-cause mortality. APOE {varepsilon}4 status was the primary effect modifier. Results: Of 9,361 randomized participants, 8,390 (89.6%) had APOE genotyping (29% {varepsilon}4 carriers); 7,733 (82.6%) had both genotype and outcome data (mean age, 68 years; 36% female; 28% Non-Hispanic Black). Over a median follow-up of 5.1 years, dementia rates (intensive vs standard) were 9.7 vs 13.2 per 1,000 person-years among {varepsilon}4 carriers (hazard ratio [HR], 0.73; 95% CI, 0.51-1.04) and 6.1 vs 6.7 among non-carriers (HR, 0.91; 95% CI, 0.67-1.23; P-interaction = .35). Four-year risk differences were -1.7% (95% CI, -3.4% to 0%; number needed to treat, 59) among carriers and 0.2% (95% CI, -0.6% to 1%) among non-carriers (P-interaction = .045). Patterns were similar for the composite of MCI or dementia; effects on MCI were similar between APOE {varepsilon}4 subgroups. Conclusions and Relevance: Among US adults at high cardiovascular risk, intensive SBP control yielded larger absolute risk reduction in dementia among APOE {varepsilon}4 carriers than non-carriers; relative effects were similar. These findings may inform APOE {varepsilon}4-stratified blood pressure management for dementia prevention.",
+      "authors": [
+        "Xu, Y.",
+        "Pruzin, J.",
+        "Greene, T.",
+        "Williamson, J.",
+        "Reboussin, D.",
+        "Pajewski, N.",
+        "Klein, M.",
+        "Yau, W.-Y.",
+        "Reiman, E. M.",
+        "Supiano, M.",
+        "Ashton, N.",
+        "Chhatwal, J.",
+        "Bress, A. P."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357167v1",
+      "doi": "10.64898/2026.07.02.26357167",
+      "category": "neurology",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Importance: Apolipoprotein E (APOE) {varepsilon}4 is the strongest genetic risk factor for sporadic dementia, yet whether the benefits of intensive systolic blood pressure (SBP) control differ by APOE {varepsilon}4 carrier status remains unknown.",
+      "keywords": [
+        "dementia",
+        "apoe",
+        "varepsilon",
+        "intensive",
+        "control"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.01.26357083",
+      "source": "medrxiv",
+      "title": "Automated Multisource Electronic Frailty Index in Acute Ischemic Stroke: Development and Clinical Utility",
+      "abstract": "Background: Frailty is common in acute ischemic stroke (AIS) and predicts poor outcomes, but is not routinely captured in acute stroke care. Manual frailty tools are difficult to apply consistently in busy inpatient settings, while existing electronic frailty indices (eFIs) often rely on limited data modalities. We developed a scalable pre-stroke electronic frailty index (eFI) using multisource electronic medical record (EMR) data and evaluated its clinical utility. Methods: We conducted a retrospective cohort study of AIS admissions to Singapore General Hospital from July 1, 2024, to January 31, 2025. A fully automated pipeline derived an eFI from EMR data over a 3-year lookback period, incorporating ICD-10 codes, vital signs, anthropometry, laboratory results, medications, and free-text documentation processed using artificial intelligence?augmented extraction of predefined, clinically interpretable deficits. Candidate variables were screened using a validated 10-step frailty index framework and refined by multidisciplinary expert consensus. Results: Among 501 AIS cases, the pipeline generated 75 candidate variables and a final 33-variable eFI, with scores derived for 492 cases (98.2%). Frail patients had greater premorbid disability, higher stroke severity, longer hospitalization, greater rehabilitation use, worse discharge disability, higher 30-day readmission, and higher cumulative post-discharge mortality. In multivariable analyses adjusted for age, sex, NIHSS, premorbid mRS, and reperfusion therapy, each 0.1-unit increase in eFI was associated with mortality beyond 90 days after discharge (adjusted HR, 1.47; 95% CI, 1.19?1.81), 30-day readmission (adjusted OR, 1.91; 95% CI, 1.43?2.59), longer hospital stay (?, 2.8 days; 95% CI, 1.4?4.2), and discharge to inpatient rehabilitation rather than home (adjusted RRR, 1.66; 95% CI, 1.27?2.16). Conclusions: In a well-documented acute stroke service supported by comprehensive longitudinal EMR data, automated multisource eFI derivation was feasible and clinically informative in AIS, capturing baseline vulnerability beyond conventional stroke measures and supporting frailty-informed risk stratification and discharge planning.",
+      "authors": [
+        "Lin, S.",
+        "Foo, W. T.",
+        "Ng, Y. S.",
+        "Chang, H. M.",
+        "laura, T. B. G.",
+        "De Silva, D. A."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.01.26357083v1",
+      "doi": "10.64898/2026.07.01.26357083",
+      "category": "neurology",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Background: Frailty is common in acute ischemic stroke (AIS) and predicts poor outcomes, but is not routinely captured in acute stroke care. Manual frailty tools are difficult to apply consistently in busy inpatient settings, while existing electronic frailty indices (eFIs) often rely on limited data modalities.",
+      "keywords": [
+        "frailty",
+        "stroke",
+        "electronic",
+        "acute",
+        "discharge"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26356783",
+      "source": "medrxiv",
+      "title": "Development of patient-reported outcome for spinal and bulbar muscular atrophy",
+      "abstract": "Objectives: To develop and validate a disease-specific patient-reported outcome (PRO) measure for spinal and bulbar muscular atrophy (SBMA). Methods: A three-stage sequential design was adopted. Items were generated through qualitative interviews with patients with SBMA and expert review, refined using quantitative analyses, and evaluated for reliability and validity in independent cohorts from Japan and the United States. Results: Interviews with 12 patients generated 234 candidate items, which were refined into a final 31-item SBMAPRO comprising five domains based on an online survey of 106 patients. Internal consistency across domains ranged from Cronbach's alpha values of 0.651 to 0.901. In the Japanese cohort, test-retest reliability yielded intraclass correlation coefficients of 0.941 for physical function, 0.877 for mental health, and 0.858 for social function. Construct validity was examined through correlations with disease-specific functional measurements and the 36-Item Short Form Survey (SF-36). The SBMAPRO correlated with the SBMA Functional Rating Scale (r = -0.826, p <0.001) and with the SF-36 mental health (r = -0.693, p <0.001) and social functioning (r = -0.617, p <0.001) domains. In subscale analyses, the SBMAPRO social domain was associated with trunk-lower limb-related functional impairment (r = -0.587, p < 0.001). Similar patterns were observed in the American cohort. Conclusion: The SBMAPRO demonstrated reliability and validity in Japanese and American cohorts. Associations between mental and social domains and trunk-lower limb dysfunction suggest that mobility impairment may contribute to psychological burden and restricted social participation in SBMA, indicating that this disease-specific PRO may complement clinician-rated measures.",
+      "authors": [
+        "Nagae, M.",
+        "Yamada, S.",
+        "Ito, D.",
+        "Kishimoto, Y.",
+        "Komori, S.",
+        "Kawase, T.",
+        "Iida, M.",
+        "Ayano, K.",
+        "Yamamoto, M.",
+        "Alqahtani, A.",
+        "Kazmi, N.",
+        "Grunseich, C.",
+        "Katsuno, M.",
+        "Hashizume, A."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26356783v1",
+      "doi": "10.64898/2026.07.02.26356783",
+      "category": "neurology",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Objectives: To develop and validate a disease-specific patient-reported outcome (PRO) measure for spinal and bulbar muscular atrophy (SBMA). Methods: A three-stage sequential design was adopted.",
+      "keywords": [
+        "social",
+        "sbma",
+        "sbmapro",
+        "domains",
+        "disease-specific"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.26357217",
+      "source": "medrxiv",
+      "title": "Comparative Performance of Clinical Scoring Systems for Early Mortality Prediction in Blunt Traumatic Brain Injury",
+      "abstract": "Background: Early risk stratification in traumatic brain injury (TBI) is essential for timely triage, resource allocation, and clinical decision-making within the critical first hours of admission. This study aimed to compare the predictive performance of five established clinical scoring systems includes the Glasgow Coma Scale (GCS), Revised Trauma Score (RTS), Mechanism, GCS, Age, and Arterial Pressure (MGAP) score, Modified Early Warning Score (MEWS), and Rapid Emergency Medicine Score (REMS) for early mortality prediction in patients with blunt TBI. Methods: This single-center retrospective observational cohort study evaluated 444 patients aged 18 to 89 years with blunt TBI admitted to the intensive care unit of a tertiary trauma center in Tehran, Iran, between March 2022 and March 2025. The primary outcome was early mortality, defined as death within 24 hours of admission. Discriminative performance was assessed using the area under the receiver operating characteristic curve (AUC) with 95% confidence intervals (CI) derived via bootstrap resampling (1,000 iterations). Pairwise comparisons of AUCs were conducted, and optimal diagnostic cutoffs were identified using the Youden Index. Results: Within 24 hours of hospital admission, early mortality occurred in 97 patients (21.8%), while 347 patients (78.2%) survived. The trauma-specific and neurological scoring systems demonstrated the highest discriminative capacities: RTS achieved the highest accuracy (AUC = 0.676, 95% CI: 0.617-0.737), followed closely by GCS (AUC = 0.669, 95% CI: 0.608-0.727) and MGAP (AUC = 0.657, 95% CI: 0.594-0.724). General physiological scores exhibited lower performance, with MEWS achieving an AUC of 0.651 (95% CI: 0.595-0.707) and REMS demonstrating the lowest discriminative ability (AUC = 0.601, 95% CI: 0.538-0.659). Pairwise analysis confirmed that RTS GCS and MGAP significantly outperformed REMS, though no statistically significant differences were observed among RTS, GCS, and MGAP themselves. All evaluated systems demonstrated only modest overall predictive performance (AUC < 0.70). Conclusion: Trauma-specific and neurologically oriented scoring systems (RTS, GCS, and MGAP) provide superior and comparable prognostic accuracy for 24-hour mortality in blunt TBI compared to general emergency scores like REMS. However, the absolute predictive power of all evaluated models remains modest. Traditional systems relying on static admission variables fail to capture the dynamic, multifactorial nature of secondary brain injury, highlighting the critical need for multidimensional prognostic tools incorporating physiological time-series data or machine learning algorithms.",
+      "authors": [
+        "Abdollahi Sarvi",
+        "M."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.03.26357217v1",
+      "doi": "10.64898/2026.07.03.26357217",
+      "category": "neurology",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Background: Early risk stratification in traumatic brain injury (TBI) is essential for timely triage, resource allocation, and clinical decision-making within the critical first hours of admission.",
+      "keywords": [
+        "systems",
+        "early",
+        "performance",
+        "mortality",
+        "mgap"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357180",
+      "source": "medrxiv",
+      "title": "Hemispheric Asymmetry Features and Interpretable Machine Learning for Focal Cortical Dysplasia Classification in Drug-Resistant Epilepsy",
+      "abstract": "Focal cortical dysplasia (FCD) is a principal cause of pharmacoresistant focal epilepsy, yet its structural MRI signature, subtle cortical thickening, blurring of the gray-white matter junction, is frequently undetected even by experienced neuroradiologists, delaying or precluding referral for curative surgical resection. Here we develop a machine learning pipeline for FCD detection that prioritizes mechanistic interpretability over model complexity. In a subsample of 50 subjects (25 FCD, 25 age-matched controls) drawn from a public structural MRI cohort, we register all scans to a common stereotactic template and derive hemispheric asymmetry features across 48 cortical regions, exploiting the characteristic unilaterality of FCD pathology. Among four classifiers evaluated under leave-one-out cross-validation, an L1-regularized logistic regression achieves the highest accuracy (78\\%, permutation p=0.02), substantially outperforming tree-based ensembles, which perform at or below chance in this feature-to-sample regime. The fitted model selects a sparse subset of 21 of 96 features, with the largest-magnitude contributions localized to inferior and middle frontal gyri and temporal pole and superior temporal gyrus, regions consistent with the known anatomical distribution of FCD. These findings indicate that hemispheric asymmetry, combined with a sufficiently regularized, interpretable classifier, captures a modest but statistically robust and anatomically grounded signal for FCD detection, offering a transparent complement to existing deep learning approaches for presurgical evaluation.",
+      "authors": [
+        "Iraqui, A.",
+        "Dang, H."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357180v1",
+      "doi": "10.64898/2026.07.02.26357180",
+      "category": "neurology",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Focal cortical dysplasia (FCD) is a principal cause of pharmacoresistant focal epilepsy, yet its structural MRI signature, subtle cortical thickening, blurring of the gray-white matter junction, is frequently undetected even by experienced neuroradiologists, delaying or precluding referral for curative surgical resection.",
+      "keywords": [
+        "cortical",
+        "hemispheric",
+        "asymmetry",
+        "features",
+        "learning"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.26356752",
+      "source": "medrxiv",
+      "title": "Distinct Clinical Associations of Blood Tau Biomarkers and Neurofilament Light in Amyotrophic Lateral Sclerosis",
+      "abstract": "Background and Objectives To investigate the associations of blood-based tau biomarkers with clinical, electrophysiologic and prognostic measures in amyotrophic lateral sclerosis (ALS), and to determine whether they reflect distinct disease-related processes. Methods We studied 119 patients with ALS from a longitudinal observational cohort. Plasma and serum p-tau181, p-tau217, p-tau231, brain-derived tau (BD-tau), NfL and GFAP were measured using Lumipulse and Simoa assays. Associations with demographic variables, disease severity (ALSFRS-R and slow vital capacity), lower motor neuron (LMN), muscle involvement (creatine kinase [CK] and high-sensitivity cardiac troponin T [hs-cTnT]), disease progression and survival were assessed using multivariable models. Results Tau-related biomarkers, specifically p-tau217 and BD-tau, were associated with greater cross-sectional disease severity, reflected by lower ALSFRS-R scores. Plasma and serum p-tau181, p-tau217, p-tau231, and BD-tau were associated with higher CK and hs-cTnT, whereas p-tau181 and p-tau231 were also associated with greater LMN involvement. In contrast, NfL and GFAP were not associated with muscle or LMN involvement. Across analytical platforms, plasma and serum NfL were associated with faster ALSFRS-R decline and shorter survival. NfL was the only biomarker independently associated with both disease progression and survival. Discussion Blood biomarkers capture distinct dimensions of ALS. Tau-related biomarkers are associated with cross-sectional disease severity, LMN involvement and muscle injury, whereas NfL primarily reflects disease progression and survival. These findings support the complementary use of tau-related biomarkers and NfL for ALS phenotypic characterization and prognosis assessment.",
+      "authors": [
+        "Bertran-Recasens, B.",
+        "Ortiz-Romero, P.",
+        "Lugo-Hernandez, F.",
+        "Vidal Notari, S.",
+        "De Diego-Osaba, M.",
+        "Blasco-Fornies, H.",
+        "Jimenez-Moyano, E.",
+        "Llop Trujillano, M.",
+        "Torres-Torronteras, J.",
+        "del Campo, M.",
+        "Rubio Perez, M.-A.",
+        "Suarez-Calvet, M."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.03.26356752v1",
+      "doi": "10.64898/2026.07.03.26356752",
+      "category": "neurology",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Background and Objectives To investigate the associations of blood-based tau biomarkers with clinical, electrophysiologic and prognostic measures in amyotrophic lateral sclerosis (ALS), and to determine whether they reflect distinct disease-related processes. Methods We studied 119 patients with ALS from a longitudinal observational cohort.",
+      "keywords": [
+        "associated",
+        "biomarkers",
+        "disease",
+        "involvement",
+        "survival"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26356952",
+      "source": "medrxiv",
+      "title": "Accelerometry-Derived REM Sleep Behavior Disorder Predicts Future Parkinson's Disease in the UK Biobank",
+      "abstract": "Estimating Parkinson's disease (PD) risk years before diagnosis remains an unmet need. We applied a validated machine learning classifier for REM sleep behavior disorder (RBD) detection to 7-day wrist accelerometry data in 87,975 UK Biobank participants followed for 10 years. Participants in the highest RBD risk stratum (>99th percentile) had an approximately fivefold increased hazard of incident PD compared with the lowest-risk group (0-90th percentile), with a dose-dependent relationship across the full score distribution. Among non-converters, higher RBD risk was associated with baseline cognitive deficits and longitudinal enrichment of autonomic and psychiatric prodromal features. The association with incident PD remained independent of PD polygenic risk score, while RBD score and genetic risk were synergistic. The combined high-risk group achieved a positive likelihood ratio of 7.91, approximately threefold higher than questionnaire-based RBD screening. These findings support wrist accelerometry as a scalable approach for prodromal PD risk enrichment in population screening.",
+      "authors": [
+        "Mejia, G. R.",
+        "Brink-Kjaer, A.",
+        "Liu, L.",
+        "Zhou, L.",
+        "Gunter, K.",
+        "Ryu, K. H.",
+        "Wickramaratne, S. D.",
+        "Parekh, A.",
+        "Gan-Or, Z.",
+        "During, E."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26356952v1",
+      "doi": "10.64898/2026.07.02.26356952",
+      "category": "neurology",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Estimating Parkinson's disease (PD) risk years before diagnosis remains an unmet need. We applied a validated machine learning classifier for REM sleep behavior disorder (RBD) detection to 7-day wrist accelerometry data in 87,975 UK Biobank participants followed for 10 years.",
+      "keywords": [
+        "risk",
+        "score",
+        "sleep",
+        "behavior",
+        "disorder"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.05.04.26352054",
+      "source": "medrxiv",
+      "title": "Functional Activity of TDP 43: A Direct Biomarker for ALS",
+      "abstract": "TDP-43 dysfunction is a defining feature of amyotrophic lateral sclerosis (ALS), yet no biofluid biomarker directly measures its functional activity. We developed a se-rum-based homogeneous time-resolved FRET (hTR-FRET) assay that quantifies TDP-43 RNA binding activity using synthetic UU-rich RNA probes. We analyzed 1,080 serum samples from controls, sporadic ALS, and genetic subgroups (C9orf72, SOD1) across multiple biorepositories. Cross-sectionally, TDP-43 functional activity was elevated in ALS (mean 390 a.u.) versus controls (304 a.u.), yielding AUC = 0.79. Genotype means were 392 a.u. (sporadic), 382 a.u. (C9orf72), and 323 a.u. (SOD1); a 366 a.u. threshold achieved 95% specificity against controls. Longitudinally, Target ALS showed a mod-est but significant inverse correlation between TDP-43 activity and ALSFRS-R, while other cohorts exhibited similar non-significant trends. Elevated signal in serum likely reflects increased extracellular, probe-competent TDP-43 species. This assay provides a proof-of-concept platform for the direct functional measurement of probe-competent TDP-43 species in serum. While it demonstrates moderate group-level discrimination, individual diagnostic performance requires prospective validation. The assay may support exploratory applications in genotype stratification and progression monitor-ing in future clinical studies.",
+      "authors": [
+        "Sonkar, K. S.",
+        "D'Ancona, V. L.",
+        "Cramp, J.",
+        "Shilling, H.",
+        "Giles, E.",
+        "Howell Bray, T.",
+        "Fillingham, B.",
+        "Cudkowicz, M. E.",
+        "Nath, A.",
+        "Rothstein, J. D.",
+        "Bowser, R.",
+        "Borroni, B.",
+        "Padovani, A.",
+        "Berry, J. D.",
+        "Vakili, G. S.",
+        "Buratti, E.",
+        "Thrippleton, I. P."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.05.04.26352054v2",
+      "doi": "10.64898/2026.05.04.26352054",
+      "category": "neurology",
+      "raw": {
+        "version": "2",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：TDP-43 dysfunction is a defining feature of amyotrophic lateral sclerosis (ALS), yet no biofluid biomarker directly measures its functional activity. We developed a se-rum-based homogeneous time-resolved FRET (hTR-FRET) assay that quantifies TDP-43 RNA binding activity using synthetic UU-rich RNA probes.",
+      "keywords": [
+        "tdp-43",
+        "activity",
+        "functional",
+        "assay",
+        "serum"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357185",
+      "source": "medrxiv",
+      "title": "Effect of fortified balanced energy-protein supplementation during pregnancy and lactation on infant neurodevelopment: a community-based randomized controlled trial in rural Nepal",
+      "abstract": "Introduction: Infant neurodevelopment is associated with maternal nutritional status, yet few studies have evaluated the effects of balanced energy-protein (BEP) supplementation during pregnancy and/or lactation. Methods: The Maternal Infant Nutrition Trial (NCT03668977) was a 2x2 factorial, household randomized, unblinded, efficacy trial conducted in Sarlahi District, Nepal. Pregnant women were randomized to daily fortified BEP supplementation or no supplementation, and those with a live birth were re-randomized after delivery to supplementation or not until 6-months postpartum. The first 100 infants in each of the four intervention groups were enrolled in a neurodevelopment substudy. At 6-months, these infants underwent a cognitive, motor, language, and socioemotional assessment using the Bayley Scales of Infant and Toddler Development, fourth edition. Results: Baseline characteristics were similar across the four trial groups. A significant interaction (p< 0.05) between pregnancy and lactation supplementation groups was observed in the language domain only. Infants born to mothers who received BEP supplementation during pregnancy did not differ in standard scores for cognitive (mean difference (MD): 2.0, 95% confidence interval (CI): -0.29, 4.29), motor (MD: 0.98, 95% CI: -1.41, 3.36), or socioemotional (MD: -2.35, 95% CI: -5.27, 0.57) domains compared to the pregnancy control group. Similarly, for these three domains, there were no significant differences among infants whose mothers received BEP in lactation period vs. not. Infants born to mothers supplemented in both pregnancy and lactation had significantly higher mean language standard scores of 2.12 (95% CI: 0.16, 4.08; p-interaction = 0.015), driven by the expressive communication subtest, compared to those with no BEP supplementation in either period. Conclusion: BEP supplementation during pregnancy and/or lactation was not associated with improvements in cognitive, motor, or socioemotional domains at 6 months; however, infants of women supplemented in pregnancy and lactation had significant improvements in the language domain. Evaluation at later ages is warranted.",
+      "authors": [
+        "Lama, T. P.",
+        "Shrestha, R.",
+        "Christian, P.",
+        "Tielsch, J. M.",
+        "Katz, J.",
+        "Khatry, S. K.",
+        "LeClerq, S. C.",
+        "Erchick, D. J."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357185v1",
+      "doi": "10.64898/2026.07.02.26357185",
+      "category": "nutrition",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Introduction: Infant neurodevelopment is associated with maternal nutritional status, yet few studies have evaluated the effects of balanced energy-protein (BEP) supplementation during pregnancy and/or lactation.",
+      "keywords": [
+        "supplementation",
+        "pregnancy",
+        "lactation",
+        "infants",
+        "during"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26356969",
+      "source": "medrxiv",
+      "title": "Integrating mental health support into care for placenta accreta spectrum: A qualitative analysis of patient perspectives",
+      "abstract": "Background: Patients with high-risk pregnancies due to placenta accreta spectrum (PAS) are at high risk of morbidity and mortality, which may increase risk for childbirth related mental health sequelae including postpartum post-traumatic stress disorder (PTSD) and trauma symptoms. However, there has been limited investigation into these patients' mental health needs. We aimed to use qualitative data to understand PAS patients' mental health experiences through their obstetric course, and to generate recommendations for the delivery of mental health support to these patients. Methods: This exploratory study used a focus group format with patients who had a history of PAS. General questions about patient's pregnancies, births, and postpartum experiences were asked by mental health professionals. Using a rapid qualitative analysis approach, transcriptions of these focus groups were coded by three psychiatrists and core themes were extracted. Results: We conducted four focus groups with a total of 22 women. Major emotional themes included fear and isolation during the antepartum period, and grief, anxiety, and trauma in the postpartum period. Both periods were associated with a negative emotional impact on relationships with family members. Sadness & depression were less prominent among participants' experiences. Participants felt that mental health care resources needed to be integrated with their obstetric care, extend further into the postpartum period, and should be as specific as possible to their medical condition. Conclusions: Based on the results of these focus groups, we propose that patients with high-risk pregnancies and/or a history of traumatic birth should have access to expert mental health care that is integrated with their obstetric care. These patients may benefit from extended obstetric follow-up. Mental health screening in these populations should focus on anxiety and trauma symptoms rather than only screening for depression. Future studies should continue to examine these factors in a broader group of women with high-risk pregnancies beyond PAS.",
+      "authors": [
+        "Feldman, N.",
+        "Nathan, M. D.",
+        "Lipschitz, J. M.",
+        "Salama, K.",
+        "Campbell, L.",
+        "Wang, P.",
+        "Mittal, L.",
+        "Carusi, D. A."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26356969v1",
+      "doi": "10.64898/2026.07.02.26356969",
+      "category": "obstetrics and gynecology",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Background: Patients with high-risk pregnancies due to placenta accreta spectrum (PAS) are at high risk of morbidity and mortality, which may increase risk for childbirth related mental health sequelae including postpartum post-traumatic stress disorder (PTSD) and trauma symptoms.",
+      "keywords": [
+        "mental",
+        "health",
+        "patients",
+        "care",
+        "focus"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357107",
+      "source": "medrxiv",
+      "title": "In silico clinical trials of BiTE expression by oncolytic viruses reveal the impact of patient heterogeneity on dosage protocol",
+      "abstract": "Immunotherapies have become a transformative therapeutic strategy for many cancer types in recent years. Bispecific T-cell engagers (BiTEs) are one promising immunotherapy that enhances cellular antitumour immunity by redirecting T cells towards cancer cells. Recent evidence suggests that BiTE efficacy can be augmented by encoding BiTEs in oncolytic measles virus vectors (MV-BiTE). Infection of cancer cells with MV-BiTE causes the local production of BiTEs and has shown safety and efficacy in murine tumour models. However, whether the observed efficacy of this treatment will translate to a heterogeneous human population is unknown. In this work, we generate an in silico clinical trial of MV-BiTE therapy using a system of ordinary differential equations. We capture potential heterogeneity of individual patients using variability in in vivo tumour volume and change in baseline (%) measurements from a Phase II clinical trial. In lieu of human MV-BiTE data, we use the oncolytic virus talimogene laherparepvec (T-VEC) as a surrogate oncolytic virus carrying an immunostimulatory payload. Our predictions imply that the main drivers of heterogeneity are the underlying effector T cell killing rate and BiTE pharmacokinetics. Furthermore, we find that if individuals are classified as non-responders to the Phase II T-VEC clinical protocol, they may respond to more frequent administration of lower dosages. This work highlights how in silico clinical trials can provide predictions for novel therapeutics to generate hypotheses and guide the design of treatment schedules for clinical translation.",
+      "authors": [
+        "Jenner, A. L.",
+        "Araujo, R. P.",
+        "Levi, N. L.",
+        "Ungerechts, G.",
+        "Engeland, C. E.",
+        "Heidbuechel, J. P. W."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357107v1",
+      "doi": "10.64898/2026.07.02.26357107",
+      "category": "oncology",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Immunotherapies have become a transformative therapeutic strategy for many cancer types in recent years. Bispecific T-cell engagers (BiTEs) are one promising immunotherapy that enhances cellular antitumour immunity by redirecting T cells towards cancer cells.",
+      "keywords": [
+        "clinical",
+        "oncolytic",
+        "mv-bite",
+        "silico",
+        "bite"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.26357210",
+      "source": "medrxiv",
+      "title": "Toward Clinical Implementation of Polygenic Scores for Substance Use Disorders: A Multi-Ancestry Study",
+      "abstract": "Objective: To develop and validate clinically relevant polygenic scores (PGS) for alcohol (AUD), cannabis (CanUD), opioid (OUD), tobacco (TUD), and polysubstance use disorders (polySUD) across African (AA), European (EA), and Latinx (LA) ancestry populations. Methods: Using multiple genome-wide association study summary statistics and PGS methods, substance use disorder PGS were developed and evaluated in Indiana Biobank samples (IB, N: 1,356-24,989), then top-performing PGS were validated in All of Us Research Program samples (AOU, N: 62,389-209,952). Case and controls were defined using ICD-9/10 codes. All participants were aged 18 years or older (>=21 years for AUD controls). Clinical relevance was defined as an odds ratio (OR) >=2 for individuals with the highest PGS determined based on disorder prevalence compared to everyone else. Results: In EA and LA, all PGS achieved clinically relevant performance in both IB and AOU (ORs: 2.00-9.10; P <= 3.87E-4). In AA, PGS met this threshold in IB (ORs: 2.02-2.71; P <= 2.20E-4) but not in AOU (ORs: 1.28-1.56; P <=0.03). Overall, OUD PGS showed the strongest associations in most analyses, followed by CanUD and polySUD. Generally, compared to female PGS, male PGS had higher or comparable ORs, but the differences were not significant except AUD PGS in AOU LA. Conclusions: PGS demonstrated clinically meaningful risk prediction for substance use disorders in EA and LA, supporting the feasibility of future clinical implementation for population-level screening. However, reduced performance in AA underscores the urgent need for more genetic studies in that population.",
+      "authors": [
+        "Lai, D.",
+        "Zhang, M.",
+        "Schwantes-An, T.-H.",
+        "Breese, M. R.",
+        "Chartier, K.",
+        "Sheerin, C. M.",
+        "Plawecki, M. H.",
+        "Guo, C.",
+        "Ma, Y.-Y.",
+        "Pang, Z. P.",
+        "Edenberg, H. J.",
+        "Foroud, T.",
+        "Liu, Y."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.03.26357210v1",
+      "doi": "10.64898/2026.07.03.26357210",
+      "category": "genetic and genomic medicine",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Objective: To develop and validate clinically relevant polygenic scores (PGS) for alcohol (AUD), cannabis (CanUD), opioid (OUD), tobacco (TUD), and polysubstance use disorders (polySUD) across African (AA), European (EA), and Latinx (LA) ancestry populations.",
+      "keywords": [
+        "clinical",
+        "substance",
+        "disorders",
+        "clinically",
+        "implementation"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357177",
+      "source": "medrxiv",
+      "title": "RenalTransLSTM: Multi-Horizon Prediction of Acute Kidney Injury in ICU Patients using a Hybrid LSTM-Transformer Architecture",
+      "abstract": "Objective: Acute kidney injury (AKI) affects a large proportion of patients in the intensive care unit (ICU) and is a major contributor to morbidity, mortality, and cost. Although electronic health records (EHRs) capture rich longitudinal data, many predictive models fail to detect AKI early enough for effective intervention. Non-temporal methods such as logistic regression and XGBoost treat patient history as aggregated risk factors, discarding the temporal evolution of clinical state. A recent trend is to employ temporal models, such as recurrent neural networks, to capture sequential patterns, but these models struggle with irregular sampling and limited long- range contextual awareness. To address the challenge, we propose RenalTransLSTM, a hybrid temporal deep learning framework for early, multi-horizon AKI prediction and identification of modifiable risk factors. Methods: RenalTransLSTM integrates Long Short-Term Memory (LSTM) networks with Transformer encoders to model both local temporal dynamics and global contextual depen- dencies in ICU time-series data. Using 48-hour patient histories from MIMIC-IV (61,735 admissions), the model predicts AKI at 6-, 12-, and 24-hour lead times. We benchmark the model against SVM, XGBoost, LSTM, TG-LSTM, and a Transformer, and apply Integrated Gradients and counterfactual analysis to identify modifiable risk factors. Results: RenalTransLSTM outperforms all baselines across most horizons and metrics, achiev- ing AUROC above 0.90 and F1-scores reaching 0.85 while maintaining balanced precision and recall on imbalanced data. Ablation studies confirm that combining LSTM and Transformer components improved robustness and predictive performance. Counterfactual analysis identifies clinically meaningful, modifiable risk factors associated with AKI progression. Conclusion: RenalTransLSTM offers an effective, interpretable framework for early AKI prediction in the ICU, supporting proactive intervention and clinical decision support.",
+      "authors": [
+        "Badhon, S. M. S. I.",
+        "Adibuzzaman, M.",
+        "Mosa, A. S. M.",
+        "Bozdag, S.",
+        "Cleveland, A. D.",
+        "Ding, J.",
+        "Hossain, K. S. M. T."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357177v1",
+      "doi": "10.64898/2026.07.02.26357177",
+      "category": "health informatics",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Objective: Acute kidney injury (AKI) affects a large proportion of patients in the intensive care unit (ICU) and is a major contributor to morbidity, mortality, and cost. Although electronic health records (EHRs) capture rich longitudinal data, many predictive models fail to detect AKI early enough for effective intervention.",
+      "keywords": [
+        "renaltranslstm",
+        "risk",
+        "factors",
+        "temporal",
+        "prediction"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357089",
+      "source": "medrxiv",
+      "title": "Robust Longitudinal Dementia Prediction under Systemic Missingness via Hierarchical Fusion and Test-Time Adaptation",
+      "abstract": "Longitudinal dementia progression prediction is essential for clinical decision-making. However, models often degrade on external cohorts due to systemic missingness -- where certain biomarkers available during training are completely absent at test time -- compounded by distribution shifts and patient-specific variability. Here, we propose Progression-aware Feature Fusion with Test-Time Adaptation (ProFuse-TTA), a two-stage hierarchical Transformer for longitudinal dementia prediction. Stage 1 learns per-biomarker temporal representations from irregular observations without imputation. Stage 2 fuses them via cross-feature attention, with simulated modality dropout during training for robustness to systemic missingness. At inference, a lightweight test-time adaptation module performs per-individual calibration. We trained on ADNI and evaluated on three external cohorts comprising 2,316 participants and 13,205 timepoints, with controlled modality ablation experiments isolating the effect of systemic missingness. We compared against six baselines, four from a recent benchmark study and two new baselines including one built on a tabular foundation model. ProFuse-TTA achieved the best cross-dataset performance in 8 of 9 settings across clinical diagnosis, MMSE, and hippocampal volume prediction, and ranked first in 14 of 15 ablation scenarios. The model maintained superior performance across varying input lengths and prediction horizons up to 6 years. Pretrained ADNI models are available at XXX.",
+      "authors": [
+        "Zhang, C.",
+        "Li, H.",
+        "Tian, F.",
+        "Mansour L., S.",
+        "Orban, C.",
+        "Chen, C.",
+        "Zhou, J. H.",
+        "Yeo, B. T. T.",
+        "the Alzheimer's Disease Neuroimaging Initiative,",
+        "the Australian Imaging Biomarkers and Lifestyle Study of Ageing,"
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357089v1",
+      "doi": "10.64898/2026.07.02.26357089",
+      "category": "health informatics",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Longitudinal dementia progression prediction is essential for clinical decision-making. However, models often degrade on external cohorts due to systemic missingness -- where certain biomarkers available during training are completely absent at test time -- compounded by distribution shifts and patient-specific variability.",
+      "keywords": [
+        "prediction",
+        "systemic",
+        "missingness",
+        "longitudinal",
+        "dementia"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.26357209",
+      "source": "medrxiv",
+      "title": "Reinforcement Learning for Chronic Care Pathway Optimization: A Unified Framework across Three Clinical Goal Types",
+      "abstract": "Objective: Chronic care requires sequential treatment under competing biomarker, safety, and cost constraints, yet clinical goal structures differ across diseases. We asked whether one physiology-informed reinforcement learning (RL) paradigm adapts to heterogeneous chronic-care goals without disease-specific policy architectures. Materials and Methods: We formalized a Type A/B/C clinical goal taxonomy (target cure, stable cruise, cycle completion) as a Physiology-Informed Markov Decision Process registry for gout, chronic kidney disease (CKD), and PCOS-mediated fertility treatment--each with PK/PD transitions, discrete actions, safety zones, and guideline doctor baselines. Unified BC->PPO training (GAE lambda=0.95) on 500 simulated trajectories per disease. Evaluation: paired seeds (N=50 primary; N=500 bootstrap 95% CIs), 10-seed robustness, ablation, literature sUA calibration, and out-of-distribution stress. McNemar/Wilcoxon with Benjamini-Hochberg FDR. Results: PCOS (Type C, primary): PPO 72.0% vs. doctor 54.0% at N=50 (+18 percentage points; FDR-significant); at N=500, PPO 69.8% [65.6, 73.8] vs. doctor 52.8% [48.8, 57.2]. Gout (Type A): PPO non-inferior--88.0% vs. 90.0% (McNemar p=1.0). CKD (Type B): doctor 32.0%, BC/PPO 38.0%. Offline CQL 92.0% on gout trajectories. PK recalibration RMSE 97.4 umol/L (r=0.809). Conclusions: Shared BC->PPO training generalizes across three goal types without cross-disease weight sharing. PCOS supports RL for bounded cycles; gout confirms guideline non-inferiority; CKD illustrates cruise-control difficulty. This framework offers a reproducible foundation for chronic pathway optimization pending prospective validation.",
+      "authors": [
+        "Wang, R.",
+        "Chen, H.",
+        "Wu, Y.",
+        "Li, Z.",
+        "Shen, R.",
+        "He, F.",
+        "Zhao, S.",
+        "Zheng, N."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.03.26357209v1",
+      "doi": "10.64898/2026.07.03.26357209",
+      "category": "health informatics",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Objective: Chronic care requires sequential treatment under competing biomarker, safety, and cost constraints, yet clinical goal structures differ across diseases. We asked whether one physiology-informed reinforcement learning (RL) paradigm adapts to heterogeneous chronic-care goals without disease-specific policy architectures.",
+      "keywords": [
+        "chronic",
+        "goal",
+        "type",
+        "gout",
+        "doctor"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.26357228",
+      "source": "medrxiv",
+      "title": "Generative embedding of sparse data with a tabular foundation model for dengue anticipatory action: a machine learning approach",
+      "abstract": "Background Early outbreak detection often depends on complex, data-intensive models that have limited operational use in sparse surveillance settings. We developed a domain-mechanistic generative embedding that converts case counts and rainfall into a structured representation of dengue transmission for early epidemic-onset detection. Methods We constructed a 132-feature generative embedding from sparse dengue case and rainfall data. A tabular foundation model was evaluated using leave-one-year-out validation with paired cluster-bootstrap uncertainty intervals across 17 Philippine regions and eight dengue-endemic countries. Performance was benchmarked against raw input columns and catch22 time-series features. Findings Raw case and rainfall columns provided weak discrimination for dengue outbreak onset, with AUROC ranging from 0.56 to 0.70. The generative embedding improved prediction to AUROC 0.77 across countries and 0.89 across regions, corresponding to gains of +0.205 and +0.183 over raw columns, respectively, with paired cluster-bootstrap p[&le;]0.006. Calibration error remained low at both regional and country scales, with expected calibration error of 0.067 and 0.149, respectively. Predictability was strongest in highly seasonal settings, including Philippine Type I regions, Mexico, Brazil, and the Philippines, whereas year-round transmission or opposing coastal rainfall regimes produced weaker performance. Country estimates based on only one or two retained epidemic seasons were unstable. Interpretation Under sparse surveillance conditions, the predictive capacity of a tabular foundation model depended strongly on the representation supplied to it. A generative embedding of climate and epidemiological dynamics translated limited case and rainfall inputs into actionable early-warning signals, with accuracy scaling according to local seasonal structure. These findings support mechanism-grounded embeddings as a practical route for extending prospective dengue outbreak surveillance in data-limited settings, especially at regional scales where calibration and deployment are most appropriate.",
+      "authors": [
+        "Pelitro, K. J.",
+        "Manzano, J. F.",
+        "Matavia, T. O.",
+        "Soriano, K.",
+        "Bilbao, K.",
+        "Garcia, G. M.",
+        "Delos Angeles, A. J.",
+        "Lagmay, A. M.",
+        "Bandoy, D. D."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.03.26357228v1",
+      "doi": "10.64898/2026.07.03.26357228",
+      "category": "health informatics",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by_nc",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Background Early outbreak detection often depends on complex, data-intensive models that have limited operational use in sparse surveillance settings. We developed a domain-mechanistic generative embedding that converts case counts and rainfall into a structured representation of dengue transmission for early epidemic-onset detection.",
+      "keywords": [
+        "generative",
+        "embedding",
+        "dengue",
+        "rainfall",
+        "sparse"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357196",
+      "source": "medrxiv",
+      "title": "Romosozumab Safely Restores Bone Mass in Multiple Myeloma via Osteoblast Reprogramming: A Phase IIa Study",
+      "abstract": "Multiple myeloma causes devastating osteolytic bone disease. Current antiresorptive therapies slow bone loss but fail to rebuild the skeleton. Consequently, patients continue to fracture and suffer the associated morbidity and mortality. Targeting the Wnt inhibitor sclerostin, with romosozumab, increases bone mass in osteoporosis but has not been leveraged in cancer. We hypothesised that romosozumab would safely restore bone mass in multiple myeloma. In a murine model of myeloma, romosozumab was safe, demonstrating no impact on tumour progression while significantly increasing bone density. We subsequently conducted a Phase IIa proof-of-concept study in 12 multiple myeloma patients refractory to bisphosphonate therapy. Romosozumab was safe, it was well-tolerated and did not promote clinical or clonal myeloma progression. Treatment induced an early, significant rise in serum bone formation markers whilst resorption remained unchanged. This was coupled with significant gains in bone mineral density throughout the skeleton. Additionally, we observed radiological evidence of repair to pre-existing osteolytic lesions and, critically, a reduction in the skeletal morbidity rate from 2.5 to 0.11 events per patient-year. Longitudinal single-cell transcriptomics revealed that romosozumab transiently reprograms the osteoblast lineage to upregulate matrix synthesis and mineralisation programmes. These findings demonstrate that sclerostin inhibition safely rebuilds bone, providing clinical and mechanistic rationale for further randomised studies to restore bone health in myeloma patients.",
+      "authors": [
+        "Gration, B.",
+        "Chai, R. C.",
+        "Young, S. G.",
+        "Sergio, C. M.",
+        "Skorokhodova, E.",
+        "Smith, J. T.",
+        "Castro-Martinez, A.",
+        "Bray, A.",
+        "Lin, X.",
+        "Yan, C.",
+        "Kao, J.",
+        "Perram, J.",
+        "Lai, S.",
+        "Lau, L.",
+        "Weilbaecher, K. N.",
+        "Moore, J.",
+        "Pocock, N.",
+        "Chaffer, C. L.",
+        "Center, J.",
+        "Phan, T. G.",
+        "McCaughan, G.",
+        "Croucher, P. I."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357196v1",
+      "doi": "10.64898/2026.07.02.26357196",
+      "category": "hematology",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Multiple myeloma causes devastating osteolytic bone disease. Current antiresorptive therapies slow bone loss but fail to rebuild the skeleton. Consequently, patients continue to fracture and suffer the associated morbidity and mortality.",
+      "keywords": [
+        "bone",
+        "myeloma",
+        "romosozumab",
+        "multiple",
+        "safely"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357172",
+      "source": "medrxiv",
+      "title": "Clinical Impact, Diagnostic Performance, and Prognostic Implications of Plasma Metagenomic Next-Generation Sequencing in Solid Organ Transplant Recipients",
+      "abstract": "Introduction: Plasma metagenomic next-generation sequencing (mNGS) may detect pathogens in solid organ transplant (SOT) recipients, but optimal patient selection and result interpretation remain uncertain. Methods: Physicians reviewed SOT recipients with first-instance clinical plasma mNGS testing (Karius, Inc.) and determined consensus microbiological diagnoses, clinical impact of results, diagnostic yield, and clinical outcome. mNGS results were compared to microbiological diagnoses. A HIPAA-compliant large language model (GPT-4) was used to analyze electronic medical record (EMR) data and predict risk of infection with atypical bacteria, invasive fungi, mycobacteria, or parasites (collectively: pre-specified organisms of presumed significance, POPS) and identify patients who had positive-impact mNGS testing. Results: Of 145 SOT recipients, 119 (82.1%) had positive tests, 42 (29.0%) had [&ge;] 1 POPS organism, and 27 (19.1%) had [&ge;] 1 organism causing positive clinical impact. Positive impact was highly correlated with POPS status, with 24 (88.9%) of 27 positive-impact organisms categorized as POPS (P<0.001). GPT-4 scores accurately identified patients with POPS diagnoses (AUC 0.86), and assigned higher scores to patients with positive test impact (P=0.001). mNGS testing had highest sensitivity for atypical bacteria (82.4% sensitivity) and lower sensitivity for Aspergillus spp (53.3% sensitivity). Detection of greater numbers of organisms by mNGS was associated with increased mortality risk (odds ratio 1.32 per organism detected). Discussion: Plasma mNGS is a valuable clinical tool in SOT recipients. Positive clinical impact is associated with detection of atypical bacteria, fungi, mycobacteria, or parasites. GPT-4 analysis of EMR data identifies patients at risk of infection from these organisms and most likely to benefit from mNGS testing.",
+      "authors": [
+        "Spottiswoode, N.",
+        "Marra, P. S.",
+        "Lydon, E. C.",
+        "Chu, V. T.",
+        "Radakovich, N.",
+        "Rodriguez, J.",
+        "Phan, H. V.",
+        "Langelier, C. R.",
+        "Fung, M."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357172v1",
+      "doi": "10.64898/2026.07.02.26357172",
+      "category": "infectious diseases",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Introduction: Plasma metagenomic next-generation sequencing (mNGS) may detect pathogens in solid organ transplant (SOT) recipients, but optimal patient selection and result interpretation remain uncertain.",
+      "keywords": [
+        "mngs",
+        "clinical",
+        "impact",
+        "recipients",
+        "pops"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357188",
+      "source": "medrxiv",
+      "title": "Reimagining youth-responsive TB care: Voices and visions from adolescents and young adults who completed TB treatment in Nairobi, Kenya",
+      "abstract": "Tuberculosis (TB) services often fail to adequately address the needs of adolescents and young adults in many high-TB-burden settings. Despite evidence on the barriers this age group faces across the TB care pathway, young people are rarely involved in designing solutions to improve care that better meets their needs. This study focused on the perspectives of adolescents and young adults who had completed TB treatment in Nairobi, Kenya, engaging them as partners to examine their treatment experiences and co-create ways to improve youth?responsive TB services. This participatory qualitative study was conducted among young people aged 15-24 years (n=37) who had completed treatment for drug-susceptible TB from six health facilities in Nairobi County. Other study participants included County TB stakeholders, healthcare workers, facility managers and community representatives (n=214). Data were collected in December 2024 through four participatory workshops organised by age and gender to facilitate open discussion of shared lived experiences. Participants in each workshop used visual methods to describe their journey with TB, identified common challenges through group discussions, and proposed solutions to improve TB services for the young people. The findings from the workshops with the young people were subsequently discussed in stakeholder feedback sessions involving healthcare workers, facility managers, community representatives, and county TB actors. Data were analysed thematically across both workshops and feedback sessions. Results were structured around four interrelated themes. First, young people reported experiencing prolonged illness before diagnosis, with symptoms often normalised or attributed to other conditions, leading to disruption of school, work, and social life. Second, participants experienced lengthy and uncertain pathways to TB diagnosis, characterised by repeated healthcare visits and treatment for alternative conditions before TB was recognised. Receiving a TB diagnosis represented a pivotal turning point, evoking both fear and concerns about stigma as well as relief at finally understanding the cause of their illness and accessing treatment. Third, support from family and friends helped young people navigate the challenges of illness, diagnosis, treatment, and repeated health-system encounters. Fourth, participants and stakeholders identified practical service adaptations to strengthen youth-responsiveness, including respectful communication, enhanced counselling, peer support, greater privacy within TB service outlets, and flexible medicine collection such as after 5 pm. Adolescents and young adults with TB navigate multiple social and health systems barriers before reaching diagnosis, initiating treatment, and completing it. Involving young people directly in identifying gaps and priorities in TB care generated feasible opportunities for strengthening youth-responsive services within existing health systems. Further research is needed to evaluate the effectiveness and acceptability of the models proposed by study participants.",
+      "authors": [
+        "Karisa, R. P.",
+        "Ringwald, B.",
+        "Awinja, A. C.",
+        "Kagima, J. W.",
+        "Nyaboke, D.",
+        "Simba, J.",
+        "Mwirigi, N.",
+        "Sakwa, E. N.",
+        "Macharia, S.",
+        "Ronoh, A.",
+        "Millington, K.",
+        "Kathure, I.",
+        "Mueni, E.",
+        "Okoth, C.",
+        "Mulupi, S.",
+        "Mungai, B.",
+        "Chakaya, J.",
+        "Thompson, R."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357188v1",
+      "doi": "10.64898/2026.07.02.26357188",
+      "category": "infectious diseases",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Tuberculosis (TB) services often fail to adequately address the needs of adolescents and young adults in many high-TB-burden settings. Despite evidence on the barriers this age group faces across the TB care pathway, young people are rarely involved in designing solutions to improve care that better meets their needs.",
+      "keywords": [
+        "young",
+        "treatment",
+        "people",
+        "participants",
+        "diagnosis"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.26357226",
+      "source": "medrxiv",
+      "title": "Anti-HBsAg antibody mAb19-LS enhances antiviral immunity in humans with chronic hepatitis B",
+      "abstract": "Chronic infection with hepatitis B virus (HBV) is characterized by persistent expression of hepatitis B surface antigen (HBsAg), which is associated with profound immune tolerance. Although nucleos(t)ide analogue therapy effectively suppresses viral replication, it neither eliminates HBV nor reverses virus-specific immune dysfunction. Here, we report the results of two parallel first-in-human, dose-escalation studies evaluating a single infusion of mAb19-LS, a long-acting IgG1 monoclonal antibody targeting HBsAg, in individuals with chronic HBV infection receiving nucleos(t)ide analogue therapy. mAb19-LS was generally safe and well tolerated and induced a mean 11-fold increase in antigen clearance. The magnitude and duration of HBsAg suppression were dependent on both baseline antigen levels and mAb19-LS dose, with suppression maintained for more than 36 weeks in individuals receiving the highest dose. Reduction of circulating HBsAg was associated with uptake of HBsAg-IgG immune complexes by monocytes and dendritic cells and inflammatory reprogramming of these antigen-presenting cells. Notably, proliferation of both CD4+ and CD8+ T cells, as well as interferon-{gamma}; and TNF-; production in response to HBV antigens, were significantly increased 24 weeks after infusion. Together, these findings demonstrate that mAb19-LS is generally safe and effectively accelerates HBsAg clearance while activating antigen presenting cells and enhancing antiviral T cell responses.",
+      "authors": [
+        "Wang, Z.",
+        "Tenuta, M.",
+        "Ngoc Le, H.",
+        "Halling Scensgaard, S. N.",
+        "Silva Santos, G. S.",
+        "Reeves, D. B.",
+        "Breton, G.",
+        "Igbokwe, V.",
+        "Moraes Nicola, A.",
+        "Millard, K.",
+        "Winther Andersen, S. D.",
+        "Graversen, H.",
+        "Zollner, C.",
+        "Kluge, M.",
+        "Scheck, R.",
+        "Weis, N.",
+        "Johansen, I.",
+        "Dong, D.",
+        "Hernandez, B.",
+        "Shimeliovich, I.",
+        "Dizon, J.",
+        "Viera, V.",
+        "Fabris, F.",
+        "Schwarzmuller, M.",
+        "Tober-Lau, P.",
+        "Hillus, D.",
+        "Demir, M.",
+        "Gazumyan, A.",
+        "Tacke, F.",
+        "Sander, L. E.",
+        "Kurth, F.",
+        "Rasmussen, T.",
+        "Ye, H.",
+        "Pan, C.",
+        "Jacobson, I.",
+        "Wang, Q.",
+        "Damsgaard Gunst, J.",
+        "Gaebler, C.",
+        "Sogaard, O. S.",
+        "Caskey, M.",
+        "Nussenzweig, M."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.03.26357226v1",
+      "doi": "10.64898/2026.07.03.26357226",
+      "category": "infectious diseases",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_no",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Chronic infection with hepatitis B virus (HBV) is characterized by persistent expression of hepatitis B surface antigen (HBsAg), which is associated with profound immune tolerance. Although nucleos(t)ide analogue therapy effectively suppresses viral replication, it neither eliminates HBV nor reverses virus-specific immune dysfunction.",
+      "keywords": [
+        "mab19-ls",
+        "hbsag",
+        "antigen",
+        "cells",
+        "chronic"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.03.26357225",
+      "source": "medrxiv",
+      "title": "Association between anaemia, micronutrient status, and pneumococcal vaccine responses in young Kenyan children",
+      "abstract": "Introduction: Anaemia and micronutrient deficiencies are common in low- and middle-income countries, where vaccine-induced immune responses are often suboptimal. However, whether pre-vaccination nutritional status influences pneumococcal vaccine immunogenicity in young children remains poorly characterised. Methods: We examined associations between pneumococcal vaccine responses in 670 Kenyan children enrolled in three vaccine trials: PRISM (PCV10; n=195; NCT01028326), FPCV (fractional- and full-dose PCV10/PCV13; n=306; NCT03489018), and PATH-wSP (whole-cell pneumococcal vaccine; n=169; NCT02543892) and baseline anaemia (FPCV and PATH-wSP) and micronutrient status (iron, folate, zinc, and vitamins A, B12, D, and E). Analyses were performed separately for each trial. Primary outcomes were post-vaccination serotype- or antigen-specific IgG concentrations, opsonophagocytic activity (OPA) titres, and composite IgG or OPA z scores. Results: Vitamin B12 and haemoglobin concentrations were positively associated with composite and serotype- or antigen-specific antibody responses in analyses controlling for age, sex, malnutrition and inflammation. In the PRISM trial, PCV10-induced IgG (serotypes 1 and 6B) and OPA (serotypes 1, 4, 14, and 23F) responses were positively associated with vitamin B12 concentrations. Moderate anaemia was associated with lower IgG responses to serotypes 9V and 14 following full-dose PCV13 vaccination (FPCV) and lower antigen-specific IgG responses following the 1 mg PATH-wSP vaccine. No consistent associations were observed for ferritin, folate, zinc, or vitamins A, D, and E. Conclusion: Vitamin B12 deficiency and anaemia were associated with reduced pneumococcal vaccine responses in young Kenyan children. Optimising nutritional status before vaccination could be a strategy to improve vaccine responses in populations where anaemia and micronutrient deficiencies are common.",
+      "authors": [
+        "Abuga, K. M.",
+        "Karanja, H. K.",
+        "Gallagher, K.",
+        "Walusimbi, B.",
+        "Mugure, B. W.",
+        "Koli, C. K.",
+        "Masinde, B.",
+        "Etyang, T.",
+        "Karani, A.",
+        "Indeje, E. M.",
+        "Muriuki, J. M.",
+        "Hammitt, L.",
+        "Kinyanjui, S. M.",
+        "MacLennan, C. A.",
+        "Nairz, M.",
+        "Scott, J. A. G.",
+        "Elliott, A. M.",
+        "Nkurunungi, G.",
+        "Atkinson, S. H."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.03.26357225v1",
+      "doi": "10.64898/2026.07.03.26357225",
+      "category": "allergy and immunology",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Introduction: Anaemia and micronutrient deficiencies are common in low- and middle-income countries, where vaccine-induced immune responses are often suboptimal. However, whether pre-vaccination nutritional status influences pneumococcal vaccine immunogenicity in young children remains poorly characterised.",
+      "keywords": [
+        "responses",
+        "vaccine",
+        "anaemia",
+        "pneumococcal",
+        "micronutrient"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.05.26355867",
+      "source": "medrxiv",
+      "title": "Physical Activity, Nutritional Status, and Cardiovascular Disease Prevalence in Geriatric Outpatients: A Cross-sectional Study in Swabi",
+      "abstract": "Introduction: Cardiovascular diseases (CVD) are the leading cause of death among older people worldwide. Cardiovascular risk is high in the elderly, with modifiable risk factors including inactivity and poor diet. Objectives: To evaluate geriatric physical activity, nutritional status (Mini Nutritional Assessment (MNA)), cardiovascular disease (CVD) prevalence, and to explore the association between physical activity and nutrition with cardiovascular risk. Methodology: A cross-sectional study included 150 geriatrics. A structured questionnaire using a WHO aligned physical activity assessment tool (GPAQ) and the validated six-item MNA screening tool. Statistical analysis was done with IBM SPSS 22.0. Results: Among the participants, 56.7% were physically inactive, while 43.3% were active. CVD was present in 50.7% of participants. The mean MNA score was 8.83+/-1.98, indicating that a substantial proportion of participants were at risk of malnutrition. Physically active individuals demonstrated significantly lower odds of CVD compared with inactive participants (OR = 0.42, 95% Cl: 0.21 0.84, p = 0.014). Nutritional risk was also significantly associated with increased prevalence of cardiovascular disease (p < 0.05). Conclusion: Physical inactivity and nutritional vulnerability are highly prevalent in this geriatric cohort and are significantly associated with CVD. 58% lower odds of CVD (OR=0.42, 95% CI: 0.21 0.84), though the wide interval precludes a precise estimate of effect magnitude. Keywords: Physical activity, cardiovascular diseases, geriatric, malnutrition, Physical inactivity, Mini Nutritional Assessment, Pakistan, Cross-sectional study.",
+      "authors": [
+        "Ayub, A.",
+        "Batool, S."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.05.26355867v1",
+      "doi": "10.64898/2026.07.05.26355867",
+      "category": "cardiovascular medicine",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Introduction: Cardiovascular diseases (CVD) are the leading cause of death among older people worldwide. Cardiovascular risk is high in the elderly, with modifiable risk factors including inactivity and poor diet.",
+      "keywords": [
+        "physical",
+        "cardiovascular",
+        "nutritional",
+        "activity",
+        "risk"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357129",
+      "source": "medrxiv",
+      "title": "Microvascular responses to common endothelial stimuli are not related in humans",
+      "abstract": "Background: Cutaneous microvascular responses to local heating and acetylcholine perfusion are widely used to assess nitric oxide (NO)-mediated endothelium-dependent dilation in human health and disease. Despite the increasingly common usage of these approaches, no studies have directly compared responses to these stimuli within individuals. Therefore, we assessed endothelium- and NO-dependent dilation in 80 young adults (40 males/40 females; 22{+/-}3 years) to determine the extent to which microvascular responses to these endothelium-dependent stimuli are comparable within an individual. Methods: We examined cutaneous vascular conductance responses to (1) standardized local heating protocols to 39{degrees}C and 42{degrees}C, and (2) graded infusions of acetylcholine (10-10-10-1 M) alone or with 15 mM NG-nitro-l-arginine methyl ester (L-NAME; NO synthase inhibitor). Endothelium- and NO-dependent dilation were calculated and expressed in multiple ways based on commonly published analyses to allow for a thorough comparison within and between each stimulus. Results: Local heating-induced endothelium- and NO-dependent dilation were lower at 39{degrees}C compared with 42{degrees}C (P<0.001). The magnitude of local heating-induced endothelium-dependent dilation was significantly related to the NO-dependent contribution of that response at 39{degrees}C (R2= 0.79) and 42{degrees}C (R2= 0.56). Local heating-induced NO-dependent dilation at 39{degrees}C was not related to that at 42{degrees}C (P>0.05). Acetylcholine-induced endothelium- and NO-dependent dilation were not related to local heating-induced responses (all P>0.05). Conclusions: These data demonstrate that while local heating and acetylcholine perfusion produce robust endothelium- and NO-dependent cutaneous vasodilation, these responses are not comparable within an individual.",
+      "authors": [
+        "Schwartz, K. S.",
+        "Evering, M. G.",
+        "Goebel, C. E.",
+        "Greaney, J. L.",
+        "Stanhewicz, A. E."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357129v1",
+      "doi": "10.64898/2026.07.02.26357129",
+      "category": "cardiovascular medicine",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by_nc",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Background: Cutaneous microvascular responses to local heating and acetylcholine perfusion are widely used to assess nitric oxide (NO)-mediated endothelium-dependent dilation in human health and disease. Despite the increasingly common usage of these approaches, no studies have directly compared responses to these stimuli within individuals.",
+      "keywords": [
+        "degrees",
+        "responses",
+        "local",
+        "dilation",
+        "no-dependent"
+      ],
+      "summary_method": "fallback"
+    },
+    {
+      "id": "10.64898/2026.07.02.26357121",
+      "source": "medrxiv",
+      "title": "Comparing cutaneous NO-dependent vasodilation between young males and females",
+      "abstract": "Background: Despite the common use of local heating and intradermal microdialysis perfusion of acetylcholine (ACh) to probe cutaneous endothelium and nitric oxide (NO)-dependent dilation, sex differences in microvascular responsiveness to these stimuli in healthy young adults remain incompletely understood. Methods: Cutaneous vasodilation was assessed in response to local heating to 39{degrees}C and 42{degrees}C and graded perfusion of ACh (10-10 to 10-1 mol/L) alone or concurrently with 15 mM NG-nitro-L-arginine methyl ester (L-NAME; NO synthase inhibitor) using laser-Doppler flowmetry coupled with intradermal microdialysis in 80 young adults (40 females). Results: Local heating to 42{degrees}C elicited greater endothelium- and NO-dependent dilation than heating to 39{degrees}C in both groups (p<0.001), but no sex differences were observed at either temperature (p=0.65). ACh-induced endothelium-dependent dilation also was not different between sexes (p=0.08), but the NO-dependent component was greater in females than in males (p=0.01). In young females, menstrual cycle day (range: day 2-33) was not associated with endothelium- or NO-dependent dilation in response to any stimulus (all p[&ge;]0.19), regardless of hormonal contraceptive use. Conclusions: Taken together, these findings suggest that sex differences in microvascular NO bioavailability in healthy young adults depend on the stimulus used to elicit cutaneous vasodilation and, in females, microvascular endothelium- and NO-dependent dilation are not meaningfully influenced by menstrual cycle phase.",
+      "authors": [
+        "Evering, M. G.",
+        "Schwartz, K. S.",
+        "Goebel, C. E.",
+        "Stanhewicz, A. E.",
+        "Greaney, J. L."
+      ],
+      "published_date": "2026-07-06",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357121v1",
+      "doi": "10.64898/2026.07.02.26357121",
+      "category": "cardiovascular medicine",
+      "raw": {
+        "version": "1",
+        "type": "PUBLISHAHEADOFPRINT",
+        "license": "cc_by_nc_nd",
+        "published": "NA"
+      },
+      "summary": "该研究摘要显示：Background: Despite the common use of local heating and intradermal microdialysis perfusion of acetylcholine (ACh) to probe cutaneous endothelium and nitric oxide (NO)-dependent dilation, sex differences in microvascular responsiveness to these stimuli in healthy young adults remain incompletely understood.",
+      "keywords": [
+        "no-dependent",
+        "young",
+        "females",
+        "dilation",
+        "cutaneous"
       ],
       "summary_method": "fallback"
     }

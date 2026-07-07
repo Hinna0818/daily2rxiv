@@ -30,6 +30,7 @@ def run_fetch(config: AppConfig) -> list[Paper]:
                     run_date=config.run_date,
                     limit=config.limit,
                     http_get=http_get,
+                    lookback_days=config.biorxiv_lookback_days,
                 )
             )
 

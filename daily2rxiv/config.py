@@ -44,6 +44,7 @@ class AppConfig:
     openai_model: str = "gpt-5.5-mini"
     arxiv_categories: tuple[str, ...] = DEFAULT_ARXIV_CATEGORIES
     arxiv_terms: tuple[str, ...] = DEFAULT_ARXIV_TERMS
+    biorxiv_lookback_days: int = 3
     request_timeout: int = 30
     generated_by: str = "daily2rxiv"
     extra: dict[str, str] = field(default_factory=dict)
@@ -61,6 +62,7 @@ class AppConfig:
         model = os.getenv("DAILY2RXIV_OPENAI_MODEL", "gpt-5.5-mini")
         categories = _csv_env("DAILY2RXIV_ARXIV_CATEGORIES", DEFAULT_ARXIV_CATEGORIES)
         terms = _csv_env("DAILY2RXIV_ARXIV_TERMS", DEFAULT_ARXIV_TERMS)
+        lookback_days = int(os.getenv("DAILY2RXIV_BIORXIV_LOOKBACK_DAYS", "3"))
         timeout = int(os.getenv("DAILY2RXIV_TIMEOUT", "30"))
         return cls(
             run_date=run_date,
@@ -71,6 +73,7 @@ class AppConfig:
             openai_model=model,
             arxiv_categories=categories,
             arxiv_terms=terms,
+            biorxiv_lookback_days=lookback_days,
             request_timeout=timeout,
         )
 

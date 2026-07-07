@@ -47,6 +47,7 @@ python -m daily2rxiv fetch --sources arxiv,biorxiv,medrxiv --no-llm
 - `DAILY2RXIV_OPENAI_MODEL`：可选，默认 `gpt-5.5-mini`。
 - `DAILY2RXIV_ARXIV_CATEGORIES`：可选，逗号分隔的 arXiv 分类。
 - `DAILY2RXIV_ARXIV_TERMS`：可选，逗号分隔的 arXiv 检索词。
+- `DAILY2RXIV_BIORXIV_LOOKBACK_DAYS`：可选，bioRxiv/medRxiv 当天为空时向前回看的天数，默认 3。
 - `DAILY2RXIV_TIMEOUT`：可选，HTTP 超时时间，默认 30 秒。
 
 ## 测试
@@ -67,4 +68,4 @@ daily2rxiv fetch --date 2026-07-06 --limit 5 --no-llm --output tmp/smoke
 仓库包含两个 workflow：
 
 - `CI`：每次 push/PR 运行编译和单元测试。
-- `Daily Digest`：每天定时生成日报并提交到仓库；如果仓库 secret 中存在 `OPENAI_API_KEY`，会使用 LLM 摘要，否则走规则摘要。
+- `Daily Digest`：每天北京时间 22:00 定时生成日报并提交到仓库；如果仓库 secret 中存在 `OPENAI_API_KEY`，会使用 LLM 摘要，否则走规则摘要。

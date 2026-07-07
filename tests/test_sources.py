@@ -120,6 +120,39 @@ class SourceParsingTests(unittest.TestCase):
         self.assertIn("/0/json", urls[0])
         self.assertIn("/30/json", urls[1])
 
+    def test_biorxiv_fetch_looks_back_when_run_date_is_empty(self):
+        empty_page = {"messages": [{"status": "no posts found"}], "collection": []}
+        previous_page = {
+            "collection": [
+                {
+                    "doi": "10.1101/2026.07.06.111111",
+                    "title": "Previous day paper",
+                    "abstract": "Abstract",
+                    "authors": "A; B",
+                    "date": "2026-07-06",
+                    "version": 1,
+                    "category": "Bioinformatics",
+                }
+            ]
+        }
+        payloads = [json.dumps(empty_page), json.dumps(previous_page)]
+        urls = []
+
+        def fake_get(url):
+            urls.append(url)
+            return payloads.pop(0)
+
+        papers = fetch_biorxiv(
+            server="medrxiv",
+            run_date=date(2026, 7, 7),
+            limit=10,
+            http_get=fake_get,
+            lookback_days=1,
+        )
+        self.assertEqual(len(papers), 1)
+        self.assertIn("/2026-07-07/2026-07-07/", urls[0])
+        self.assertIn("/2026-07-06/2026-07-06/", urls[1])
+
 
 if __name__ == "__main__":
     unittest.main()
