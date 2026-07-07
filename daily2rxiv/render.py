@@ -91,7 +91,9 @@ def render_markdown(payload: dict[str, object]) -> str:
                 lines.append(f"- Authors: {authors}")
             if meta:
                 lines.append(f"- Meta: {meta}")
-            if abstract_zh:
+            if method == "fallback" and not abstract_zh:
+                lines.append("- 中文翻译: 暂未生成（当前使用 fallback，请检查 OpenAI API key、额度或模型权限）。")
+            elif abstract_zh:
                 lines.append(f"- 中文摘要: {abstract_zh}")
             if abstract:
                 lines.append(f"- Abstract: {_clip(abstract, 420)}")

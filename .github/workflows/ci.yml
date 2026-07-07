@@ -22,6 +22,7 @@ jobs:
         run: python -m unittest discover -s tests
   llm-smoke:
     runs-on: ubuntu-latest
+    continue-on-error: true
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       DAILY2RXIV_OPENAI_MODEL: gpt-5.4
