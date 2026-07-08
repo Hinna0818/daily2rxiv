@@ -36,8 +36,6 @@ def run_fetch(config: AppConfig) -> list[Paper]:
 
     papers = dedupe_papers(papers)
     for paper in papers:
-        paper.with_summary(
-            summarize_paper(paper, use_llm=config.use_llm, model=config.openai_model)
-        )
+        paper.with_summary(summarize_paper(paper))
     write_outputs(papers, config)
     return papers

@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      DAILY2RXIV_TRANSLATION_PROVIDER: google
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,13 +33,13 @@ jobs:
       - name: Install package
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -e ".[llm]"
+          python -m pip install -e .
       - name: Generate digest
         run: |
           DATE_ARG=""
           if [ -n "${{ inputs.date }}" ]; then DATE_ARG="--date ${{ inputs.date }}"; fi
           LIMIT="${{ inputs.limit || '30' }}"
-          daily2rxiv fetch $DATE_ARG --output data --limit "$LIMIT"
+          daily2rxiv fetch $DATE_ARG --output data --limit "$LIMIT" --no-llm
       - name: Commit digest
         run: |
           git config user.name "github-actions[bot]"

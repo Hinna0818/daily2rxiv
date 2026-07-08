@@ -43,7 +43,11 @@ def build_parser() -> argparse.ArgumentParser:
         default=",".join(DEFAULT_SOURCES),
         help="Comma-separated source list: arxiv,biorxiv,medrxiv.",
     )
-    fetch.add_argument("--no-llm", action="store_true", help="Disable OpenAI summaries.")
+    fetch.add_argument(
+        "--no-llm",
+        action="store_true",
+        help="Compatibility flag; LLM summaries are disabled in this project.",
+    )
     return parser
 
 

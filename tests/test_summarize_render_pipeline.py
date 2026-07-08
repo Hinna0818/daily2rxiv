@@ -33,7 +33,7 @@ class SummarizeRenderPipelineTests(unittest.TestCase):
     def test_no_api_key_path_uses_fallback(self):
         paper = sample_paper()
         with patch.dict("os.environ", {}, clear=True):
-            result = summarize_paper(paper, use_llm=True, model="test-model")
+            result = summarize_paper(paper)
         self.assertEqual(result.method, "fallback")
         self.assertIn("当前使用 fallback", result.summary)
         self.assertEqual(result.title_zh, "")
@@ -46,6 +46,25 @@ class SummarizeRenderPipelineTests(unittest.TestCase):
         result = fallback_summary(paper)
         self.assertEqual(result.method, "fallback")
         self.assertIn("暂无摘要", result.summary)
+
+    def test_translation_provider_populates_chinese_fields(self):
+        paper = sample_paper()
+        translations = {
+            paper.title: "单细胞基因组学揭示疾病相关程序",
+            paper.abstract: "单细胞基因组学可以识别疾病相关程序。我们在多个队列中评估模型，并发现稳健信号。",
+        }
+
+        def fake_translate(text):
+            return translations[text]
+
+        with patch.dict("os.environ", {"DAILY2RXIV_TRANSLATION_PROVIDER": "google"}):
+            with patch("daily2rxiv.summarize.translate_text", side_effect=fake_translate):
+                result = fallback_summary(paper)
+
+        self.assertEqual(result.method, "fallback")
+        self.assertEqual(result.title_zh, "单细胞基因组学揭示疾病相关程序")
+        self.assertIn("单细胞基因组学", result.abstract_zh)
+        self.assertIn("机器翻译摘要显示", result.summary)
 
     def test_markdown_contains_core_fields(self):
         paper = sample_paper().with_summary(fallback_summary(sample_paper()))
