@@ -1,6 +1,6 @@
 # daily2rxiv Digest - 2026-07-11
 
-共收录 90 篇论文。
+共收录 60 篇论文。
 
 ## arxiv
 
@@ -89,9 +89,9 @@
 - Original title: Deep Learning for Joint Narrowband Interference Cancellation and Soft Demodulation in OFDM Systems
 - Authors: Emmanouil Kavvousanos, Francky Catthoor, Vassilis Paliouras
 - Meta: 2026-07-09 | cs.LG
-- 中文摘要: 窄带干扰 (NBI) 会破坏子载波并使经典软解调无效，从而严重降低正交频分复用 (OFDM) 系统的性能。传统的压缩感知 (CS) 缓解措施表现出较高的顺序延迟，并留下结构化的非高斯残差，在采用经典高斯解映射器时，这些残差会导致对数似然比 (LLR) 不可靠性、解码器饱和和严重的错误平台。我们使用统一的深度学习框架来解决这种管道不匹配的问题，该框架用于联合 NBI 消除和鲁棒的软解调。首先，NBI-CNet 采用基于物理的卷积架构来估计 NBI 参数并消除单次前向传播中的多音干扰。
+- 中文摘要: 窄带干扰 (NBI) 会破坏子载波并使经典软解调无效，从而严重降低正交频分复用 (OFDM) 系统的性能。传统的压缩感知 (CS) 缓解措施表现出较高的顺序延迟，并留下结构化的非高斯残差，在采用经典高斯解映射器时，这些残差会导致对数似然比 (LLR) 不可靠性、解码器饱和和严重的错误平台。我们使用统一的深度学习框架来解决这种管道不匹配问题，以进行联合 NBI 消除和鲁棒的软解调。首先，NBI-CNet 采用基于物理的卷积架构来估计 NBI 参数并消除单次前向传播中的多音干扰。
 - Abstract: Narrowband interference (NBI) severely degrades orthogonal frequency-division multiplexing (OFDM) systems by corrupting subcarriers and rendering classical soft demodulation ineffective. Conventional compressed-sensing (CS) mitigation exhibits high sequential latency and leaves structured, non-Gaussian residuals that cause log-likelihood ratio (LLR) unreliability, decoder saturation, and severe error floors when emp...
-- Summary (fallback): 机器翻译摘要显示：窄带干扰 (NBI) 会破坏子载波并使经典软解调无效，从而严重降低正交频分复用 (OFDM) 系统的性能。传统的压缩感知 (CS) 缓解措施表现出较高的顺序延迟，并留下结构化的非高斯残差，在采用经典高斯解映射器时，这些残差会导致对数似然比 (LLR) 不可靠性、解码器饱和和严重的错误平台。我们使用统一的深度学习框架来解决这种管道不匹配的问题，该框架用于联合 NBI 消除和鲁棒的软解调。首先，NBI-CNet 采用基于物理的卷积架构来估计 NBI 参数并消除单次前向传播中的多音干扰。
+- Summary (fallback): 机器翻译摘要显示：窄带干扰 (NBI) 会破坏子载波并使经典软解调无效，从而严重降低正交频分复用 (OFDM) 系统的性能。传统的压缩感知 (CS) 缓解措施表现出较高的顺序延迟，并留下结构化的非高斯残差，在采用经典高斯解映射器时，这些残差会导致对数似然比 (LLR) 不可靠性、解码器饱和和严重的错误平台。我们使用统一的深度学习框架来解决这种管道不匹配问题，以进行联合 NBI 消除和鲁棒的软解调。首先，NBI-CNet 采用基于物理的卷积架构来估计 NBI 参数并消除单次前向传播中的多音干扰。
 - Keywords: interference, soft, error, joint, demodulation
 
 ### 11. [哮喘多模态数字生物标志物：声音、临床和人口因素的互补作用](https://arxiv.org/abs/2607.08714v1)
@@ -276,544 +276,274 @@
 
 ## biorxiv
 
-### 1. [鉴定细菌中小非编码 RNA (sRNA) 候选物的管道](https://www.biorxiv.org/content/10.64898/2026.07.02.735529v1)
-- Original title: A pipeline for identifying small noncoding RNA (sRNA) candidates in bacteria
-- Authors: Elhedi, S., NDiaye, K. D. S., Perreault, J.
-- Meta: 2026-07-10 | molecular biology | DOI: 10.64898/2026.07.02.735529
-- 中文摘要: 细菌小非编码 RNA (sRNA) 是转录后调控的核心，但由于转录噪声和缺乏规范编码特征，它们的计算识别假阳性率较高。我们开发了一个三阶段流程，集成了 sRNA 预测 (sRNA-Detect)、转录起始位点定位（TSSAR、dRNA-seq）和 Rho 独立终止子检测 (RNIE)，应用于跨越六个门的九个系统发育多样化的细菌物种。顺序过滤在 9 个物种中实现了 1.4 至 33 倍的精度提高，将候选集减少了高达 99.6%，同时以反映参考数据库深度的速度恢复已知 sRNA（金黄色葡萄球菌的召回率为 6%，大肠杆菌和金黄色葡萄球菌的召回率为 33-34%）。
-- Abstract: Bacterial small non-coding RNAs (sRNAs) are central post-transcriptional regulators, yet their computational identification suffers from high false-positive rates due to transcriptional noise and the absence of canonical coding features. We developed a three-stage pipeline integrating sRNA prediction (sRNA-Detect), transcription start site mapping (TSSAR, dRNA-seq), and Rho-independent terminator detection (RNIE), a...
-- Summary (fallback): 机器翻译摘要显示：细菌小非编码 RNA (sRNA) 是转录后调控的核心，但由于转录噪声和缺乏规范编码特征，它们的计算识别假阳性率较高。我们开发了一个三阶段流程，集成了 sRNA 预测 (sRNA-Detect)、转录起始位点定位（TSSAR、dRNA-seq）和 Rho 独立终止子检测 (RNIE)，应用于跨越六个门的九个系统发育多样化的细菌物种。顺序过滤在 9 个物种中实现了 1.4 至 33 倍的精度提高，将候选集减少了高达 99.6%，同时以反映参考数据库深度的速度恢复已知 sRNA（金黄色葡萄球菌的召回率为 6%，大肠杆菌和金黄色葡萄球菌的召回率为 33-34%）。
-- Keywords: across, pipeline, srna, bacterial, srnas
+### 1. [通过基因组基础模型嵌入进行可解释的变异效应预测](https://www.biorxiv.org/content/10.64898/2026.04.10.717844v4)
+- Original title: Interpretable variant effect prediction from genomic foundation model embeddings
+- Authors: Pearce, M. T., Dooms, T., Yamamoto, R., Ayanian, S., Ryu, A. et al.
+- Meta: 2026-07-11 | genomics | DOI: 10.64898/2026.04.10.717844
+- 中文摘要: 科学基础模型从不同的数据模式中学习高维表示，但它们编码的内容以及如何提取这些知识仍然是悬而未决的问题。在这里，我们表明，探索 Evo 2（一个 70 亿参数的基因组基础模型）的内部表示可以实现准确且可解释的遗传变异效应预测。我们引入了一种基于协方差的探针，它可以从 Evo 2 序列嵌入中捕获二阶结构，以预测跨变异类型和功能后果的变异致病性，匹配或超过其域内的专门预测因子。为了将这些预测建立在已知的生物机制上，我们在现有注释上训练了一组互补的探针，以检测哪些基因组特性被变体破坏。
+- Abstract: Scientific foundation models learn high-dimensional representations from diverse data modalities, yet what they encode and how to extract that knowledge remain open questions. Here we show that probing the internal representations of Evo 2, a 7-billion-parameter genomic foundation model, enables accurate and interpretable genetic variant effect prediction. We introduce a covariance-based probe that captures second-o...
+- Summary (fallback): 机器翻译摘要显示：科学基础模型从不同的数据模式中学习高维表示，但它们编码的内容以及如何提取这些知识仍然是悬而未决的问题。在这里，我们表明，探索 Evo 2（一个 70 亿参数的基因组基础模型）的内部表示可以实现准确且可解释的遗传变异效应预测。我们引入了一种基于协方差的探针，它可以从 Evo 2 序列嵌入中捕获二阶结构，以预测跨变异类型和功能后果的变异致病性，匹配或超过其域内的专门预测因子。为了将这些预测建立在已知的生物机制上，我们在现有注释上训练了一组互补的探针，以检测哪些基因组特性被变体破坏。
+- Keywords: variant, genomic, foundation, effect, model
 
-### 2. [核仁是一种机械敏感的凝聚物，使核糖体生物发生适应机械力](https://www.biorxiv.org/content/10.64898/2026.07.02.731374v1)
-- Original title: The nucleolus is a mechanosensitive condensate that adapts ribosome biogenesis to mechanical forces
-- Authors: Shetty, Y., Elias, K. O., Badawi, S., Pernet, L., Ribba, A.-S. et al.
-- Meta: 2026-07-10 | cell biology | DOI: 10.64898/2026.07.02.731374
-- 中文摘要: 细胞内区室化是细胞组织的基础，但机械生物学在很大程度上是通过膜界定的结构和相关的信号传导途径来理解的。机械力是否直接调节生物分子凝聚体（组织许多核心细胞功能）仍然很大程度上未知。这个问题与核仁特别相关，核仁是一种重要的核凝聚体，它协调核糖体的生物发生，并且已知会根据不同的生化扰动进行重塑，将其置于细胞状态和生物合成控制之间的界面。在这里，我们证明机械压缩重塑核仁组织并减少（核糖体 DNA）rDNA 转录，并确定核仁素是这种适应性反应的关键介质。
-- Abstract: Intracellular compartmentalization is fundamental to cellular organization, yet mechanobiology has been largely understood through membrane-delimited structures and associated signaling pathways. Whether mechanical forces directly regulate biomolecular condensates, which organize many core cellular functions, remains largely unknown. This question is particularly relevant for the nucleolus, a prominent nuclear conde...
-- Summary (fallback): 机器翻译摘要显示：细胞内区室化是细胞组织的基础，但机械生物学在很大程度上是通过膜界定的结构和相关的信号传导途径来理解的。机械力是否直接调节生物分子凝聚体（组织许多核心细胞功能）仍然很大程度上未知。这个问题与核仁特别相关，核仁是一种重要的核凝聚体，它协调核糖体的生物发生，并且已知会根据不同的生化扰动进行重塑，将其置于细胞状态和生物合成控制之间的界面。在这里，我们证明机械压缩重塑核仁组织并减少（核糖体 DNA）rDNA 转录，并确定核仁素是这种适应性反应的关键介质。
-- Keywords: nucleolus, mechanical, condensate, ribosome, biogenesis
+### 2. [scDiagnostics：单细胞转录组数据中细胞类型注释的系统评估](https://www.biorxiv.org/content/10.64898/2026.01.29.701618v2)
+- Original title: scDiagnostics: systematic assessment of cell type annotation in single-cell transcriptomics data
+- Authors: Christidis, A., Ghazi, A. R., Chawla, S., Turaga, N., Gentleman, R. et al.
+- Meta: 2026-07-11 | bioinformatics | DOI: 10.64898/2026.01.29.701618
+- 中文摘要: 尽管细胞类型注释已成为单细胞分析工作流程不可或缺的一部分，但计算注释的评估仍然具有挑战性。许多注释工具将标签从带注释的参考数据集转移到感兴趣的新查询数据集，但盲目地将标签从一个数据集转移到另一个数据集有其自身的一系列挑战。数据集之间通常不存在完美的对齐，特别是当从健康参考图谱转移注释以发现疾病状态时。我们推出了 scDiagnostics，这是一种新的开源软件包，有助于检测复杂或模糊的注释情况，否则这些情况可能会被忽视，从而解决当前单细胞分析工作流程中未满足的关键需求。 scDiagnostics 配备了与所有主要细胞类型注释工具兼容的新型诊断方法。
+- Abstract: Although cell type annotation has become an integral part of single-cell analysis workflows, the assessment of computational annotations remains challenging. Many annotation tools transfer labels from an annotated reference dataset to a new query dataset of interest, but blindly transferring labels from one dataset to another has its own set of challenges. Often enough there is no perfect alignment between datasets,...
+- Summary (fallback): 机器翻译摘要显示：尽管细胞类型注释已成为单细胞分析工作流程不可或缺的一部分，但计算注释的评估仍然具有挑战性。许多注释工具将标签从带注释的参考数据集转移到感兴趣的新查询数据集，但盲目地将标签从一个数据集转移到另一个数据集有其自身的一系列挑战。数据集之间通常不存在完美的对齐，特别是当从健康参考图谱转移注释以发现疾病状态时。我们推出了 scDiagnostics，这是一种新的开源软件包，有助于检测复杂或模糊的注释情况，否则这些情况可能会被忽视，从而解决当前单细胞分析工作流程中未满足的关键需求。 scDiagnostics 配备了与所有主要细胞类型注释工具兼容的新型诊断方法。
+- Keywords: scdiagnostics, annotation, single-cell, annotations, cell
 
-### 3. [动力蛋白-微管力驱动 T 细胞中的核运动和迁移](https://www.biorxiv.org/content/10.64898/2026.07.02.736211v2)
-- Original title: Dynein-microtubule forces drive nucleokinesis and transmigration in T cells
-- Authors: Tagay, Y., Zhovmer, A. S., Sarkar, N., Stoop, J., Su, L. et al.
-- Meta: 2026-07-10 | cell biology | DOI: 10.64898/2026.07.02.736211
-- 中文摘要: 除了在允许的细胞外环境中典型的肌动球蛋白驱动的变形虫运动的机械能力之外，细胞核成为限制组织中 T 细胞迁移的主要障碍。我们将动力蛋白-微管 (MT) 力传递轴建立为受限 T 细胞迁移和轮回过程中核转位的重要机制。我们认为，动力蛋白既充当马达，又充当 F-肌动蛋白锚定的力传递元件（支点），沿着细胞皮层滑动 MT 和 MT 耦合核，以驱动核运动和生产性细胞位移。动力蛋白是核运动的主要驱动力：它的抑制作用可阻止细胞核运动，而与肌球蛋白 II 的活性无关，而 F-肌动蛋白动力学在时空上与核振荡保持脱钩。
-- Abstract: Beyond the mechanical capacity of canonical actomyosin-driven amoeboid motility in permissive extracellular environments, the nucleus becomes the principal barrier to T cell migration in confining tissues. We establish the dynein-microtubule (MT) force-transmission axis as an essential mechanism for nuclear translocation during confined T cell migration and transmigration. We argue that dynein acts both as a motor a...
-- Summary (fallback): 机器翻译摘要显示：除了在允许的细胞外环境中典型的肌动球蛋白驱动的变形虫运动的机械能力之外，细胞核成为限制组织中 T 细胞迁移的主要障碍。我们将动力蛋白-微管 (MT) 力传递轴建立为受限 T 细胞迁移和轮回过程中核转位的重要机制。我们认为，动力蛋白既充当马达，又充当 F-肌动蛋白锚定的力传递元件（支点），沿着细胞皮层滑动 MT 和 MT 耦合核，以驱动核运动和生产性细胞位移。动力蛋白是核运动的主要驱动力：它的抑制作用可阻止细胞核运动，而与肌球蛋白 II 的活性无关，而 F-肌动蛋白动力学在时空上与核振荡保持脱钩。
-- Keywords: nucleus, cell, nuclear, dynein, nucleokinesis
+### 3. [IGF1 肽靶向雷特综合征星形胶质细胞，降解 IGF 结合蛋白，挽救突触发生并恢复线粒体功能](https://www.biorxiv.org/content/10.64898/2026.01.22.701190v2)
+- Original title: IGF1 peptide targets Rett Syndrome astrocytes to degrade IGF binding protein, rescue synaptogenesis and restore mitochondrial function
+- Authors: Ojha, P., Kozareva, V., Barlowe, A., Schulte, F., Lam, R. M. et al.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.01.22.701190
+- 中文摘要: 雷特综合征 (RTT) 是一种由 MECP2 突变引起的严重神经发育障碍，会导致大脑中严重的突触和回路缺陷。虽然神经元历来是 RTT 病理学的焦点，但新出现的证据表明星形胶质细胞参与损害突触结构、功能和发育的非细胞自主机制。在这里，我们发现了星形胶质细胞分泌的 IGFBP2 在介导这些缺陷中的核心作用，并证明用 IGF1 衍生肽治疗可通过促进 IGFBP2 降解来恢复突触形成。使用间接星形胶质细胞-神经元共培养系统，我们发现来自RTT模型小鼠的星形胶质细胞抑制野生型神经元的兴奋性突触形成，并且当RTT星形胶质细胞用IGF1(1-3)肽处理时，这种损害被逆转。
+- Abstract: Rett syndrome (RTT), a severe neurodevelopmental disorder caused by mutations in MECP2, leads to profound synaptic and circuit deficits in the brain. While neurons have historically been the focus of RTT pathology, emerging evidence implicates astrocytes in non-cell autonomous mechanisms that impair synaptic structure, function and development. Here, we uncover a central role for astrocyte-secreted IGFBP2 in mediati...
+- Summary (fallback): 机器翻译摘要显示：雷特综合征 (RTT) 是一种由 MECP2 突变引起的严重神经发育障碍，会导致大脑中严重的突触和回路缺陷。虽然神经元历来是 RTT 病理学的焦点，但新出现的证据表明星形胶质细胞参与损害突触结构、功能和发育的非细胞自主机制。在这里，我们发现了星形胶质细胞分泌的 IGFBP2 在介导这些缺陷中的核心作用，并证明用 IGF1 衍生肽治疗可通过促进 IGFBP2 降解来恢复突触形成。使用间接星形胶质细胞-神经元共培养系统，我们发现来自RTT模型小鼠的星形胶质细胞抑制野生型神经元的兴奋性突触形成，并且当RTT星形胶质细胞用IGF1(1-3)肽处理时，这种损害被逆转。
+- Keywords: igf1, peptide, astrocytes, igfbp2, function
 
-### 4. [西高止山脉鸟类表现出独特的季节性海拔变化模式和依赖于热状态的变化策略的组合。](https://www.biorxiv.org/content/10.1101/2025.11.05.684726v2)
-- Original title: Western Ghat birds exhibit a unique pattern of seasonal elevational shifts and a combination of thermal regime dependent shift strategies.
-- Authors: Faizee, A. K., Ramesh, V., Robin, V. V.
-- Meta: 2026-07-10 | ecology | DOI: 10.1101/2025.11.05.684726
-- 中文摘要: 全球山地鸟类通过海拔变化来追踪天气模式和资源的季节性变化，从而表现出海拔迁徙。由于难以跨山地梯度采样数据，调查这种海拔变化的模式和机制的研究在空间尺度上受到限制。在这里，我们将世界上最大的参与性科学项目 (eBird) 的数据与系统调查相结合，以研究可能解释西高止山脉生物多样性热点尼尔吉里山鸟类海拔范围变化的模式和机制。我们计算了尼尔吉里斯全年最热和最冷月份之间鸟类海拔范围的变化程度，并使用系统发育广义最小二乘回归量化这些变化与物种特征之间的关联。
-- Abstract: Elevational migration is globally exhibited by montane bird species through elevational range shifts to track seasonal changes in weather patterns and resources. Studies investigating the patterns and mechanisms of such elevational shifts have been limited in spatial scale owing to the difficulty of sampling data across montane gradients. Here, we integrated data from the world's largest participatory science projec...
-- Summary (fallback): 机器翻译摘要显示：全球山地鸟类通过海拔变化来追踪天气模式和资源的季节性变化，从而表现出海拔迁徙。由于难以跨山地梯度采样数据，调查这种海拔变化的模式和机制的研究在空间尺度上受到限制。在这里，我们将世界上最大的参与性科学项目 (eBird) 的数据与系统调查相结合，以研究可能解释西高止山脉生物多样性热点尼尔吉里山鸟类海拔范围变化的模式和机制。我们计算了尼尔吉里斯全年最热和最冷月份之间鸟类海拔范围的变化程度，并使用系统发育广义最小二乘回归量化这些变化与物种特征之间的关联。
-- Keywords: elevational, shifts, species, thermal, birds
+### 4. [将单细胞转录组标记为大型语言模型的母语](https://www.biorxiv.org/content/10.1101/2025.10.22.684047v2)
+- Original title: Tokenizing single-cell transcriptomes as a native language for large language models
+- Authors: Xiao, C., Ding, Y., Bian, H., Chen, Y., Wei, L. et al.
+- Meta: 2026-07-11 | bioinformatics | DOI: 10.1101/2025.10.22.684047
+- 中文摘要: 一旦大型语言模型（LLM）在共享序列空间中表示为标记，就可以处理多种形式的信息。然而，单细胞转录组对于法学硕士来说仍然是一种外来模式，因为它们是连续的、高维的分子谱，而不是离散的语言单元。在这里，我们提出了 CellTok，一种标记化的单细胞语言建模方法，可将转录组图谱转换为紧凑的细胞标记序列，并将它们合并到预训练的法学硕士的词汇中。通过将细胞表示为原生标记，CellTok 能够在同一自回归建模框架内联合处理细胞测量、文本指令、生物背景和多细胞群体。
+- Abstract: Large language models (LLMs) can process diverse forms of information once they are represented as tokens in a shared sequence space. However, single-cell transcriptomes remain a foreign modality to LLMs because they are continuous, high-dimensional molecular profiles rather than discrete linguistic units. Here, we propose CellTok, a tokenized single-cell language modeling approach that converts transcriptomic profi...
+- Summary (fallback): 机器翻译摘要显示：一旦大型语言模型（LLM）在共享序列空间中表示为标记，就可以处理多种形式的信息。然而，单细胞转录组对于法学硕士来说仍然是一种外来模式，因为它们是连续的、高维的分子谱，而不是离散的语言单元。在这里，我们提出了 CellTok，一种标记化的单细胞语言建模方法，可将转录组图谱转换为紧凑的细胞标记序列，并将它们合并到预训练的法学硕士的词汇中。通过将细胞表示为原生标记，CellTok 能够在同一自回归建模框架内联合处理细胞测量、文本指令、生物背景和多细胞群体。
+- Keywords: language, cellular, single-cell, llms, celltok
 
-### 5. [空间免疫结构和肿瘤谱系计划共同塑造晚期胰腺导管腺癌的临床结果](https://www.biorxiv.org/content/10.64898/2026.06.28.734525v2)
-- Original title: Spatial immune architecture and tumor lineage programs jointly shape clinical outcomes in advanced pancreatic ductal adenocarcinoma
-- Authors: Oo, H. M., Anekpuritanang, T., Angkathunyakul, N., Degirmenci, U., Pongpaibul, A. et al.
-- Meta: 2026-07-10 | cancer biology | DOI: 10.64898/2026.06.28.734525
-- 中文摘要: 胰腺导管腺癌（PDAC）表现出广泛的分子和微环境异质性，但晚期疾病中肿瘤谱系状态如何与空间免疫组织相互作用仍知之甚少。在这里，我们使用组织循环免疫荧光 (t-CyCIF) 对 27 名晚期 PDAC 患者进行了多重空间蛋白质组分析，并将这些分析与代表性肿瘤的空间转录组分析相结合。根据 GATA6 和 CK5 表达，肿瘤被分为经典、混合、基础和无效上皮状态，揭示了与临床结果相关的不同免疫结构。经典肿瘤和混合肿瘤表现出富含淋巴细胞的免疫炎症微环境，而基底肿瘤和无效肿瘤表现出免疫排斥、巨噬细胞主导的景观，其特征是 M2 巨噬细胞增加。
-- Abstract: Pancreatic ductal adenocarcinoma (PDAC) exhibits extensive molecular and microenvironmental heterogeneity, yet how tumor lineage states interact with spatial immune organization in advanced disease remains poorly understood. Here, we performed multiplexed spatial proteomic profiling using tissue cyclic immunofluorescence (t-CyCIF) in 27 patients with advanced PDAC and integrated these analyses with spatial transcrip...
-- Summary (fallback): 机器翻译摘要显示：胰腺导管腺癌（PDAC）表现出广泛的分子和微环境异质性，但晚期疾病中肿瘤谱系状态如何与空间免疫组织相互作用仍知之甚少。在这里，我们使用组织循环免疫荧光 (t-CyCIF) 对 27 名晚期 PDAC 患者进行了多重空间蛋白质组分析，并将这些分析与代表性肿瘤的空间转录组分析相结合。根据 GATA6 和 CK5 表达，肿瘤被分为经典、混合、基础和无效上皮状态，揭示了与临床结果相关的不同免疫结构。经典肿瘤和混合肿瘤表现出富含淋巴细胞的免疫炎症微环境，而基底肿瘤和无效肿瘤表现出免疫排斥、巨噬细胞主导的景观，其特征是 M2 巨噬细胞增加。
-- Keywords: spatial, immune, advanced, hybrid, lineage
+### 5. [TNFR2 激动剂作为针对新型骨关节炎引起的心脏功能障碍的性别特异性疗法](https://www.biorxiv.org/content/10.64898/2026.07.06.736778v2)
+- Original title: TNFR2 Agonism as a Sex-Specific Therapy for Novel Osteoarthritis-Induced Cardiac Dysfunction
+- Authors: Prasoon, P., Tammen, K., Russo, R., Meyyappan, A., Dalvi, M. et al.
+- Meta: 2026-07-11 | physiology | DOI: 10.64898/2026.07.06.736778
+- 中文摘要: 骨关节炎 (OA) 是一种退行性关节疾病，与全身炎症增加、慢性疼痛和心血管功能障碍有关。流行病学证据表明，OA 会使心血管疾病 (CVD) 的风险增加三倍，但 OA 的因果作用仍未得到充分研究。我们纵向评估了内侧半月板（DMM）手术不稳定以诱发小鼠骨关节炎后的心脏功能。 DMM 小鼠的超声心动图参数表现出显着的性别二态性改变。
+- Abstract: Osteoarthritis (OA), a degenerative joint disease, is associated with increased systemic inflammation, chronic pain, and cardiovascular dysfunction. Epidemiological evidence establishes that OA increases the risk of cardiovascular disease (CVD) threefold, yet the causal role of OA contributions remains underexamined. We assessed cardiac function longitudinally following destabilization of the medial meniscus (DMM) s...
+- Summary (fallback): 机器翻译摘要显示：骨关节炎 (OA) 是一种退行性关节疾病，与全身炎症增加、慢性疼痛和心血管功能障碍有关。流行病学证据表明，OA 会使心血管疾病 (CVD) 的风险增加三倍，但 OA 的因果作用仍未得到充分研究。我们纵向评估了内侧半月板（DMM）手术不稳定以诱发小鼠骨关节炎后的心脏功能。 DMM 小鼠的超声心动图参数表现出显着的性别二态性改变。
+- Keywords: dysfunction, mice, cardiac, tnfr2, cardiovascular
 
-### 6. [精氨基琥珀酸合成酶 1 将肝脏尿素循环与全身脂质代谢联系起来](https://www.biorxiv.org/content/10.64898/2026.06.02.729618v2)
-- Original title: Argininosuccinate Synthase 1 links hepatic urea cycle to whole body lipid metabolism
-- Authors: Kim, L. C., Lesner, N. P., Cai, X., Han, X., Jung, J. W. et al.
-- Meta: 2026-07-10 | cancer biology | DOI: 10.64898/2026.06.02.729618
-- 中文摘要: 在肝病和肝细胞癌 (HCC) 中，肝尿素循环始终受到抑制，但单个酶的损失是否会导致疾病的发生和进展仍不清楚。使用肝细胞特异性缺失精氨琥珀酸合酶 1 (ASS1)（一种将瓜氨酸和天冬氨酸缩合成精氨琥珀酸的尿素循环酶）的小鼠，我们研究了 ASS1 在饮食和致癌物诱导的肝病进展中的作用。我们发现肝脏 Ass1 完全丧失是致命的，但高脂肪饮食可以延长寿命。出乎意料的是，肝脏 Ass1 损失约 85% 的动物完全免受饮食引起的肥胖、肝脂肪变性、纤维化和 HCC 的影响。我们确定肝脏 Ass1 损失会激活外周氧化组织中的脂肪酸氧化，从而导致能量消耗增加并预防疾病表型。
-- Abstract: The hepatic urea cycle is consistently suppressed in liver disease and hepatocellular carcinoma (HCC), but whether loss of individual enzymes contributes to disease initiation and progression remains unknown. Using mice with hepatocyte-specific deletion of argininosuccinate synthase 1 (ASS1), the urea cycle enzyme that condenses citrulline and aspartate into argininosuccinate, we investigated the role of ASS1 in die...
-- Summary (fallback): 机器翻译摘要显示：在肝病和肝细胞癌 (HCC) 中，肝尿素循环始终受到抑制，但单个酶的损失是否会导致疾病的发生和进展仍不清楚。使用肝细胞特异性缺失精氨琥珀酸合酶 1 (ASS1)（一种将瓜氨酸和天冬氨酸缩合成精氨琥珀酸的尿素循环酶）的小鼠，我们研究了 ASS1 在饮食和致癌物诱导的肝病进展中的作用。我们发现肝脏 Ass1 完全丧失是致命的，但高脂肪饮食可以延长寿命。出乎意料的是，肝脏 Ass1 损失约 85% 的动物完全免受饮食引起的肥胖、肝脂肪变性、纤维化和 HCC 的影响。我们确定肝脏 Ass1 损失会激活外周氧化组织中的脂肪酸氧化，从而导致能量消耗增加并预防疾病表型。
-- Keywords: ass1, hepatic, liver, disease, loss
+### 6. [晚熟，但并非罕见：人类发育时间遵循一般哺乳动物的生活史尺度](https://www.biorxiv.org/content/10.64898/2026.06.16.732383v2)
+- Original title: Altricial, but not unusual: Human developmental timing follows general mammalian life-history scaling
+- Authors: Akcan, C. D., Kece, D., Kerman, K.
+- Meta: 2026-07-11 | zoology | DOI: 10.64898/2026.06.16.732383
+- 中文摘要: 人们普遍认为人类发育异常缓慢，童年期延长，对照顾者的依赖也很长。然而，这种观点主要基于与其他灵长类动物的比较，因此人类是否在更广泛的哺乳动物多样性中保持独特性仍悬而未决。我们通过将人类发育置于一个比较框架中来解决这个问题，该比较框架使用了代表 25 个目的 462 种哺乳动物的妊娠长度、断奶年龄和性成熟年龄。每个性状都以绝对值和最长已验证圈养寿命的比例进行了检查。从绝对值来看，人类发育特征属于哺乳动物变异的上限。
+- Abstract: Humans are widely regarded as unusually slow to develop, exhibiting prolonged childhood and extended dependence on caregivers. However, this view is based primarily on comparisons with other primates, leaving unresolved whether humans remain distinctive within the broader diversity of mammals. We addressed this question by situating human development in a comparative framework using gestation length, weaning age, an...
+- Summary (fallback): 机器翻译摘要显示：人们普遍认为人类发育异常缓慢，童年期延长，对照顾者的依赖也很长。然而，这种观点主要基于与其他灵长类动物的比较，因此人类是否在更广泛的哺乳动物多样性中保持独特性仍悬而未决。我们通过将人类发育置于一个比较框架中来解决这个问题，该比较框架使用了代表 25 个目的 462 种哺乳动物的妊娠长度、断奶年龄和性成熟年龄。每个性状都以绝对值和最长已验证圈养寿命的比例进行了检查。从绝对值来看，人类发育特征属于哺乳动物变异的上限。
+- Keywords: human, mammalian, developmental, timing, follows
 
-### 7. [动态组蛋白超乙酰化塑造环境响应染色质状态](https://www.biorxiv.org/content/10.64898/2026.06.19.732295v2)
-- Original title: Dynamic histone hyperacetylation shapes environmentally responsive chromatin states
-- Authors: Ammari, M., Dash, L., Choudhary, A., Mamania, H., Gupta, J. et al.
-- Meta: 2026-07-10 | plant biology | DOI: 10.64898/2026.06.19.732295
-- 中文摘要: 转录因子（TF）通过激活靶基因来协调环境反应，但它们如何重塑表观基因组结构以协调基因表达仍然知之甚少。我们之前在拟南芥和番茄中鉴定出 SIENA（刺激诱导增强乙酰化）结构域是茉莉酸 (JA) 诱导的 H3K9 超乙酰化围绕 MYC2 TF 结合位点的大区域。然而，SIENA 结构域（SIENA）形成的机制及其功能意义仍然未知。在这里，我们发现 SIENAs 也在大豆的主要 JA 响应基因和基因簇上形成，将这种现象扩展到进化上遥远的作物物种。
-- Abstract: Transcription factors (TFs) orchestrate environmental responses by activating target genes, yet how they reshape epigenome architecture to coordinate gene expression remains poorly understood. We previously identified SIENA (Stimulus-Induced ENhancer Acetylation) domains as large regions of jasmonic acid (JA)-induced H3K9 hyperacetylation surrounding MYC2 TF binding sites in Arabidopsis and tomato. However, the mech...
-- Summary (fallback): 机器翻译摘要显示：转录因子（TF）通过激活靶基因来协调环境反应，但它们如何重塑表观基因组结构以协调基因表达仍然知之甚少。我们之前在拟南芥和番茄中鉴定出 SIENA（刺激诱导增强乙酰化）结构域是茉莉酸 (JA) 诱导的 H3K9 超乙酰化围绕 MYC2 TF 结合位点的大区域。然而，SIENA 结构域（SIENA）形成的机制及其功能意义仍然未知。在这里，我们发现 SIENAs 也在大豆的主要 JA 响应基因和基因簇上形成，将这种现象扩展到进化上遥远的作物物种。
-- Keywords: histone, sienas, hyperacetylation, chromatin, gene
+### 7. [肠系膜神经元和回肠肌间神经元之间的双向通讯](https://www.biorxiv.org/content/10.64898/2026.07.04.736073v2)
+- Original title: Bidirectional communication between neurons in the mesentery and ileal myenteric neurons
+- Authors: Vanden Berghe, P., Guo, F., Van Mechelen, K., Li, Z., Fung, C.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.07.04.736073
+- 中文摘要: 肠系膜最近被归类为“新”器官，含有多种细胞类型，包括脂肪细胞、前脂肪细胞、内皮细胞和免疫细胞。此外，神经元细胞体存在于小肠系膜中，并且单独或与靠近肠壁的小神经节结构中的神经胶质细胞聚集在一起。然而，人们对这些肠外肠系膜神经元的起源或功能知之甚少。本研究的目的是更好地表征肠系膜神经元，并使用附有肠系膜的成年小鼠回肠钙成像检查它们与 ENS 的连接性。在这里，我们证明肠系膜中的神经元表达典型的 ENS 神经化学标记物，对 5-HT、ATP 和烟碱激动剂 DMPP 做出反应，并接收烟碱突触输入。
+- Abstract: The intestinal mesentery has been recently classified as a 'new' organ and contains various cell types including adipocytes, preadipocytes, endothelial cells, and immune cells. In addition, neuronal cell bodies are found in the small intestinal mesentery and are situated either individually or clustered together with glial cells in small ganglion structures close to the gut wall. However, little is known about the o...
+- Summary (fallback): 机器翻译摘要显示：肠系膜最近被归类为“新”器官，含有多种细胞类型，包括脂肪细胞、前脂肪细胞、内皮细胞和免疫细胞。此外，神经元细胞体存在于小肠系膜中，并且单独或与靠近肠壁的小神经节结构中的神经胶质细胞聚集在一起。然而，人们对这些肠外肠系膜神经元的起源或功能知之甚少。本研究的目的是更好地表征肠系膜神经元，并使用附有肠系膜的成年小鼠回肠钙成像检查它们与 ENS 的连接性。在这里，我们证明肠系膜中的神经元表达典型的 ENS 神经化学标记物，对 5-HT、ATP 和烟碱激动剂 DMPP 做出反应，并接收烟碱突触输入。
+- Keywords: neurons, mesentery, intestinal, mesenteric, myenteric
 
-### 8. [Carpobrotus 属杂交的细胞基因组特征揭示了亲本优势的偏见](https://www.biorxiv.org/content/10.64898/2026.07.03.736328v2)
-- Original title: Cytogenomic signatures of hybridisation in the genus Carpobrotus reveal biased parental dominance
-- Authors: Pascual-Diaz, J. P., Torres, M., Bacovsky, V., Horakova, L., Kruzlicova, J. et al.
-- Meta: 2026-07-10 | plant biology | DOI: 10.64898/2026.07.03.736328
-- 中文摘要: O_LI杂交通常与植物入侵有关；然而，它对入侵物种的基因组组织和染色体进化的影响仍然知之甚少。我们研究了入侵性 Carpobrotus edulis-acinaciformis 杂种复合体中的杂交程度，并确定了亲本物种在杂种种质中的细胞基因组贡献。 C_LIO_LI我们结合了全基因组测序、群体基因组分析、基因组大小估计、重复组表征、染色体计数和荧光原位杂交来比较来自南非和地中海盆地的亲本物种和杂交种质。 C_LIO_LIP种群基因组分析揭示了广泛的杂交和基因渗入，大多数侵入性种质显示出混合祖先。 Pattersons D 统计支持对 C. edulis 的不对称等位基因共享。
-- Abstract: O_LIHybridisation is frequently associated with plant invasions; however, its consequences for genome organisation and chromosome evolution remain poorly understood in invasive species. We investigated the extent of hybridisation in the invasive Carpobrotus edulis--acinaciformis hybrid complex and determined the cytogenomic contribution of parental species in hybrid accessions. C_LIO_LIWe combined whole-genome seque...
-- Summary (fallback): 机器翻译摘要显示：O_LI杂交通常与植物入侵有关；然而，它对入侵物种的基因组组织和染色体进化的影响仍然知之甚少。我们研究了入侵性 Carpobrotus edulis-acinaciformis 杂种复合体中的杂交程度，并确定了亲本物种在杂种种质中的细胞基因组贡献。 C_LIO_LI我们结合了全基因组测序、群体基因组分析、基因组大小估计、重复组表征、染色体计数和荧光原位杂交来比较来自南非和地中海盆地的亲本物种和杂交种质。 C_LIO_LIP种群基因组分析揭示了广泛的杂交和基因渗入，大多数侵入性种质显示出混合祖先。 Pattersons D 统计支持对 C. edulis 的不对称等位基因共享。
-- Keywords: hybrid, accessions, hybridisation, parental, genome
+### 8. [自发眨眼作为内部注意力的时间标记](https://www.biorxiv.org/content/10.64898/2026.07.06.736774v2)
+- Original title: Spontaneous eye blinks as temporal markers of internal attention
+- Authors: Schneider, D., Oezdemir, S., Wascher, E., Arnau, S.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.07.06.736774
+- 中文摘要: 眨眼是脑电图中最大的生理伪影之一，通常会从记录中删除。然而它们的时间可能携带着有关认知的信息。在这里，我们询问试验中自发眨眼的时间分布是否提供了工作记忆中内部注意力集中的时间分辨行为特征。在实验 1 中，眨眼锁定脑电图分析表明，眨眼时间与神经活动一致，反映了注意力集中在相关的内部表征上。在实验 2 中，参与者在不同条件下记住了相同的视觉信息，但相关项目要么在存储过程中早期被提示，要么在稍后出现记忆探针时被提示。眨眼频率曲线相应地发生变化，当选择可能较早时在提示后增加，当选择延迟时在探测后增加。
+- Abstract: Eye blinks are among the largest physiological artefacts in electroencephalography and are typically removed from the recordings. Yet their timing may carry information about cognition. Here, we asked whether the temporal distribution of spontaneous blinks across trials provides a time-resolved behavioural signature of internal attentional focusing in working memory. In Experiment 1, blink-locked EEG analyses showed...
+- Summary (fallback): 机器翻译摘要显示：眨眼是脑电图中最大的生理伪影之一，通常会从记录中删除。然而它们的时间可能携带着有关认知的信息。在这里，我们询问试验中自发眨眼的时间分布是否提供了工作记忆中内部注意力集中的时间分辨行为特征。在实验 1 中，眨眼锁定脑电图分析表明，眨眼时间与神经活动一致，反映了注意力集中在相关的内部表征上。在实验 2 中，参与者在不同条件下记住了相同的视觉信息，但相关项目要么在存储过程中早期被提示，要么在稍后出现记忆探针时被提示。眨眼频率曲线相应地发生变化，当选择可能较早时在提示后增加，当选择延迟时在探测后增加。
+- Keywords: blinks, spontaneous, internal, memory, temporal
 
-### 9. [域插入提高了 CRISPR 腺嘌呤碱基编辑器的精度](https://www.biorxiv.org/content/10.64898/2026.07.03.736350v1)
-- Original title: Domain Insertion Improves the Precision of a CRISPR Adenine Base Editor
-- Authors: Müller, M. M., Southern, N. T., Niopek, D.
-- Meta: 2026-07-10 | synthetic biology | DOI: 10.64898/2026.07.03.736350
-- 中文摘要: 腺嘌呤碱基编辑器 (ABE) 可实现 A*T 到 G*C 的高效转换，但其广泛的活动窗口经常导致意外的旁观者编辑。我们假设将庞大的惰性蛋白质结构域插入碱基编辑器将限制脱氨酶的有效范围，从而优先将编辑定向到预期的目标腺嘌呤。在这里，我们使用结构引导设计和计算推理系统地绘制高活性 TadA8e 腺嘌呤碱基编辑器中的域插入位点。我们发现 TadA8e 接受多个表面位点的结构域插入，总体活性和编辑窗口宽度取决于插入位置而不是结构域身份。令人兴奋的是，在残基 L68 处插入结构域保留了跨多个基因组位点的稳健编辑，同时将编辑窗口紧密聚焦在位置 5 周围。
-- Abstract: Adenine base editors (ABEs) enable efficient A*T to G*C conversion, but their broad activity windows frequently cause unintended bystander edits. We hypothesized that insertion of a bulky, inert protein domain into the base editor would limit the effective reach of the deaminase, thereby preferentially directing editing to the intended target adenine. Here, we systematically map domain insertion sites within the hig...
-- Summary (fallback): 机器翻译摘要显示：腺嘌呤碱基编辑器 (ABE) 可实现 A*T 到 G*C 的高效转换，但其广泛的活动窗口经常导致意外的旁观者编辑。我们假设将庞大的惰性蛋白质结构域插入碱基编辑器将限制脱氨酶的有效范围，从而优先将编辑定向到预期的目标腺嘌呤。在这里，我们使用结构引导设计和计算推理系统地绘制高活性 TadA8e 腺嘌呤碱基编辑器中的域插入位点。我们发现 TadA8e 接受多个表面位点的结构域插入，总体活性和编辑窗口宽度取决于插入位置而不是结构域身份。令人兴奋的是，在残基 L68 处插入结构域保留了跨多个基因组位点的稳健编辑，同时将编辑窗口紧密聚焦在位置 5 周围。
-- Keywords: domain, base, editing, insertion, adenine
+### 9. [腹侧被盖区乙酰胆碱产生食欲和厌恶的激励动机](https://www.biorxiv.org/content/10.64898/2026.07.09.737546v1)
+- Original title: Ventral tegmental area acetylcholine generates appetitive and aversive incentive motivation
+- Authors: Savatdy, S. G., Ye, L., Serrano Colon, N., Russell, G. A., Miller, S. R. et al.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.07.09.737546
+- 中文摘要: 腹侧被盖区神经元参与奖励学习、动机和运动，但在厌恶行为的调节中也发挥着新兴作用。虽然这些不同的贡献归因于腹侧被盖区神经元的不同投射，但这些神经元如何继承其一系列行为功能仍然悬而未决。腹侧被盖区富含乙酰胆碱受体，并接收来自中脑桥被盖的密集胆碱能输入。虽然已知腹侧被盖区乙酰胆碱释放可以增加多巴胺输出，但我们对需要腹侧被盖区乙酰胆碱释放的情况缺乏了解。我们试图全面概述腹侧被盖区乙酰胆碱信号传导跨价到动机行为的参与。
+- Abstract: Ventral tegmental area neurons participate in reward learning, motivation, and movement but also have an emerging role in the regulation of aversive behaviors. While these diverse contributions have been attributed to distinct projections of ventral tegmental area neurons, it remains unresolved how these neurons inherit their array of behavioral functions. The ventral tegmental area is rich with acetylcholine recept...
+- Summary (fallback): 机器翻译摘要显示：腹侧被盖区神经元参与奖励学习、动机和运动，但在厌恶行为的调节中也发挥着新兴作用。虽然这些不同的贡献归因于腹侧被盖区神经元的不同投射，但这些神经元如何继承其一系列行为功能仍然悬而未决。腹侧被盖区富含乙酰胆碱受体，并接收来自中脑桥被盖的密集胆碱能输入。虽然已知腹侧被盖区乙酰胆碱释放可以增加多巴胺输出，但我们对需要腹侧被盖区乙酰胆碱释放的情况缺乏了解。我们试图全面概述腹侧被盖区乙酰胆碱信号传导跨价到动机行为的参与。
+- Keywords: ventral, tegmental, area, acetylcholine, neurons
 
-### 10. [二次切割驱动的非规范启动将启动编辑扩展到 5 个方向](https://www.biorxiv.org/content/10.1101/2025.05.20.655067v2)
-- Original title: Second-cleavage-driven non-canonical priming expands prime editing in 5 direction
-- Authors: Chen, P.-R., Yuan, X.-Z., Wang, S.-G., Xia, P.-F.
-- Meta: 2026-07-10 | synthetic biology | DOI: 10.1101/2025.05.20.655067
-- 中文摘要: 切割依赖性 CRISPR-Cas 基因编辑依赖于 RNA 引导的 DNA 切割，推动细胞机器整合预期的编辑。然而，CRISPR 核酸酶也可以对已切割的 DNA 链进行第二次切割。然而，这一功能从未被重新用于基因编辑。在这里，我们报告了 Cas9 的第二次切割活性的首次整合，用于精确基因编辑，允许在切口的 5 方向上进行以前不可能的引物编辑。我们阐明了第二切割驱动的途径，该途径引发切口上游的非规范逆转录事件。我们确定了非规范途径和规范途径之间的竞争，可以通过合理设计带有预期编辑的 RNA 模板来调节这种竞争。
-- Abstract: Cleavage-dependent CRISPR-Cas gene editing relies on RNA-guided DNA cleavages that push cellular machinery to incorporate intended edits. Yet, a second cleavage on the already cut DNA strand can also be executed by CRISPR nucleases. This feature, however, has never been repurposed for gene editing. Here, we report the first integration of the second cleavage activity of Cas9 for precision gene editing, allowing prev...
-- Summary (fallback): 机器翻译摘要显示：切割依赖性 CRISPR-Cas 基因编辑依赖于 RNA 引导的 DNA 切割，推动细胞机器整合预期的编辑。然而，CRISPR 核酸酶也可以对已切割的 DNA 链进行第二次切割。然而，这一功能从未被重新用于基因编辑。在这里，我们报告了 Cas9 的第二次切割活性的首次整合，用于精确基因编辑，允许在切口的 5 方向上进行以前不可能的引物编辑。我们阐明了第二切割驱动的途径，该途径引发切口上游的非规范逆转录事件。我们确定了非规范途径和规范途径之间的竞争，可以通过合理设计带有预期编辑的 RNA 模板来调节这种竞争。
-- Keywords: editing, non-canonical, prime, gene, second
+### 10. [以自我为中心的空间支架组织皮质记忆印迹](https://www.biorxiv.org/content/10.64898/2026.07.09.737550v1)
+- Original title: Egocentric spatial scaffolds organize cortical memory engrams
+- Authors: Yeo, Y., Na, W., Kwag, J.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.07.09.737550
+- 中文摘要: 情景记忆需要在记忆的环境中重建自我的位置，但记忆印迹是否以及如何结合自我参考的空间信息仍然未知。使用活动依赖性印迹标记、纵向钙成像和压后皮质的光遗传学扰动，我们发现皮层记忆印迹丰富了自我中心和边界编码神经元，这些神经元编码相对于环境边界的自我位置。纵向成像显示，未来的印迹神经元优先从预先存在的空间支架中招募，而不是在学习过程中从头生成。在记忆检索过程中，支架群体经历了协调的细化，并短暂地重组为支架印迹网络状态，其动态跟踪记忆表达。
+- Abstract: Episodic memory requires reconstructing the position of the self within a remembered environment, yet whether and how memory engrams incorporate self-referenced spatial information remains unknown. Using activity dependent-engram tagging, longitudinal calcium imaging and optogenetic perturbation in the retrosplenial cortex, we found that cortical memory engrams are enriched for egocentric and boundary coding neurons...
+- Summary (fallback): 机器翻译摘要显示：情景记忆需要在记忆的环境中重建自我的位置，但记忆印迹是否以及如何结合自我参考的空间信息仍然未知。使用活动依赖性印迹标记、纵向钙成像和压后皮质的光遗传学扰动，我们发现皮层记忆印迹丰富了自我中心和边界编码神经元，这些神经元编码相对于环境边界的自我位置。纵向成像显示，未来的印迹神经元优先从预先存在的空间支架中招募，而不是在学习过程中从头生成。在记忆检索过程中，支架群体经历了协调的细化，并短暂地重组为支架印迹网络状态，其动态跟踪记忆表达。
+- Keywords: memory, spatial, engrams, neurons, scaffold
 
-### 11. [形态发生的可微分设计 I：模拟与拟像](https://www.biorxiv.org/content/10.64898/2026.07.02.736195v2)
-- Original title: Differentiable Design for Morphogenesis I: Simulation and Simulacra
-- Authors: Beker, O., Dumitrascu, B.
-- Meta: 2026-07-10 | systems biology | DOI: 10.64898/2026.07.02.736195
-- 中文摘要: 细胞通过力和信息的局部交换来构建组织，但很难从稀疏的观察中推断出控制这些相互作用的规则。在这里，我们介绍waxMorph，一个可微分的基于细胞的框架，用于生成和重建三维形态发生。在合成和生物数据中，waxMorph 再现了已建立的机械化学形状程序，从静态组织体积推断出连续轨迹，并恢复了空间组织的潜在信号。在发育中的小鼠心肌数据集中，它比最佳传输插值更准确地重建了未观察到的中间几何形状，而在前肢中，它区分了相关的发育轨迹。通过改变细胞可用的潜在线索的容量和空间组织，waxMorph 还提供了一种基于模型的方法来量化形状组装的复杂性。
-- Abstract: Cells build tissues through local exchanges of force and information, yet the rules governing these interactions are difficult to infer from sparse observations. Here, we introduce waxMorph, a differentiable cell-based framework for generating and reconstructing three-dimensional morphogenesis. In synthetic and biological data, waxMorph reproduced established mechanochemical shape programs, inferred continuous traje...
-- Summary (fallback): 机器翻译摘要显示：细胞通过力和信息的局部交换来构建组织，但很难从稀疏的观察中推断出控制这些相互作用的规则。在这里，我们介绍waxMorph，一个可微分的基于细胞的框架，用于生成和重建三维形态发生。在合成和生物数据中，waxMorph 再现了已建立的机械化学形状程序，从静态组织体积推断出连续轨迹，并恢复了空间组织的潜在信号。在发育中的小鼠心肌数据集中，它比最佳传输插值更准确地重建了未观察到的中间几何形状，而在前肢中，它区分了相关的发育轨迹。通过改变细胞可用的潜在线索的容量和空间组织，waxMorph 还提供了一种基于模型的方法来量化形状组装的复杂性。
-- Keywords: waxmorph, differentiable, morphogenesis, cells, local
+### 11. [成年抑制神经元中钙结合蛋白的上调重新激活小鼠视觉皮层的关键期可塑性](https://www.biorxiv.org/content/10.64898/2026.07.08.737337v1)
+- Original title: Upregulation of Calbindin in Adult Inhibitory Neurons Reactivates Critical Period Plasticity in Mouse Visual Cortex
+- Authors: Nakayama, T., Figueroa-Velez, D., England, W., Miyoshi, E., Hasselmann, J. et al.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.07.08.737337
+- 中文摘要: 关键时期是学习表现达到顶峰的时期，突触可塑性的增强使得青少年大脑回路能够快速、稳健地重组。与成年人的可塑性不同，成人的可塑性需要感官体验的持续、持久的变化，而皮质表征可以在关键时期迅速改变，并产生持久的影响。 GABA 能抑制性神经元的移植已被证明可以通过触发宿主抑制性神经元内的信号变化来恢复受体回路的关键期可塑性。在这里，我们对小鼠初级视觉皮层（V1）中的宿主抑制性神经元进行转录分析，以检测移植诱导的可塑性期间的基因表达变化。对宿主抑制性神经元中差异表达（DE）转录本的基因本体富集分析揭示了突触可塑性和抑制性神经元发育相关的特征。
+- Abstract: Critical periods are windows of peak learning performance where heightened synaptic plasticity enables fast, robust reorganization in juvenile brain circuits. Unlike adult plasticity which requires ongoing, persistent change in sensory experience, cortical representations can be rapidly changed during critical periods and have enduring effects. Transplantation of GABAergic inhibitory neurons has been shown to restor...
+- Summary (fallback): 机器翻译摘要显示：关键时期是学习表现达到顶峰的时期，突触可塑性的增强使得青少年大脑回路能够快速、稳健地重组。与成年人的可塑性不同，成人的可塑性需要感官体验的持续、持久的变化，而皮质表征可以在关键时期迅速改变，并产生持久的影响。 GABA 能抑制性神经元的移植已被证明可以通过触发宿主抑制性神经元内的信号变化来恢复受体回路的关键期可塑性。在这里，我们对小鼠初级视觉皮层（V1）中的宿主抑制性神经元进行转录分析，以检测移植诱导的可塑性期间的基因表达变化。对宿主抑制性神经元中差异表达（DE）转录本的基因本体富集分析揭示了突触可塑性和抑制性神经元发育相关的特征。
+- Keywords: plasticity, inhibitory, neurons, critical, expression
 
-### 12. [mACrob：用于高通量细菌图像分析的开源框架](https://www.biorxiv.org/content/10.1101/2025.10.21.683709v3)
-- Original title: mAIcrobe: an open-source framework for high-throughput bacterial image analysis
-- Authors: Brito, A. D., Alwardt, D., Mariz, B. d. P., Filipe, S. R., Pinho, M. G. et al.
-- Meta: 2026-07-10 | microbiology | DOI: 10.1101/2025.10.21.683709
-- 中文摘要: 细菌显微镜下的定量分析常常受到不同细胞形态、群体异质性以及对专业计算专业知识的需求的阻碍。为了应对这些挑战，引入了 mACrob 作为开源框架，通过集成一套深度学习模型，拓宽了高级细菌图像分析的范围。 maIcrobe 整合了多种分割算法，包括 StarDist、CellPose 和 U-Net，以及全面的形态分析和适应性强的神经网络分类器，所有这些都在 napari 生态系统内。这个统一的平台能够在单一环境中通过各种显微镜模式分析从球形金黄色葡萄球菌到杆状大肠杆菌的各种细菌种类。
-- Abstract: Quantitative analysis in bacterial microscopy is often hindered by diverse cell morphologies, population heterogeneity, and the requirement for specialised computational expertise. To address these challenges, mAIcrobe is introduced as an open-source framework that broadens access to advanced bacterial image analysis by integrating a suite of deep learning models. mAIcrobe incorporates multiple segmentation algorith...
-- Summary (fallback): 机器翻译摘要显示：细菌显微镜下的定量分析常常受到不同细胞形态、群体异质性以及对专业计算专业知识的需求的阻碍。为了应对这些挑战，引入了 mACrob 作为开源框架，通过集成一套深度学习模型，拓宽了高级细菌图像分析的范围。 maIcrobe 整合了多种分割算法，包括 StarDist、CellPose 和 U-Net，以及全面的形态分析和适应性强的神经网络分类器，所有这些都在 napari 生态系统内。这个统一的平台能够在单一环境中通过各种显微镜模式分析从球形金黄色葡萄球菌到杆状大肠杆菌的各种细菌种类。
-- Keywords: maicrobe, bacterial, analysis, image, microscopy
+### 12. [灵活的神经元参与可靠的运动序列](https://www.biorxiv.org/content/10.64898/2026.07.10.737866v1)
+- Original title: Flexible neuronal participation within a reliable motor sequence
+- Authors: Peng, J., Duffy, A., Dippenaar, I., Liu, L., Wu, J. et al.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.07.10.737866
+- 中文摘要: 学习的运动序列的可靠执行提出了一个挑战：它们需要可重复的神经元活动模式来实现行为一致性，但必须保留依赖于内部状态和对外部突发事件的适应的调节灵活性。斑胸草雀是一种鸣鸟，它为研究这个问题提供了一个理想的系统，因为它们的发声是高度刻板的，并且与 HVC 中精确时间锁定的爆发相关，而 HVC 是参与歌曲产生的关键核心。然而，他们的歌曲并不是一成不变的/完全固定的，因为它们可以在社交互动过程中进行调整，并且可以在大脑损伤后恢复。在这里，我们在自由创作歌曲期间使用 HVC 投射神经元的钙成像来跟踪同一首歌曲从几秒到几周的重复演绎中的活动。我们首先确认了歌曲锁定的钙事件时间在几天内是稳定的。
+- Abstract: The reliable execution of learned motor sequences poses a challenge: they require reproducible neuron activity patterns for behavioral consistency yet must retain flexibility for modulation that depend on internal states and adaptation to external contingencies. The zebra finch, a songbird, provides an ideal system to examine this problem because their vocalizations are highly stereotyped and are associated with pre...
+- Summary (fallback): 机器翻译摘要显示：学习的运动序列的可靠执行提出了一个挑战：它们需要可重复的神经元活动模式来实现行为一致性，但必须保留依赖于内部状态和对外部突发事件的适应的调节灵活性。斑胸草雀是一种鸣鸟，它为研究这个问题提供了一个理想的系统，因为它们的发声是高度刻板的，并且与 HVC 中精确时间锁定的爆发相关，而 HVC 是参与歌曲产生的关键核心。然而，他们的歌曲并不是一成不变的/完全固定的，因为它们可以在社交互动过程中进行调整，并且可以在大脑损伤后恢复。在这里，我们在自由创作歌曲期间使用 HVC 投射神经元的钙成像来跟踪同一首歌曲从几秒到几周的重复演绎中的活动。我们首先确认了歌曲锁定的钙事件时间在几天内是稳定的。
+- Keywords: participation, motor, song, stable, songs
 
-### 13. [MYO7A 基因补充或 Myo7b 激活治疗 Usher 综合征 1B](https://www.biorxiv.org/content/10.64898/2026.07.02.736025v1)
-- Original title: Gene Supplementation of MYO7A or activation of Myo7b for treatment of Usher syndrome 1B
-- Authors: Mittas, D. M., Otify, D. Y., Gavrilov, Z., Heigl, T., Suchomski, J. et al.
-- Meta: 2026-07-10 | molecular biology | DOI: 10.64898/2026.07.02.736025
-- 中文摘要: MYO7A 突变会导致最严重的亚瑟氏综合症亚型，这是导致耳聋盲的主要遗传原因。 MYO7A 的大尺寸需要双腺相关病毒 (AAV) 载体进行基因转移或治疗视网膜缺陷的替代方法。在这里，我们评估了两种治疗方法：i) 通过双 mRNA 反式剪接 AAV 补充人类 MYO7A 基因，以及 ii) CRISPR/Cas 介导的相关小鼠 Myo7b 基因的激活。补充 MYO7A 后，转基因 MYO7A 转录物和蛋白质在小鼠、猪和人视网膜类器官的视网膜色素上皮 (RPE) 和光感受器中表达并正确定位。在 RPE 和光感受器特异性 Myo7a 敲除小鼠中，我们可以将 RPE 细胞中 MYO7A 的表达和黑素体的定位恢复到野生型水平。
-- Abstract: Mutations in MYO7A result in the most severe subtype of Usher syndrome, the leading genetic cause of deafblindness. The large size of MYO7A requires dual adeno-associated virus (AAV) vectors for gene transfer or alternative methods to treat retinal defects. Here, we evaluated two treatment approaches: i) Supplementation of the human MYO7A gene via dual mRNA trans-splicing AAVs, and ii) CRISPR/Cas-mediated activation...
-- Summary (fallback): 机器翻译摘要显示：MYO7A 突变会导致最严重的亚瑟氏综合症亚型，这是导致耳聋盲的主要遗传原因。 MYO7A 的大尺寸需要双腺相关病毒 (AAV) 载体进行基因转移或治疗视网膜缺陷的替代方法。在这里，我们评估了两种治疗方法：i) 通过双 mRNA 反式剪接 AAV 补充人类 MYO7A 基因，以及 ii) CRISPR/Cas 介导的相关小鼠 Myo7b 基因的激活。补充 MYO7A 后，转基因 MYO7A 转录物和蛋白质在小鼠、猪和人视网膜类器官的视网膜色素上皮 (RPE) 和光感受器中表达并正确定位。在 RPE 和光感受器特异性 Myo7a 敲除小鼠中，我们可以将 RPE 细胞中 MYO7A 的表达和黑素体的定位恢复到野生型水平。
-- Keywords: myo7a, gene, myo7b, supplementation, activation
+### 13. [MEG 信息导航 TMS 用于个性化语音皮质映射](https://www.biorxiv.org/content/10.64898/2026.07.10.737657v1)
+- Original title: MEG-informed navigated TMS for individualized speech cortical mapping
+- Authors: Autti, S., Korkealaakso, S., Gogulski, J., Engelhardt, M., Vaalto, S. et al.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.07.10.737657
+- 中文摘要: 通过导航重复经颅磁刺激 (SCM nrTMS) 进行语音皮质映射，为神经外科医生提供有关个体皮质语音网络的非侵入性先验信息。需要个性化映射，因为语音产生的确切位置和激活模式显示出个体之间的高度可变性。我们假设，个人言语产生的脑磁图 (MEG) 数据可以在时间和空间上指导 SCM TMS 过程，从而导致在 MEG 定义的位置（TMS 脉冲时序与 MEG 活动一致）出现更高的错误率。 13 名健康受试者参与了 MEG 和 TMS 测量，其中 TMS 脉冲的时间（PTI；图片到 TMS 间隔）根据个人在图片命名任务中的 MEG 激活进行调整。
+- Abstract: Speech cortical mapping by means of navigated repetitive transcranial magnetic stimulation (SCM nrTMS) provides neurosurgeons with noninvasive prior information about individual's cortical speech network. Individualized mapping is required, since the exact locations and activation patterns of speech production show high variability between individuals. We hypothesized that magnetoencephalography (MEG) data of an ind...
+- Summary (fallback): 机器翻译摘要显示：通过导航重复经颅磁刺激 (SCM nrTMS) 进行语音皮质映射，为神经外科医生提供有关个体皮质语音网络的非侵入性先验信息。需要个性化映射，因为语音产生的确切位置和激活模式显示出个体之间的高度可变性。我们假设，个人言语产生的脑磁图 (MEG) 数据可以在时间和空间上指导 SCM TMS 过程，从而导致在 MEG 定义的位置（TMS 脉冲时序与 MEG 活动一致）出现更高的错误率。 13 名健康受试者参与了 MEG 和 TMS 测量，其中 TMS 脉冲的时间（PTI；图片到 TMS 间隔）根据个人在图片命名任务中的 MEG 激活进行调整。
+- Keywords: speech, individual, activation, error, cortical
 
-### 14. [挥发性二乙酰通过 DHAP-甘油分流诱导触发快速 fmo-2 表达](https://www.biorxiv.org/content/10.64898/2026.07.01.735788v1)
-- Original title: Volatile diacetyl triggers rapid fmo-2 expression through DHAP-glycerol shunt induction
-- Authors: Giorda, M., Sen, A., Denzel, M. S.
-- Meta: 2026-07-10 | molecular biology | DOI: 10.64898/2026.07.01.735788
-- 中文摘要: 秀丽隐杆线虫可以通过感知细菌衍生的挥发物来定位短暂的食物来源。然而，这些嗅觉线索是否也能触发预期的营养反应程序仍然未知。利用无偏见的转录组学和代谢组学，我们发现禁食蠕虫暴露于挥发性食物线索二乙酰快速诱导 DHAP-甘油分流中酶的表达，DHAP-甘油分流是糖酵解和甘油脂生物合成交叉点的代谢途径。我们证明，这条已知被糖毒性和高渗应激激活的途径也受到食物供应的调节。分流诱导需要 MDT-15 转录因子并驱动快速代谢重塑，其特征是甘油和磷脂酰甘油的积累。
-- Abstract: C. elegans can locate ephemeral food sources by sensing bacterially-derived volatiles. However, whether these olfactory cues can also trigger anticipatory nutrient-responsive programs remains unknown. Using unbiased transcriptomics and metabolomics, we discover that fasting worms exposed to the volatile food cue diacetyl rapidly induce expression of enzymes in the DHAP-Glycerol shunt, a metabolic pathway at the inte...
-- Summary (fallback): 机器翻译摘要显示：秀丽隐杆线虫可以通过感知细菌衍生的挥发物来定位短暂的食物来源。然而，这些嗅觉线索是否也能触发预期的营养反应程序仍然未知。利用无偏见的转录组学和代谢组学，我们发现禁食蠕虫暴露于挥发性食物线索二乙酰快速诱导 DHAP-甘油分流中酶的表达，DHAP-甘油分流是糖酵解和甘油脂生物合成交叉点的代谢途径。我们证明，这条已知被糖毒性和高渗应激激活的途径也受到食物供应的调节。分流诱导需要 MDT-15 转录因子并驱动快速代谢重塑，其特征是甘油和磷脂酰甘油的积累。
-- Keywords: expression, shunt, food, volatile, diacetyl
+### 14. [注意力重塑丘脑和皮质预测误差学习的信息动态](https://www.biorxiv.org/content/10.64898/2026.07.10.737794v1)
+- Original title: Attention reshapes the information dynamics of thalamic and cortical prediction-error learning
+- Authors: Aijala, J., Jensen, M. A., Miller, K. J., Hermes, D., Blenkmann, A. O. et al.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.07.10.737794
+- 中文摘要: 预测误差（PE）通过更新感觉环境的内部模型来驱动感知学习，但目前尚不清楚注意力如何在分布式丘脑皮质回路中重塑它们的表征。使用 17 名患者的颅内立体脑电图 (sEEG)，在有人值守和无人值守的条件下执行巡回听觉奇怪任务，我们使用互信息和共信息来量化 PE 编码，以捕获冗余和协同的 PE 表示。丘脑和颞叶皮层中的注意力调节 PE 编码，但具有不同的信息动态。丘脑编码显示在注意力分散期间 PE 信息稳定减少，这与状态依赖性丘脑皮质门控一致。
+- Abstract: Prediction errors (PEs) drive perceptual learning by updating internal models of the sensory environment, yet it remains unclear how attention reshapes their representation across distributed thalamocortical circuits. Using intracranial stereoelectroencephalography (sEEG) from 17 patients performing a roving auditory oddball task under attended and unattended conditions, we quantified PE encoding using mutual inform...
+- Summary (fallback): 机器翻译摘要显示：预测误差（PE）通过更新感觉环境的内部模型来驱动感知学习，但目前尚不清楚注意力如何在分布式丘脑皮质回路中重塑它们的表征。使用 17 名患者的颅内立体脑电图 (sEEG)，在有人值守和无人值守的条件下执行巡回听觉奇怪任务，我们使用互信息和共信息来量化 PE 编码，以捕获冗余和协同的 PE 表示。丘脑和颞叶皮层中的注意力调节 PE 编码，但具有不同的信息动态。丘脑编码显示在注意力分散期间 PE 信息稳定减少，这与状态依赖性丘脑皮质门控一致。
+- Keywords: attention, learning, information, dynamics, cortical
 
-### 15. [酸中毒引发的脂肪酸超载会导致内皮细胞功能障碍。](https://www.biorxiv.org/content/10.64898/2026.07.09.737452v1)
-- Original title: Acidosis-triggered fatty acid overload induces endothelial cell dysfunction.
-- Authors: Al-Siyabi, S., Ibanez, S., Serafimov, K., Lallement, J., Marchand, D. et al.
-- Meta: 2026-07-10 | cell biology | DOI: 10.64898/2026.07.09.737452
-- 中文摘要: 血管缺血的特征不仅是缺氧，还包括酸中毒，由于糖酵解产生的 H+ 增加和 H+ 清除不足，酸中毒会影响内皮细胞 (EC)。我们最近证明，酸性环境有利于非离子形式的脂肪酸（FA）跨癌细胞质膜的翻转运输。在这项研究中，我们研究了酸中毒如何影响高糖酵解 EC 管理 FA 的能力并参与内皮功能障碍。我们首先使用油红 O 染色和全息显微镜追踪脂滴 (LD) 的形成。纯化的单不饱和油酸酯以及反映体内血清成分的 FA 混合物，通过 FA 转运蛋白独立机制导致剂量和时间依赖性 LD 积累。
-- Abstract: Vascular ischemia is characterized not only by hypoxia but also by acidosis, which affects endothelial cells (ECs) due to increased H+ production from glycolysis and a deficit in H+ washout. We recently documented that an acidic environment facilitates the flip-flop transport of the non-ionized form of fatty acids (FAs) across the plasma membrane of cancer cells. In this study, we investigated how acidosis influence...
-- Summary (fallback): 机器翻译摘要显示：血管缺血的特征不仅是缺氧，还包括酸中毒，由于糖酵解产生的 H+ 增加和 H+ 清除不足，酸中毒会影响内皮细胞 (EC)。我们最近证明，酸性环境有利于非离子形式的脂肪酸（FA）跨癌细胞质膜的翻转运输。在这项研究中，我们研究了酸中毒如何影响高糖酵解 EC 管理 FA 的能力并参与内皮功能障碍。我们首先使用油红 O 染色和全息显微镜追踪脂滴 (LD) 的形成。纯化的单不饱和油酸酯以及反映体内血清成分的 FA 混合物，通过 FA 转运蛋白独立机制导致剂量和时间依赖性 LD 积累。
-- Keywords: endothelial, dysfunction, acidosis, which, levels
+### 15. [对神经音乐处理的自上而下的影响：偏好、享受和熟悉程度以不同方式影响神经跟踪和大脑节律](https://www.biorxiv.org/content/10.64898/2026.07.10.737714v1)
+- Original title: Top-down influences on neural music processing: preference, enjoyment and familiarity influence neural tracking and brain rhythms differently
+- Authors: Varjopuro, S. M., Timmerman, R. H., Atanasova, T., Allen, S. C., Koukouvinis, S. et al.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.07.10.737714
+- 中文摘要: 音乐享受和熟悉程度密切相关，但在神经音乐处理的研究中经常混淆。在这里，我们使用脑电图（EEG）研究了它们对皮质振荡活动和音乐神经跟踪的独特贡献。三十二名参与者听了自选的一直以来最喜欢的歌曲、最近最喜欢的歌曲以及不喜欢的类型中节奏匹配的歌曲。这种新颖的范式通过包含熟悉度不同的高度欣赏的歌曲，将熟悉度与享受分离。使用具有享受度和熟悉度评级的线性混合效应模型来分析光谱功率和皮质跟踪（使用互信息）。熟悉感与左额叶 α 功率增加有关，而享受则预示着 θ 和 β 功率增加，这表明这些维度具有独特的振荡特征。
+- Abstract: Music enjoyment and familiarity are closely related but often confounded in studies of neural music processing. Here, we investigated their distinct contributions to cortical oscillatory activity and neural tracking of music using electroencephalography (EEG). Thirty-two participants listened to self-selected all-time favourite songs, recent favourite songs, and tempo-matched songs from disliked genres. This novel p...
+- Summary (fallback): 机器翻译摘要显示：音乐享受和熟悉程度密切相关，但在神经音乐处理的研究中经常混淆。在这里，我们使用脑电图（EEG）研究了它们对皮质振荡活动和音乐神经跟踪的独特贡献。三十二名参与者听了自选的一直以来最喜欢的歌曲、最近最喜欢的歌曲以及不喜欢的类型中节奏匹配的歌曲。这种新颖的范式通过包含熟悉度不同的高度欣赏的歌曲，将熟悉度与享受分离。使用具有享受度和熟悉度评级的线性混合效应模型来分析光谱功率和皮质跟踪（使用互信息）。熟悉感与左额叶 α 功率增加有关，而享受则预示着 θ 和 β 功率增加，这表明这些维度具有独特的振荡特征。
+- Keywords: enjoyment, music, familiarity, neural, songs
 
-### 16. [ECD 的新型 RNA 结合活性有助于 U5 snRNP 稳定性和前 mRNA 剪接](https://www.biorxiv.org/content/10.1101/2025.01.24.634785v4)
-- Original title: A novel RNA-binding activity of ECD contributes to U5 snRNP stability and pre-mRNA splicing
-- Authors: Raza, M., Rajan, A. R., Kalluchi, A., Mohapatra, B., Saleem, I. et al.
-- Meta: 2026-07-10 | cell biology | DOI: 10.1101/2025.01.24.634785
-- 中文摘要: 人类无蜕皮激素蛋白（ECD）在调节细胞周期进程和细胞存活中发挥着重要作用。 ECD 先前已通过其与剪接体蛋白的关联而参与 RNA 剪接。在这里，我们使用 EMSA、荧光偏振测定和突变分析证明 ECD 直接与 RNA 结合。增强的 CLIP-seq 分析鉴定了细胞中与 ECD 结合的广泛 mRNA。 RNA-seq 分析表明，ECD 缺失会导致广泛的剪接畸变和基因表达改变。 ECD 与 RNA 的结合在剪接位点附近富集，并且 ECD 结合转录物的很大一部分在 ECD 耗尽时表现出剪接缺陷。 ECD 与 U5 snRNP 复合物特异性蛋白结合并稳定其。
-- Abstract: Human ecdysoneless protein (ECD) plays an essential role in regulating cell cycle progression and cell survival. ECD has previously been implicated in RNA splicing through its association with spliceosomal proteins. Here, using EMSA, fluorescence polarization assays, and mutational analysis, we demonstrate that ECD directly binds to RNA. Enhanced CLIP-seq analysis identified a broad repertoire of mRNAs bound to ECD...
-- Summary (fallback): 机器翻译摘要显示：人类无蜕皮激素蛋白（ECD）在调节细胞周期进程和细胞存活中发挥着重要作用。 ECD 先前已通过其与剪接体蛋白的关联而参与 RNA 剪接。在这里，我们使用 EMSA、荧光偏振测定和突变分析证明 ECD 直接与 RNA 结合。增强的 CLIP-seq 分析鉴定了细胞中与 ECD 结合的广泛 mRNA。 RNA-seq 分析表明，ECD 缺失会导致广泛的剪接畸变和基因表达改变。 ECD 与 RNA 的结合在剪接位点附近富集，并且 ECD 结合转录物的很大一部分在 ECD 耗尽时表现出剪接缺陷。 ECD 与 U5 snRNP 复合物特异性蛋白结合并稳定其。
-- Keywords: proteins, splicing, depletion, highwire, dtlvardef
+### 16. [运动信号调节皮层但不调节皮层下对自发声音的处理](https://www.biorxiv.org/content/10.64898/2026.07.10.737812v1)
+- Original title: Motor signals modulate cortical but not subcortical processing of self-initiated sounds
+- Authors: Raiff, L., Butler, G., McFarlane, K., Chandrasekaran, B., Sitek, K. R.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.07.10.737812
+- 中文摘要: 当我们自己发出声音时，大脑会通过输出复制机制调节听觉神经反应，使我们能够区分自发的听觉输入和外部产生的听觉输入。然而，这种衰减发生的听觉通路的精确水平仍不清楚。虽然来自动物模型的证据表明，自生声音的早期听觉处理可能受到皮质信号传导的调节，但局部皮质调节将保留高保真皮质下声音编码，同时允许在更高级别进行灵活的、依赖于上下文的处理。为了探究早期听觉系统中潜在的运动影响，我们使用 170 毫秒的语音刺激，收集了 33 名听力正常的成年人在主动（自发）和被动（外部呈现）聆听条件下头皮记录的频率跟随反应 (FFR)。
+- Abstract: When we produce sounds ourselves, the brain modulates the auditory neural response through an efference copy mechanism, allowing us to distinguish between self-initiated and externally generated auditory inputs. However, the precise level of the auditory pathway at which this attenuation occurs remains unclear. While evidence from animal models suggests that early auditory processing of self-generated sounds may be...
+- Summary (fallback): 机器翻译摘要显示：当我们自己发出声音时，大脑会通过输出复制机制调节听觉神经反应，使我们能够区分自发的听觉输入和外部产生的听觉输入。然而，这种衰减发生的听觉通路的精确水平仍不清楚。虽然来自动物模型的证据表明，自生声音的早期听觉处理可能受到皮质信号传导的调节，但局部皮质调节将保留高保真皮质下声音编码，同时允许在更高级别进行灵活的、依赖于上下文的处理。为了探究早期听觉系统中潜在的运动影响，我们使用 170 毫秒的语音刺激，收集了 33 名听力正常的成年人在主动（自发）和被动（外部呈现）聆听条件下头皮记录的频率跟随反应 (FFR)。
+- Keywords: auditory, motor, cortical, processing, self-initiated
 
-### 17. [细胞类型特异性 ATF6α 程序在生理和暴露加速的肺衰老过程中调节上皮线粒体稳态和周细胞重塑](https://www.biorxiv.org/content/10.64898/2026.07.09.737329v1)
-- Original title: Cell-type-specific ATF6α programs regulate epithelial mitochondrial homeostasis and pericyte remodeling during physiological and exposure-accelerated lung aging
-- Authors: Huang, X., Bard, J. E., Tumenbayar, B.-I., Vedagiri, K., Nelson, C. E. et al.
-- Meta: 2026-07-10 | cell biology | DOI: 10.64898/2026.07.09.737329
-- 中文摘要: 蛋白质稳态随着肺衰老而下降，而未折叠蛋白反应（UPR）在肺衰老和年龄相关肺部疾病中的作用仍未得到充分研究。我们研究了 UPR 传感器 ATF6 的缺陷如何影响生理和烟雾暴露加速的肺部衰老。 ATF6缺陷的小鼠表现出肺泡简化加速，这是肺实质老化的标志，吸烟会加剧这种老化。然而，小气道血管纤维化重塑（一种主要的吸烟引起的病理学）在暴露于烟雾的 ATF6 缺陷小鼠中并不明显。从机制上讲，这些不同的表型源于细胞类型特异性的 ATF6 程序。在 2 型肺泡上皮细胞 (AEC2s)（肺实质的兼性祖细胞）中，ATF6 维持线粒体生物能并持续有效地再分化为 1 型肺泡上皮细胞 (AEC1s)。
-- Abstract: Proteostasis declines with lung aging, while the role of the Unfolded Protein Response (UPR) in lung aging and age-associated pulmonary diseases remains understudied. We investigated how deficiency in the UPR sensor ATF6 affects physiological and smoke exposure-accelerated lung aging. ATF6 -deficient mice exhibited accelerated alveolar simplification, a sign of lung parenchymal aging, which was exacerbated by smokin...
-- Summary (fallback): 机器翻译摘要显示：蛋白质稳态随着肺衰老而下降，而未折叠蛋白反应（UPR）在肺衰老和年龄相关肺部疾病中的作用仍未得到充分研究。我们研究了 UPR 传感器 ATF6 的缺陷如何影响生理和烟雾暴露加速的肺部衰老。 ATF6缺陷的小鼠表现出肺泡简化加速，这是肺实质老化的标志，吸烟会加剧这种老化。然而，小气道血管纤维化重塑（一种主要的吸烟引起的病理学）在暴露于烟雾的 ATF6 缺陷小鼠中并不明显。从机制上讲，这些不同的表型源于细胞类型特异性的 ATF6 程序。在 2 型肺泡上皮细胞 (AEC2s)（肺实质的兼性祖细胞）中，ATF6 维持线粒体生物能并持续有效地再分化为 1 型肺泡上皮细胞 (AEC1s)。
-- Keywords: atf6, lung, aging, cell-type-specific, programs
+### 17. [母亲分离重新调整前额叶线粒体功能并防止压力引起的负面认知偏差](https://www.biorxiv.org/content/10.64898/2026.07.08.737201v1)
+- Original title: Maternal separation recalibrates prefrontal mitochondrial function and protects against stress-induced negative cognitive bias
+- Authors: Stupart, O., Marti-Prats, L., Holzner, L. M. W., Ibegbulam, S., Milton, A. L. et al.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.07.08.737201
+- 中文摘要: 模糊性代表了一种不确定性，其中结果概率无法明确学习，决策依赖于情绪状态和认知偏差。早期生活压力（ELS）会增加不良心理和身体健康结果的风险，并改变情感处理和学习。因此，ELS 可能会影响模糊信息的处理方式，这可能取决于与成年压力 (AS) 的相互作用，并在机制上取决于前额皮质 (PFC) 内自上而下的认知控制系统介导的生物能量机制。本研究调查了暴露于早期母体分离（MS）的大鼠（ELS 的啮齿动物模型）中 AS 对评估认知偏差的任务的影响，以及可能伴随的 PFC 线粒体功能的改变。
+- Abstract: Ambiguity represents a form of uncertainty in which outcome probabilities cannot be explicitly learned, making decisions dependent on emotional states and cognitive biases. Early-life stress (ELS) increases the risk of adverse mental and physical health outcomes and alters affective processing and learning. ELS may thus affect how ambiguous information is processed, which may depend on interactions with adulthood st...
+- Summary (fallback): 机器翻译摘要显示：模糊性代表了一种不确定性，其中结果概率无法明确学习，决策依赖于情绪状态和认知偏差。早期生活压力（ELS）会增加不良心理和身体健康结果的风险，并改变情感处理和学习。因此，ELS 可能会影响模糊信息的处理方式，这可能取决于与成年压力 (AS) 的相互作用，并在机制上取决于前额皮质 (PFC) 内自上而下的认知控制系统介导的生物能量机制。本研究调查了暴露于早期母体分离（MS）的大鼠（ELS 的啮齿动物模型）中 AS 对评估认知偏差的任务的影响，以及可能伴随的 PFC 线粒体功能的改变。
+- Keywords: cognitive, bias, stress, mitochondrial, control
 
-### 18. [二氯乙酸可改善丙酮酸脱氢酶复合物缺乏症 (PDCD) 线虫 pdha-1 和 dld-1 RNAi 模型中的动物存活、生长、神经肌肉活动、线粒体应激和生理机能，并提高乳酸水平](https://www.biorxiv.org/content/10.64898/2026.07.08.737008v1)
-- Original title: Dichloroacetate improves animal survival, growth, neuromuscular activity, mitochondrial stress and physiology, and elevated lactate in C. elegans pdha-1 and dld-1 RNAi models of pyruvate dehydrogenase complex deficiency (PDCD)
-- Authors: Remes, C., Mathew, N. D., Miranda, V., Haroon, S., O'Hara, T. et al.
-- Meta: 2026-07-10 | cell biology | DOI: 10.64898/2026.07.08.737008
-- 中文摘要: 丙酮酸脱氢酶复合物 (PDHc) 缺乏症 (PDCD) 是一种原发性线粒体疾病，其特征是神经发育障碍、中间代谢改变和早期死亡。二氯乙酸 (DCA) 是一种丙酮酸类似物，是一种广为人知的 PDHc 激活剂，目前仍在临床研究中用于治疗 PDCD。在这里，我们研究了 DCA 5 点对数浓度范围对线虫动物健康和代谢的体内功效，通过分级程度地敲低 PDHA-1 或 DLD-1 同源物的 RNA 干扰 (RNAi) 表达来模拟不同疾病的严重程度。这些蠕虫模型概括了在人类患者中观察到的 PDCD 表型特征，包括存活率降低、生长延迟、运动障碍以及乳酸和/或丙酮酸组织水平升高。
-- Abstract: Pyruvate dehydrogenase complex (PDHc) deficiency (PDCD) is a primary mitochondrial disorder characterized by neurodevelopmental disability, altered intermediary metabolism and early mortality. Dichloroacetate (DCA), a pyruvate analogue, is a well-described PDHc activator that remains under clinical investigation for treatment of PDCD. Here, we studied the in vivo efficacy of a 5-point log concentration range of DCA...
-- Summary (fallback): 机器翻译摘要显示：丙酮酸脱氢酶复合物 (PDHc) 缺乏症 (PDCD) 是一种原发性线粒体疾病，其特征是神经发育障碍、中间代谢改变和早期死亡。二氯乙酸 (DCA) 是一种丙酮酸类似物，是一种广为人知的 PDHc 激活剂，目前仍在临床研究中用于治疗 PDCD。在这里，我们研究了 DCA 5 点对数浓度范围对线虫动物健康和代谢的体内功效，通过分级程度地敲低 PDHA-1 或 DLD-1 同源物的 RNA 干扰 (RNAi) 表达来模拟不同疾病的严重程度。这些蠕虫模型概括了在人类患者中观察到的 PDCD 表型特征，包括存活率降低、生长延迟、运动障碍以及乳酸和/或丙酮酸组织水平升高。
-- Keywords: rnai, dld-1, survival, mitochondrial, physiology
+### 18. [尖孢镰刀菌角膜炎分离株 MRL8996 的近乎完整的基因组组装](https://www.biorxiv.org/content/10.64898/2026.07.06.736765v2)
+- Original title: A near-complete genome assembly of the Fusarium oxysporum keratitis isolate MRL8996
+- Authors: Doddi, A., Puebla-Planas, G., Lopez-Berges, M. S., Di Pietro, A.
+- Meta: 2026-07-11 | genomics | DOI: 10.64898/2026.07.06.736765
+- 中文摘要: 尖孢镰刀菌 MRL8996 是从严重的隐形眼镜相关性角膜炎病例中分离出来的真菌菌株。在这里，我们使用混合纳米孔和 Hi-C 支架方法报告了该分离株近乎完整的基因组组装。该组装将基因组分解为 16 条不同的染色体，包括 11 条核心染色体和 5 条谱系特异性染色体。这种高质量的参考基因组为研究这种高度通用的真菌谱系的大规模结构变异和驱动适应的进化机制提供了前所未有的工具。
+- Abstract: Fusarium oxysporum MRL8996 is a fungal strain isolated from a severe case of contact lens-associated keratitis. Here we report a near-complete genome assembly of this isolate using a hybrid Nanopore and Hi-C scaffolding approach. The assembly resolves the genome into 16 distinct chromosomes, including 11 core and 5 lineage-specific chromosomes. This high-quality reference genome provides an unprecedented tool for in...
+- Summary (fallback): 机器翻译摘要显示：尖孢镰刀菌 MRL8996 是从严重的隐形眼镜相关性角膜炎病例中分离出来的真菌菌株。在这里，我们使用混合纳米孔和 Hi-C 支架方法报告了该分离株近乎完整的基因组组装。该组装将基因组分解为 16 条不同的染色体，包括 11 条核心染色体和 5 条谱系特异性染色体。这种高质量的参考基因组为研究这种高度通用的真菌谱系的大规模结构变异和驱动适应的进化机制提供了前所未有的工具。
+- Keywords: genome, assembly, near-complete, fusarium, oxysporum
 
-### 19. [TIAM1 在中心粒组装和自溶酶体循环界面的功能](https://www.biorxiv.org/content/10.64898/2026.07.02.735969v1)
-- Original title: Functions of TIAM1 at the interface of centriole assembly and autolysosome cycling
-- Authors: Coelho, P. A., Yu, C., Glover, D. M.
-- Meta: 2026-07-10 | cell biology | DOI: 10.64898/2026.07.02.735969
-- 中文摘要: 中心体扩增通常与染色体不稳定和肿瘤进展相关，但细胞如何协调中心体组装与中心体数量和质量的控制仍知之甚少。 TIAM1 是一种 RAC1 鸟嘌呤核苷酸交换因子，之前与中心体相关信号传导和 PLK4 丰度的 {β}TrCP 依赖性控制有关。在这里，我们研究了 Tiam1 如何调节诱导过度表达 PLK4 的小鼠胚胎成纤维细胞中的自噬-溶酶体稳态。与之前的 Tiam1 丢失促进生产性中心粒过度复制的模型相反，我们通过超分辨率成像和扩展显微镜发现，TIAM1 耗尽后 PLK4 在中心粒相关结构上的异常分布，表明 TIAM1 可能支持中心粒的组织或成熟。
-- Abstract: Centrosome amplification is frequently associated with chromosomal instability and tumor progression, but how cells coordinate centriole assembly with the control of centrosome numbers and quality remains poorly understood. TIAM1 is a RAC1 guanine nucleotide exchange factor previously implicated in centrosome-associated signaling and {beta}TrCP-dependent control of PLK4 abundance. Here, we examined how Tiam1 regulat...
-- Summary (fallback): 机器翻译摘要显示：中心体扩增通常与染色体不稳定和肿瘤进展相关，但细胞如何协调中心体组装与中心体数量和质量的控制仍知之甚少。 TIAM1 是一种 RAC1 鸟嘌呤核苷酸交换因子，之前与中心体相关信号传导和 PLK4 丰度的 {β}TrCP 依赖性控制有关。在这里，我们研究了 Tiam1 如何调节诱导过度表达 PLK4 的小鼠胚胎成纤维细胞中的自噬-溶酶体稳态。与之前的 Tiam1 丢失促进生产性中心粒过度复制的模型相反，我们通过超分辨率成像和扩展显微镜发现，TIAM1 耗尽后 PLK4 在中心粒相关结构上的异常分布，表明 TIAM1 可能支持中心粒的组织或成熟。
-- Keywords: tiam1, centriole, assembly, centrosome, plk4
+### 19. [SMaHT 网络体细胞突变检测的综合基准测试](https://www.biorxiv.org/content/10.1101/2025.10.09.678885v2)
+- Original title: Comprehensive benchmarking of somatic mutation detection by the SMaHT Network
+- Authors: The Somatic Mosaicism across Human Tissues Network (SMaHT),, Abyzov, A.
+- Meta: 2026-07-11 | genomics | DOI: 10.1101/2025.10.09.678885
+- 中文摘要: 体细胞嵌合越来越被认为是人类生物学的基本特征，但体细胞突变的检测仍然具有挑战性。 SMaHT 网络进行了四次涉及细胞系和供体组织的大规模基准实验，以评估用于检测不同类型体细胞突变的测序技术、实验方法和计算方法，为九个分析样本中的每一个样本生成具有 >1,000X 短读长和 100-400X 长读长数据的社区资源。我们确定了利用短读长和长读长测序进行突变检测的有效策略，并证明使用供体特异性组装和人类泛基因组可以改善识别，将突变目录扩展到具有挑战性的基因组区域。
+- Abstract: Somatic mosaicism is increasingly recognized as a fundamental feature of human biology, yet the detection of somatic mutations remains challenging. The SMaHT Network conducted four large-scale benchmarking experiments involving cell-lines and donor tissues, to evaluate sequencing technologies, experimental approaches, and computational methods for detecting different types of somatic mutations, generating community...
+- Summary (fallback): 机器翻译摘要显示：体细胞嵌合越来越被认为是人类生物学的基本特征，但体细胞突变的检测仍然具有挑战性。 SMaHT 网络进行了四次涉及细胞系和供体组织的大规模基准实验，以评估用于检测不同类型体细胞突变的测序技术、实验方法和计算方法，为九个分析样本中的每一个样本生成具有 >1,000X 短读长和 100-400X 长读长数据的社区资源。我们确定了利用短读长和长读长测序进行突变检测的有效策略，并证明使用供体特异性组装和人类泛基因组可以改善识别，将突变目录扩展到具有挑战性的基因组区域。
+- Keywords: somatic, mutation, detection, sequencing, comprehensive
 
-### 20. [分泌途径的乙酰化依赖性重塑塑造了衰老相关的分泌组](https://www.biorxiv.org/content/10.64898/2026.06.23.733964v2)
-- Original title: Acetylation-dependent remodeling of the secretory pathway shapes the senescence-associated secretome
-- Authors: Nasrashvili, T., Emini, B., Cirri, E., Rahnis, N., Poempner, N. et al.
-- Meta: 2026-07-10 | cell biology | DOI: 10.64898/2026.06.23.733964
-- 中文摘要: 细胞衰老的特征是稳定的细胞周期停滞和衰老相关的分泌表型（SASP），这会驱动组织重塑和炎症。 SASP 细胞因子和其他分泌蛋白分泌增加，其背后是分泌途径的大规模重组。虽然衰老的转录调控已被广泛研究，但翻译后修饰 (PTM) 对分泌途径调控的贡献仍知之甚少。在这里，我们将定量蛋白质组学与磷酸化、泛素化和乙酰化的多层 PTM 分析相结合，以研究衰老过程中细胞内运输和分泌的调节方式。
-- Abstract: Cellular senescence is characterized by stable cell cycle arrest and the senescence-associated secretory phenotype (SASP), which drives tissue remodeling and inflammation. Underlying SASP with its increased secretion of cytokines and other secreted proteins is a massive reorganization of the secretory pathway. While transcriptional regulation of senescence has been extensively studied, the contribution of post-trans...
-- Summary (fallback): 机器翻译摘要显示：细胞衰老的特征是稳定的细胞周期停滞和衰老相关的分泌表型（SASP），这会驱动组织重塑和炎症。 SASP 细胞因子和其他分泌蛋白分泌增加，其背后是分泌途径的大规模重组。虽然衰老的转录调控已被广泛研究，但翻译后修饰 (PTM) 对分泌途径调控的贡献仍知之甚少。在这里，我们将定量蛋白质组学与磷酸化、泛素化和乙酰化的多层 PTM 分析相结合，以研究衰老过程中细胞内运输和分泌的调节方式。
-- Keywords: senescence, secretory, senescence-associated, remodeling, pathway
+### 20. [多重扰动细胞的联合分析提高了 Perturb-seq 中的统计能力和成本效率](https://www.biorxiv.org/content/10.64898/2026.07.10.737863v1)
+- Original title: Joint analysis of multiply perturbed cells improves statistical power and cost efficiency in Perturb-seq
+- Authors: Yeung, J., Tan, J., Wang, L., Wu, D., Melo Carlos, S. et al.
+- Meta: 2026-07-11 | genomics | DOI: 10.64898/2026.07.10.737863
+- 中文摘要: Perturb-seq 大规模测量对遗传扰动的转录组反应，但富集每个细胞一种指导 RNA 的传统设计仍然是资源密集型的。标准分析丢弃携带多个指导的细胞，进一步限制了每个实验的可用产量。在这里，我们描述了合并这些引导多重态如何影响信号恢复、信息丢失和成本降低。在最高的指导负担下，细胞表现出更大的压力并抑制细胞周期进程。我们开发了 PerturbMatch，这是一个可扩展的统计框架，用于分析引导多重态。在不同类别的引导多重态中，双态和三态比高阶多重态更准确地恢复微扰响应。
+- Abstract: Perturb-seq measures transcriptomic responses to genetic perturbations at scale, but conventional designs that enrich for one guide RNA per cell remain resource-intensive. Standard analyses discard cells carrying multiple guides, further limiting the usable yield from each experiment. Here, we characterize how incorporating these guide multiplets affects signal recovery, information loss, and cost reduction. At the...
+- Summary (fallback): 机器翻译摘要显示：Perturb-seq 大规模测量对遗传扰动的转录组反应，但富集每个细胞一种指导 RNA 的传统设计仍然是资源密集型的。标准分析丢弃携带多个指导的细胞，进一步限制了每个实验的可用产量。在这里，我们描述了合并这些引导多重态如何影响信号恢复、信息丢失和成本降低。在最高的指导负担下，细胞表现出更大的压力并抑制细胞周期进程。我们开发了 PerturbMatch，这是一个可扩展的统计框架，用于分析引导多重态。在不同类别的引导多重态中，双态和三态比高阶多重态更准确地恢复微扰响应。
+- Keywords: guide, multiplets, cells, perturb-seq, statistical
 
-### 21. [组织层压状态将脊椎动物视网膜中的神经元易位从主动转为被动](https://www.biorxiv.org/content/10.64898/2026.07.02.736014v1)
-- Original title: Tissue lamination state switches neuronal translocation from active to passive in the vertebrate retina
-- Authors: Cruz, M. R., Paixao, T., Coelho, J., Norden, C.
-- Meta: 2026-07-10 | developmental biology | DOI: 10.64898/2026.07.02.736014
-- 中文摘要: 神经元迁移对于发育中的中枢神经系统中建立功能性组织结构至关重要。虽然驱动神经元运动的细胞内在机制已经被确定，但迁移策略如何适应动态发育组织变化仍然知之甚少。在这里，我们使用在未层压和层压阶段生成的视网膜双极细胞来解决这个问题。这使得能够直接比较跨组织状态的神经元易位。将定量实时成像与目标扰动相结合，我们发现双极细胞的迁移模式根据组织层压状态进行切换。在光感受器层形成之前出生的双极细胞会经历定向的、微管依赖性的体细胞易位。相比之下，后来出生的细胞表现出由集体组织运动驱动的被动、非定向位移。
-- Abstract: Neuronal migration is essential for establishing functional tissue architecture in the developing central nervous system. While cell-intrinsic mechanisms driving neuronal movement have been identified, how migratory strategies adapt to dynamic developmental tissue changes remains less understood. Here, we address this question using retinal bipolar cells generated across unlaminated and laminated stages. This enable...
-- Summary (fallback): 机器翻译摘要显示：神经元迁移对于发育中的中枢神经系统中建立功能性组织结构至关重要。虽然驱动神经元运动的细胞内在机制已经被确定，但迁移策略如何适应动态发育组织变化仍然知之甚少。在这里，我们使用在未层压和层压阶段生成的视网膜双极细胞来解决这个问题。这使得能够直接比较跨组织状态的神经元易位。将定量实时成像与目标扰动相结合，我们发现双极细胞的迁移模式根据组织层压状态进行切换。在光感受器层形成之前出生的双极细胞会经历定向的、微管依赖性的体细胞易位。相比之下，后来出生的细胞表现出由集体组织运动驱动的被动、非定向位移。
-- Keywords: tissue, neuronal, cells, translocation, migration
+### 21. [直接和反向神经精神癌症共病的遗传图谱](https://www.biorxiv.org/content/10.64898/2026.07.10.737193v1)
+- Original title: A Genetic Atlas of Direct and Inverse Neuropsychiatric-Cancer Comorbidity
+- Authors: Flores-Rodero, M., Fores-Martos, J., Sanchez-Orti, J. V., Martinez-Perez, S., Winkler, F. et al.
+- Meta: 2026-07-11 | genomics | DOI: 10.64898/2026.07.10.737193
+- 中文摘要: 神经精神疾病和癌症之间的直接和反向共病越来越被认为是神经系统与癌症关系的重要特征，但这些模式背后的遗传基因结构仍然知之甚少。在这里，我们使用连锁不平衡评分回归 (LDSC) 和高清似然 (HDL) 分析了 115 个 GWAS 数据集代表的 35 种疾病的成对遗传相关性，包括 9 种精神疾病、10 种神经系统疾病和 16 种癌症，并辅以荟萃分析、亚型解析分析、局部协方差映射和多组学基准测试。遗传相关性在疾病类别中主要呈正相关且最强，而癌症-神经病学配对显示出最弱的整体遗传亲和力。
+- Abstract: Direct and inverse comorbidities between neuropsychiatric disorders and cancer are increasingly recognised as important features of the nervous system-cancer relationship, yet the inherited genetic architecture underlying these patterns remains poorly understood. Here, we analysed pairwise genetic correlations across 35 diseases represented by 115 GWAS datasets, including 9 psychiatric disorders, 10 neurological dis...
+- Summary (fallback): 机器翻译摘要显示：神经精神疾病和癌症之间的直接和反向共病越来越被认为是神经系统与癌症关系的重要特征，但这些模式背后的遗传基因结构仍然知之甚少。在这里，我们使用连锁不平衡评分回归 (LDSC) 和高清似然 (HDL) 分析了 115 个 GWAS 数据集代表的 35 种疾病的成对遗传相关性，包括 9 种精神疾病、10 种神经系统疾病和 16 种癌症，并辅以荟萃分析、亚型解析分析、局部协方差映射和多组学基准测试。遗传相关性在疾病类别中主要呈正相关且最强，而癌症-神经病学配对显示出最弱的整体遗传亲和力。
+- Keywords: genetic, direct, inverse, comorbidities, correlations
 
-### 22. [全胚胎 3D 定量揭示了非洲爪蟾胚层的保守拓扑设计和缩放](https://www.biorxiv.org/content/10.64898/2026.06.16.732511v2)
-- Original title: Whole-Embryo 3D Quantification Reveals Conserved Topological Design and Scaling of Germ Layers in Xenopus
-- Authors: Santos, H. M., Diakova, M., Brambach, M., Anderson, C., Petrova, K. et al.
-- Meta: 2026-07-10 | developmental biology | DOI: 10.64898/2026.06.16.732511
-- 中文摘要: 不同大小的胚胎如何产生可重复的身体计划仍然是发育生物学的中心问题。较大的胚胎是否包含更多的细胞，或者保留保守的组织原则以确保独立于规模的稳健的组织模式？在这里，我们通过爪蟾早期发育过程中细胞数量、组织分配和空间组织的全胚胎定量绘图来解决这个问题。利用优化的整体 3D 成像、组织清除和深度学习进行细胞核分割，我们量化了细胞数量并重建了早期胚胎阶段细胞的空间分布。尽管非洲爪蟾胚胎比热带爪蟾胚胎表现出更大的胚胎体积和更高的细胞总数，但外胚层、中胚层和内胚层之间的细胞比例分配在物种之间仍然高度保守。
-- Abstract: How embryos of different sizes generate reproducible body plans remains a central question in developmental biology. Do larger embryos contain more cells, or preserve conserved organizational principles that ensure robust tissue patterning independent of scale? Here, we address this question through whole-embryo quantitative mapping of cell number, tissue allocation, and spatial organization during early development...
-- Summary (fallback): 机器翻译摘要显示：不同大小的胚胎如何产生可重复的身体计划仍然是发育生物学的中心问题。较大的胚胎是否包含更多的细胞，或者保留保守的组织原则以确保独立于规模的稳健的组织模式？在这里，我们通过爪蟾早期发育过程中细胞数量、组织分配和空间组织的全胚胎定量绘图来解决这个问题。利用优化的整体 3D 成像、组织清除和深度学习进行细胞核分割，我们量化了细胞数量并重建了早期胚胎阶段细胞的空间分布。尽管非洲爪蟾胚胎比热带爪蟾胚胎表现出更大的胚胎体积和更高的细胞总数，但外胚层、中胚层和内胚层之间的细胞比例分配在物种之间仍然高度保守。
-- Keywords: conserved, embryos, tissue, quantitative, cells
+### 22. [基于张量的机器学习，用于多组学集成聚类和特征发现](https://www.biorxiv.org/content/10.64898/2025.11.28.691099v3)
+- Original title: Tensor-based machine learning for multi-omics integrative clustering and feature discovery
+- Authors: Zhang, Y., Liu, L., Liu, Z., Liu, Q., Ma, L. et al.
+- Meta: 2026-07-11 | bioinformatics | DOI: 10.64898/2025.11.28.691099
+- 中文摘要: 多组学综合分析对于阐明复杂的分子机制和生物过程至关重要，但由于多组学数据的高维性和异质性，仍然具有挑战性。在这里，我们介绍 MIA，一种机器学习框架，用于从多组学数据中进行准确的样本聚类和特征发现。与主要依赖于二维表示的现有算法不同，MIA 将多组学数据建模为三维张量，并将张量分解、模糊 c 均值和增强型随机森林模型集成在统一框架内。对模拟和经验数据集的基准测试表明，MIA 在聚类和特征识别方面始终优于代表性的最先进算法。
+- Abstract: Multi-omics integrative analysis is pivotal for elucidating complex molecular mechanisms and biological processes, yet remains challenging due to the high dimensionality and heterogeneity of multi-omics data. Here we present MIA, a machine learning framework for accurate sample clustering and feature discovery from multi-omics data. Unlike existing algorithms that primarily rely on two-dimensional representations, M...
+- Summary (fallback): 机器翻译摘要显示：多组学综合分析对于阐明复杂的分子机制和生物过程至关重要，但由于多组学数据的高维性和异质性，仍然具有挑战性。在这里，我们介绍 MIA，一种机器学习框架，用于从多组学数据中进行准确的样本聚类和特征发现。与主要依赖于二维表示的现有算法不同，MIA 将多组学数据建模为三维张量，并将张量分解、模糊 c 均值和增强型随机森林模型集成在统一框架内。对模拟和经验数据集的基准测试表明，MIA 在聚类和特征识别方面始终优于代表性的最先进算法。
+- Keywords: multi-omics, feature, integrative, clustering, discovery
 
-### 23. [印度南部热带干燥常绿森林的恢复：平衡固碳与生物多样性保护](https://www.biorxiv.org/content/10.64898/2026.07.08.737378v1)
-- Original title: Restoration of tropical dry evergreen forest in southern India: balancing carbon sequestration with biodiversity conservation
-- Authors: Shanmugam, M., Pulla, S., Epinal, L. N.
-- Meta: 2026-07-10 | ecology | DOI: 10.64898/2026.07.08.737378
-- 中文摘要: 热带干燥常绿森林（TDEF）是干燥热带地区独特且高度威胁的森林类型。如果本地物种表现出与广泛使用的非本地树木相当的碳固存能力，那么它们的恢复可能会得到加强。我们评估了印度经过修复的 TDEF 的生物多样性和碳固存，该地区经过 50 多年的发展，从一片贫瘠的土地上发展而来。该遗址现在拥有高度的木本植物多样性，有 34 个科的 91 个本土物种。地上生物量 (AGB) 平均为 66.91 +/- 41.2 毫克/公顷，与全球季节性干燥的热带森林相当。尽管本地物种种植时间较晚且比非本地物种矮，但它们对 AGB 贡献了 23.86 +/- 23.4 毫克/公顷，并显示出未来断面积增加的潜力。
-- Abstract: Tropical dry evergreen forests (TDEFs) are a unique and highly threatened forest type of the dry tropics. Their restoration could be strengthened if native species demonstrate carbon sequestration comparable to widely used non-native trees. We assessed biodiversity and carbon sequestration in a restored TDEF in India, developed over 50 years from a largely barren landscape. The site now supports high woody-plant div...
-- Summary (fallback): 机器翻译摘要显示：热带干燥常绿森林（TDEF）是干燥热带地区独特且高度威胁的森林类型。如果本地物种表现出与广泛使用的非本地树木相当的碳固存能力，那么它们的恢复可能会得到加强。我们评估了印度经过修复的 TDEF 的生物多样性和碳固存，该地区经过 50 多年的发展，从一片贫瘠的土地上发展而来。该遗址现在拥有高度的木本植物多样性，有 34 个科的 91 个本土物种。地上生物量 (AGB) 平均为 66.91 +/- 41.2 毫克/公顷，与全球季节性干燥的热带森林相当。尽管本地物种种植时间较晚且比非本地物种矮，但它们对 AGB 贡献了 23.86 +/- 23.4 毫克/公顷，并显示出未来断面积增加的潜力。
-- Keywords: species, carbon, native, tropical, sequestration
+### 23. [空间线粒体谱系追踪揭示了骨肉瘤的转移前生态位和微环境程序化的命运转换](https://www.biorxiv.org/content/10.64898/2026.07.09.737611v1)
+- Original title: Spatial mitochondrial lineage tracing uncovers a premetastatic niche and microenvironment programmed fate switching in osteosarcoma
+- Authors: Xue, Y., Su, Z., Su, J., Chu, A. S., Wan, L. et al.
+- Meta: 2026-07-11 | bioinformatics | DOI: 10.64898/2026.07.09.737611
+- 中文摘要: 骨肉瘤的进展涉及复杂的时空动力学，但肿瘤细胞命运决定背后的谱系关系仍然知之甚少。在这里，我们整合单细胞和空间转录组学以及基于线粒体变异的谱系追踪，以绘制晚期非转移性骨肉瘤的进化图。恶性细胞的单细胞伪颞叶重建揭示了转录程序的逐步级联，指示 COL3A1 祖细胞分叉为 ALPL 成骨细胞和 THY1 间充质谱系。至关重要的是，我们证明转移性 THY1 间充质细胞的命运不仅仅由细胞自主转录程序控制；这种促肿瘤发生状态需要通过与 PLVAP 功能失调的内皮细胞直接共定位来形成严格的空间许可，以形成富含 PTN/NOTCH 信号传导的促转移生态位 (THY1-Endo)。
+- Abstract: Osteosarcoma progression involves complex spatiotemporal dynamics, yet the lineage relationships underlying tumor cell fate decisions remain poorly understood. Here we integrate single cell and spatial transcriptomics and mitochondrial variants-based lineage tracing to map the evolution of a late-stage, non-metastatic osteosarcoma. Single cell pseudotemporal reconstruction of malignant cells reveals a stepwise casca...
+- Summary (fallback): 机器翻译摘要显示：骨肉瘤的进展涉及复杂的时空动力学，但肿瘤细胞命运决定背后的谱系关系仍然知之甚少。在这里，我们整合单细胞和空间转录组学以及基于线粒体变异的谱系追踪，以绘制晚期非转移性骨肉瘤的进化图。恶性细胞的单细胞伪颞叶重建揭示了转录程序的逐步级联，指示 COL3A1 祖细胞分叉为 ALPL 成骨细胞和 THY1 间充质谱系。至关重要的是，我们证明转移性 THY1 间充质细胞的命运不仅仅由细胞自主转录程序控制；这种促肿瘤发生状态需要通过与 PLVAP 功能失调的内皮细胞直接共定位来形成严格的空间许可，以形成富含 PTN/NOTCH 信号传导的促转移生态位 (THY1-Endo)。
+- Keywords: spatial, cell, mitochondrial, fate, clonal
 
-### 24. [后生动物中携带包膜的反转录转座子的前寒武纪起源](https://www.biorxiv.org/content/10.1101/2023.10.26.564294v5)
-- Original title: Pre-Cambrian origin of envelope-carrying retrotransposons in metazoans
-- Authors: Chary, S., Hayashi, R.
-- Meta: 2026-07-10 | evolutionary biology | DOI: 10.1101/2023.10.26.564294
-- 中文摘要: 逆转录转座子或内源逆转录病毒（ERV）本质上携带gag和pol的开放阅读框，它们被用来在宿主种系基因组中自私地复制自身。另外携带包膜基因的 ERV 的一个罕见例子是果蝇中的 Ty3/gypsy errantiviruses。尽管它们在结构上与逆转录病毒相似，但仍不清楚包含包膜的 Ty3/gypsy 元件是否代表最近获得的病毒融合剂的谱系特异性，或者逆转录转座子和包膜样基因之间的古老关联。我们系统地搜索了无脊椎动物后生动物基因组中与 Ty3/gypsy 同源的完整的包含包膜的 ERV，发现它们广泛分布在包括刺胞动物、栉水母和被囊动物等古代动物在内的分类群中。
-- Abstract: Retrotransposons or endogenous retroviruses (ERVs) essentially carry open reading frames of gag and pol, which are utilized to selfishly replicate themselves in the host germline genome. One rare example of ERVs that additionally carry envelope genes is Ty3/gypsy errantiviruses in Drosophila. Though they are structurally analogous to retroviruses, it remained unclear whether envelope-containing Ty3/gypsy elements re...
-- Summary (fallback): 机器翻译摘要显示：逆转录转座子或内源逆转录病毒（ERV）本质上携带gag和pol的开放阅读框，它们被用来在宿主种系基因组中自私地复制自身。另外携带包膜基因的 ERV 的一个罕见例子是果蝇中的 Ty3/gypsy errantiviruses。尽管它们在结构上与逆转录病毒相似，但仍不清楚包含包膜的 Ty3/gypsy 元件是否代表最近获得的病毒融合剂的谱系特异性，或者逆转录转座子和包膜样基因之间的古老关联。我们系统地搜索了无脊椎动物后生动物基因组中与 Ty3/gypsy 同源的完整的包含包膜的 ERV，发现它们广泛分布在包括刺胞动物、栉水母和被囊动物等古代动物在内的分类群中。
-- Keywords: genes, ervs, envelope, retrotransposons, host
+### 24. [与环孢素 A 相比，沃罗孢素在灌注人近端小管微生理系统中保留线粒体功能](https://www.biorxiv.org/content/10.64898/2026.07.07.737071v1)
+- Original title: Voclosporin Preserves Mitochondrial Function Compared With Cyclosporine A in Perfused Human Proximal Tubule Microphysiological Systems
+- Authors: Aryeh, K. S., Tsang, Y. P., Hsu, E. W., Yeung, C. K., MacDonald, J. et al.
+- Meta: 2026-07-11 | pharmacology and toxicology | DOI: 10.64898/2026.07.07.737071
+- 中文摘要: 摘要背景：钙调磷酸酶抑制剂（CNI）对于移植免疫抑制是不可或缺的，但环孢素A（CsA）会产生肾毒性。 Voclosporin (VCS) 是一种 CsA 类似物，据认为肾毒性较小，但机制仍不清楚。方法：将原代人近端肾小管上皮细胞 (PTEC) 暴露于 2D 单层 CsA 或 VCS 中，并灌注 3D 肾脏微生理系统 (MPS)。通过 MTS 评估 2D 培养物中的活力，通过 TMRM 流式细胞仪评估线粒体膜电位 ({Delta}{Psi}m)，通过 ELISA 和 MSD 多重测定评估 MPS 流出物中的可溶性损伤和炎症生物标志物。 3D 培养的 PTEC 的 RNA 测序用于识别差异表达的基因和通路。结果：在 2D PTEC 中，两种药物均未降低活力。
+- Abstract: Abstract Background: Calcineurin inhibitors (CNIs) are indispensable for transplantation immunosuppression, yet cyclosporine A (CsA) produces renal toxicity. Voclosporin (VCS), a CsA analog, is proposed to be less nephrotoxic, but mechanisms remain unclear. Methods: Primary human proximal tubule epithelial cells (PTECs) were exposed to CsA or VCS in 2D monolayers and perfused 3D kidney microphysiological system (MPS...
+- Summary (fallback): 机器翻译摘要显示：摘要背景：钙调磷酸酶抑制剂（CNI）对于移植免疫抑制是不可或缺的，但环孢素A（CsA）会产生肾毒性。 Voclosporin (VCS) 是一种 CsA 类似物，据认为肾毒性较小，但机制仍不清楚。方法：将原代人近端肾小管上皮细胞 (PTEC) 暴露于 2D 单层 CsA 或 VCS 中，并灌注 3D 肾脏微生理系统 (MPS)。通过 MTS 评估 2D 培养物中的活力，通过 TMRM 流式细胞仪评估线粒体膜电位 ({Delta}{Psi}m)，通过 ELISA 和 MSD 多重测定评估 MPS 流出物中的可溶性损伤和炎症生物标志物。 3D 培养的 PTEC 的 RNA 测序用于识别差异表达的基因和通路。结果：在 2D PTEC 中，两种药物均未降低活力。
+- Keywords: mitochondrial, showed, ptecs, stress, voclosporin
 
-### 25. [来自相同细胞的匹配基因组和蛋白质组的细胞类型解析空间蛋白质组学](https://www.biorxiv.org/content/10.64898/2026.07.09.737478v1)
-- Original title: Cell-type-resolved spatial proteogenomics from matched genome and proteome of the same cells
-- Authors: Zwiebel, M., Wahle, M., Stadler, R., Levesque, M. P., Dummer, R. et al.
-- Meta: 2026-07-10 | biochemistry | DOI: 10.64898/2026.07.09.737478
-- 中文摘要: 同一细胞的基因组和蛋白质组很少一起测量，这在癌症中尤其重要，因为体细胞突变在克隆之间存在差异并导致疾病。我们证明，单个标准蛋白质组学提取吸头可以在消化后保留肽在吸头上，同时基因组 DNA 进入通常丢弃的流通液中。与深度视觉蛋白质组学相结合，流通共分离可以从档案 FFPE 组织中进行细胞类型解析的空间蛋白质基因组学，这在黑色素瘤中得到了证明。
-- Abstract: The genome and proteome of the same cells are rarely measured together, which is especially consequential in cancer, where somatic mutations vary across clones and drive disease. We show that a single standard proteomics extraction tip can retain peptides on-tip after digestion while genomic DNA passes into the normally discarded flowthrough. Combined with Deep Visual Proteomics, flowthrough co-isolation enables cel...
-- Summary (fallback): 机器翻译摘要显示：同一细胞的基因组和蛋白质组很少一起测量，这在癌症中尤其重要，因为体细胞突变在克隆之间存在差异并导致疾病。我们证明，单个标准蛋白质组学提取吸头可以在消化后保留肽在吸头上，同时基因组 DNA 进入通常丢弃的流通液中。与深度视觉蛋白质组学相结合，流通共分离可以从档案 FFPE 组织中进行细胞类型解析的空间蛋白质基因组学，这在黑色素瘤中得到了证明。
-- Keywords: cell-type-resolved, spatial, proteogenomics, genome, proteome
+### 25. [胎儿性别影响胎盘对细胞外线粒体 DNA 的炎症反应](https://www.biorxiv.org/content/10.64898/2026.07.09.737607v1)
+- Original title: Fetal sex shapes placental inflammatory responses to extracellular mitochondrial DNA
+- Authors: da Silva, R. d. N. O., Hula, N., Escalera, D., Lopez, L., Kelly, G. et al.
+- Meta: 2026-07-11 | physiology | DOI: 10.64898/2026.07.09.737607
+- 中文摘要: 妊娠期间循环游离细胞线粒体 DNA (ccf-mtDNA) 的异常变化与不良妊娠结局相关。鉴于 ccf-mtDNA 通过模式识别受体（例如 Toll 样受体 9 (TLR9​​)）产生的炎症特性，我们假设细胞外 mtDNA 通过 TLR9 信号传导诱导胎盘炎症，并且这种反应因胎儿性别而异。在五项研究中，对怀孕的 Sprague-Dawley 大鼠进行了静脉注射纯化 mtDNA (300 g/kg)、核 DNA (nDNA)、盐水和/或 TLR9 拮抗剂 ODN2088。治疗后 4 小时（研究 1-3）和 24 小时（研究 4）评估胎盘反应；妊娠和新生儿结局在分娩时进行评估（研究 5）。暴露于 mtDNA（而非 nDNA）会增加胎盘 il1{beta}、tnf 和 il10 mRNA (p < 0.05)，从而建立反应特异性。
+- Abstract: Aberrant changes in circulating cell-free mitochondrial DNA (ccf-mtDNA) across gestation are associated with adverse pregnancy outcomes. Given the inflammatory properties of ccf-mtDNA via pattern recognition receptors such as Toll-like receptor 9 (TLR9), we hypothesized that extracellular mtDNA induces placental inflammation via TLR9 signaling and that this response differs by fetal sex. Pregnant Sprague-Dawley rats...
+- Summary (fallback): 机器翻译摘要显示：妊娠期间循环游离细胞线粒体 DNA (ccf-mtDNA) 的异常变化与不良妊娠结局相关。鉴于 ccf-mtDNA 通过模式识别受体（例如 Toll 样受体 9 (TLR9​​)）产生的炎症特性，我们假设细胞外 mtDNA 通过 TLR9 信号传导诱导胎盘炎症，并且这种反应因胎儿性别而异。在五项研究中，对怀孕的 Sprague-Dawley 大鼠进行了静脉注射纯化 mtDNA (300 g/kg)、核 DNA (nDNA)、盐水和/或 TLR9 拮抗剂 ODN2088。治疗后 4 小时（研究 1-3）和 24 小时（研究 4）评估胎盘反应；妊娠和新生儿结局在分娩时进行评估（研究 5）。暴露于 mtDNA（而非 nDNA）会增加胎盘 il1{beta}、tnf 和 il10 mRNA (p < 0.05)，从而...
+- Keywords: mtdna, placental, tlr9, inflammatory, fetal
 
-### 26. [MHC 结合肽的混合量子经典从头设计](https://www.biorxiv.org/content/10.64898/2026.07.09.736951v1)
-- Original title: Hybrid quantum-classical de novo design of MHC-binding peptides
-- Authors: Engdal, E. S., Funk, J., Bacarreza, O., Machado, L., Johansen, K. H. et al.
-- Meta: 2026-07-10 | biochemistry | DOI: 10.64898/2026.07.09.736951
-- 中文摘要: 深度生成模型已成为设计治疗分子的主要方法，但有效探索巨大的生物分子序列空间仍然很困难，特别是对于训练数据有限的目标。生成模型的先验分布决定了它探索的序列空间区域，最近的工作表明，从量子处理器采样的非经典分布可以作为默认使用的因式分解高斯先验的结构化替代方案。这些先验是否有助于复杂的生物设计任务在很大程度上尚未得到检验。在这里，我们提出了第一个端到端混合量子经典管道，用于 MHC I 类结合肽的从头设计，将生成对抗网络 (GAN) 与从真实光子量子处理器采样的潜在向量耦合。
-- Abstract: Deep generative models have become a leading approach for designing therapeutic molecules, yet efficiently exploring vast biomolecular sequence spaces remains difficult, particularly for targets with limited training data. The prior distribution that seeds a generative model shapes which regions of sequence space it explores, and recent work suggests that non-classical distributions sampled from quantum processors c...
-- Summary (fallback): 机器翻译摘要显示：深度生成模型已成为设计治疗分子的主要方法，但有效探索巨大的生物分子序列空间仍然很困难，特别是对于训练数据有限的目标。生成模型的先验分布决定了它探索的序列空间区域，最近的工作表明，从量子处理器采样的非经典分布可以作为默认使用的因式分解高斯先验的结构化替代方案。这些先验是否有助于复杂的生物设计任务在很大程度上尚未得到检验。在这里，我们提出了第一个端到端混合量子经典管道，用于 MHC I 类结合肽的从头设计，将生成对抗网络 (GAN) 与从真实光子量子处理器采样的潜在向量耦合。
-- Keywords: design, generative, priors, alleles, peptides
+### 26. [衰老和听力障碍中的外围音素编码和歧视](https://www.biorxiv.org/content/10.64898/2026.01.27.702044v4)
+- Original title: Peripheral phoneme encoding and discrimination in aging and hearing impairment
+- Authors: Wouters, M., Gaudrain, E., Dapper, K., Schirmer, J., Baskent, D. et al.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.01.27.702044
+- 中文摘要: 噪音中的言语感知困难在老年人和听力障碍人士中很常见，但也发生在听力阈值在临床正常范围内的年轻人中。我们研究了衰老、耳蜗突触病 (CS) 和外毛细胞 (OHC) 损伤如何影响语音编码和音素辨别。使用脑电图在安静的情况下记录对矩形调幅（RAM）音调和类语音音素对的包络跟随反应（EFR），并在安静的情况下以及同侧和对侧噪声的情况下评估行为辨别能力。刺激被设计为针对时间包络（TENV）或时间精细结构（TFS）编码。
+- Abstract: Speech perception difficulties in noise are common among older adults and individuals with hearing impairment, but also occur among younger adults whose audiometric thresholds are within the clinically-normal range. We examined how aging, cochlear synaptopathy (CS), and outer hair cell (OHC) damage affect speech encoding and phoneme discrimination. Envelope-following responses (EFRs) to rectangular amplitude-modulat...
+- Summary (fallback): 机器翻译摘要显示：噪音中的言语感知困难在老年人和听力障碍人士中很常见，但也发生在听力阈值在临床正常范围内的年轻人中。我们研究了衰老、耳蜗突触病 (CS) 和外毛细胞 (OHC) 损伤如何影响语音编码和音素辨别。使用脑电图在安静的情况下记录对矩形调幅（RAM）音调和类语音音素对的包络跟随反应（EFR），并在安静的情况下以及同侧和对侧噪声的情况下评估行为辨别能力。刺激被设计为针对时间包络（TENV）或时间精细结构（TFS）编码。
+- Keywords: discrimination, efrs, quiet, phoneme, encoding
 
-### 27. [I-F3 CRISPR 相关转座酶的转座子末端识别和配对](https://www.biorxiv.org/content/10.64898/2026.07.09.737429v1)
-- Original title: Transposon end recognition and pairing by I-F3 CRISPR-associated transposase
-- Authors: Truong, V., Miller, D., Fatma, S., Sheng, Y., Pindi, C. et al.
-- Meta: 2026-07-10 | biochemistry | DOI: 10.64898/2026.07.09.737429
-- 中文摘要: 为了开发基于 CRISPR 相关转座子 (CAST) 的基因治疗工具，必须定义转座过程中转座子末端的识别和配对方式。 Tn7 样转座子通常包含不对称的左端和右端序列，位于侧翼并定义 DNA 货物。然而，转座酶如何识别这些不同的序列并将它们组装成配对末端复合物以进行剪切和粘贴转座仍然未知。在这里，我们展示了 I-F3 型 (VchCAST) CAST 转座酶 TnsB 与转座子 DNA 末端和宿主因子 IHF 复合的冷冻电镜结构，以及生物化学、分子动力学和体内分析。我们的结构揭示了组装的化学计量和结构，以及适应转座子末端不对称性所需的 DNA 扭曲。
-- Abstract: To develop gene therapy tools based on CRISPR-associated transposons (CASTs), it is essential to define how transposon ends are recognized and paired during transposition. Tn7-like transposons typically contain asymmetric left- and right-end sequences that flank and define DNA cargo. However, how the transposase recognizes these different sequences and assembles them into a paired end complex for cut-and-paste trans...
-- Summary (fallback): 机器翻译摘要显示：为了开发基于 CRISPR 相关转座子 (CAST) 的基因治疗工具，必须定义转座过程中转座子末端的识别和配对方式。 Tn7 样转座子通常包含不对称的左端和右端序列，位于侧翼并定义 DNA 货物。然而，转座酶如何识别这些不同的序列并将它们组装成配对末端复合物以进行剪切和粘贴转座仍然未知。在这里，我们展示了 I-F3 型 (VchCAST) CAST 转座酶 TnsB 与转座子 DNA 末端和宿主因子 IHF 复合的冷冻电镜结构，以及生物化学、分子动力学和体内分析。我们的结构揭示了组装的化学计量和结构，以及适应转座子末端不对称性所需的 DNA 扭曲。
-- Keywords: transposon, pairing, transposase, ends, transposition
+### 27. [简单的过度学习时间期望的神经特征类似于情景检索](https://www.biorxiv.org/content/10.64898/2026.07.07.737020v2)
+- Original title: The neural signature of simple overlearned temporal expectationsresembles episodic retrieval
+- Authors: Sempf, L., Vavra, P., Noesselt, T.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.07.07.737020
+- 中文摘要: 时间期望对于对可预测事件的适应性响应至关重要。以前的大多数成像研究都集中在意外事件而不是预期的神经基础上，没有考虑到与时间预期相关的神经反应可能会被并行学习过程所混淆。为了通过功能磁共振成像确定过度学习预期的神经基础，我们采用了多日检测范例，在可能和不太可能的时间点，听觉线索先于视觉目标。训练后，左下顶叶皮层与压后皮层和前额叶皮层一起处理过度学习的时间期望。值得注意的是，与未经训练的对照组相比，我们观察到反向的大脑反应是刺激可能性和训练状态的函数。
+- Abstract: Temporal expectations are crucial for adaptive responding to predictable events. Most previous imaging studies have focused on the neural underpinnings of unexpectedness rather than expectedness, without considering that neural responses related to temporal expectations may be confounded by parallel learning processes. To identify the neural basis of overlearned expectancy with fMRI, we employed a multi-day detectio...
+- Summary (fallback): 机器翻译摘要显示：时间期望对于对可预测事件的适应性响应至关重要。以前的大多数成像研究都集中在意外事件而不是预期的神经基础上，没有考虑到与时间预期相关的神经反应可能会被并行学习过程所混淆。为了通过功能磁共振成像确定过度学习预期的神经基础，我们采用了多日检测范例，在可能和不太可能的时间点，听觉线索先于视觉目标。训练后，左下顶叶皮层与压后皮层和前额叶皮层一起处理过度学习的时间期望。值得注意的是，与未经训练的对照组相比，我们观察到反向的大脑反应是刺激可能性和训练状态的函数。
+- Keywords: temporal, neural, overlearned, expectations, episodic
 
-### 28. [扩展遗传密码以生成具有脉管系统和小胶质细胞的人脑类器官](https://www.biorxiv.org/content/10.64898/2026.07.08.737383v1)
-- Original title: Expanding genetic code to generate human brain organoids with both vasculature and microglia
-- Authors: Lin, H., Wang, Y., Du, H., Qin, Y., Zhang, H. et al.
-- Meta: 2026-07-10 | bioengineering | DOI: 10.64898/2026.07.08.737383
-- 中文摘要: 脑类器官为研究人类大脑发育和疾病提供了宝贵的模型系统。然而，建立具有包括脉管系统和免疫细胞在内的多种细胞谱系的高保真脑类器官仍然是一个巨大的挑战。在这里，我们提出了一种新策略，通过位点特异性蛋白质工程，使用遗传密码扩展技术（GCE-T）生成具有脉管系统和小胶质细胞样细胞的人类大脑类器官。该策略通过 PiggyBac 转座子系统将正交基因翻译机制整合到 hPSC 中，从而能够暂时控制 hPSC 衍生的脑类器官中的 ETV2 表达和内皮分化。血管化的人脑类器官（vhCO）表现出多种细胞谱系和血脑屏障（BBB）特征的协调发育。
-- Abstract: Brain organoids offer an invaluable model system for studying human brain development and disease. However, the establishment of high-fidelity brain organoids with multiple cell lineages including vasculature and immune cells remains a huge challenge. Here, we present a new strategy to generate human cerebral organoids with vasculature and microglia-like cells using genetic code expansion technology (GCE-T) via site...
-- Summary (fallback): 机器翻译摘要显示：脑类器官为研究人类大脑发育和疾病提供了宝贵的模型系统。然而，建立具有包括脉管系统和免疫细胞在内的多种细胞谱系的高保真脑类器官仍然是一个巨大的挑战。在这里，我们提出了一种新策略，通过位点特异性蛋白质工程，使用遗传密码扩展技术（GCE-T）生成具有脉管系统和小胶质细胞样细胞的人类大脑类器官。该策略通过 PiggyBac 转座子系统将正交基因翻译机制整合到 hPSC 中，从而能够暂时控制 hPSC 衍生的脑类器官中的 ETV2 表达和内皮分化。血管化的人脑类器官（vhCO）表现出多种细胞谱系和血脑屏障（BBB）特征的协调发育。
-- Keywords: organoids, brain, human, vhcos, vasculature
+### 28. [低重力揭示了运动状态表达的本体感觉依赖性机制](https://www.biorxiv.org/content/10.64898/2026.06.02.729513v2)
+- Original title: Hypogravity reveals a proprioception-dependent mechanism for locomotor state expression
+- Authors: Santuz, A., Luciano, F., Natalucci, V., Mbaye, A., Ma, N. et al.
+- Meta: 2026-07-11 | neuroscience | DOI: 10.64898/2026.06.02.729513
+- 中文摘要: 动物必须使运动适应不断变化的环境条件，但神经系统如何灵活控制运动仍不清楚。重力提供了强大的扰动，因为它改变了身体负荷、肢体动力学和本体感觉反馈。阿波罗宇航员经常在月球上跳跃，采用地球上很少使用的不对称步态，但这种行为的感觉运动基础尚不清楚。在这里，通过研究人类和小鼠的低重力运动，我们发现重力降低揭示了运动状态表达的保守的本体感觉依赖性机制。对于人类来说，模拟月球重力中的跳跃是通过现有运动模块的灵活时间重新配置而不是构建新的运动架构来产生的。
+- Abstract: Animals must adapt locomotion to changing environmental conditions, but how the nervous system flexibly controls movement remains unclear. Gravity provides a powerful perturbation because it alters body loading, limb dynamics, and proprioceptive feedback. Apollo astronauts often skipped on the Moon, adopting an asymmetric gait rarely used on Earth, yet the sensorimotor basis of this behaviour is unknown. Here, by st...
+- Summary (fallback): 机器翻译摘要显示：动物必须使运动适应不断变化的环境条件，但神经系统如何灵活控制运动仍不清楚。重力提供了强大的扰动，因为它改变了身体负荷、肢体动力学和本体感觉反馈。阿波罗宇航员经常在月球上跳跃，采用地球上很少使用的不对称步态，但这种行为的感觉运动基础尚不清楚。在这里，通过研究人类和小鼠的低重力运动，我们发现重力降低揭示了运动状态表达的保守的本体感觉依赖性机制。对于人类来说，模拟月球重力中的跳跃是通过现有运动模块的灵活时间重新配置而不是构建新的运动架构来产生的。
+- Keywords: locomotor, gravity, hypogravity, reveals, state
 
-### 29. [肝素模拟聚合物的区域选择性硫酸化定义了体内活性](https://www.biorxiv.org/content/10.64898/2026.07.09.737190v1)
-- Original title: Regio-selective sulfation of heparin mimicking polymers defines in vivo activity
-- Authors: Grinstaff, M., Loffredo, M., Ham, H. O., Varghese, M., Haller, C. et al.
-- Meta: 2026-07-10 | bioengineering | DOI: 10.64898/2026.07.09.737190
-- 中文摘要: 肝素是一种天然来源的糖胺聚糖，是世界上最常用的抗血栓栓塞药物。然而，肝素的生物来源本质上会导致批次间的差异、大的分散指数和潜在的污染，从而导致活性不一致和患者依赖性剂量反应。因此，新型合成抗凝剂引起了人们的浓厚兴趣，特别是那些模仿肝素同时能够改变聚合物结构和组成以优化性能的抗凝剂。在此，我们报告了明确的、区域选择性功能化的二硫酸化聚酰胺糖（disulPAS）的策略、合成和评估，包括探索分子量和硫酸化密度对抗凝血活性的结构-功能关系。
-- Abstract: Heparin, a naturally derived glycosaminoglycan, is the most commonly used anti-thromboembolic in the world. However, the biological origin of heparin inherently results in batch-to-batch variability, large dispersity indexes, and potential contamination, leading to inconsistent activity and patient-dependent dose-response. As such, new synthetic anticoagulants are of keen interest, particularly those that mimic hepa...
-- Summary (fallback): 机器翻译摘要显示：肝素是一种天然来源的糖胺聚糖，是世界上最常用的抗血栓栓塞药物。然而，肝素的生物来源本质上会导致批次间的差异、大的分散指数和潜在的污染，从而导致活性不一致和患者依赖性剂量反应。因此，新型合成抗凝剂引起了人们的浓厚兴趣，特别是那些模仿肝素同时能够改变聚合物结构和组成以优化性能的抗凝剂。在此，我们报告了明确的、区域选择性功能化的二硫酸化聚酰胺糖（disulPAS）的策略、合成和评估，包括探索分子量和硫酸化密度对抗凝血活性的结构-功能关系。
-- Keywords: heparin, activity, sulfation, clotting, vivo
-
-### 30. [折叠酶缩合物的化学增强加速氧化蛋白质折叠](https://www.biorxiv.org/content/10.64898/2026.07.08.737393v1)
-- Original title: Chemical Boosting of Foldase Condensates Accelerates Oxidative Protein Folding
-- Authors: Watabe, M., Kuramochi, T., Fukushima, M., Kinoshita, M., Akiba, H. et al.
-- Meta: 2026-07-10 | bioengineering | DOI: 10.64898/2026.07.08.737393
-- 中文摘要: 动态生物分子凝聚体在细胞内区室化和生理功能中发挥着至关重要的作用。虽然用于分隔的工程工具已经扩展了附加功能，但直接放大生物相分离液滴内固有的催化机制仍然难以实现。在此，我们开发了一种基于蛋白质二硫键异构酶 A6 (PDIA6) 的相分离氧化折叠反应室，通过化学靶向其活性位点 CxxC 基序来增强 PDIA6 液滴内的酶活性。对位取代的 N-甲基化吡啶基甲硫醇 (pMePySH) 在体外 PDIA6 液滴中将牛胰蛋白酶抑制剂、胰岛素原和抗体的催化氧化折叠增强了 12 倍。此外，pMePySH 靶向内质网内的 PDIA6 病灶，显着促进胰岛素分泌。
-- Abstract: Dynamic biomolecular condensates play crucial roles in intracellular compartmentalization and physiological functions. While engineering tools for compartmentalization have expanded add-on functionalities, directly amplifying the inherent catalytic machinery within biological phase-separated droplets has remained elusive. Herein, we developed a phase-separated oxidative folding reaction chamber based on protein disu...
-- Summary (fallback): 机器翻译摘要显示：动态生物分子凝聚体在细胞内区室化和生理功能中发挥着至关重要的作用。虽然用于分隔的工程工具已经扩展了附加功能，但直接放大生物相分离液滴内固有的催化机制仍然难以实现。在此，我们开发了一种基于蛋白质二硫键异构酶 A6 (PDIA6) 的相分离氧化折叠反应室，通过化学靶向其活性位点 CxxC 基序来增强 PDIA6 液滴内的酶活性。对位取代的 N-甲基化吡啶基甲硫醇 (pMePySH) 在体外 PDIA6 液滴中将牛胰蛋白酶抑制剂、胰岛素原和抗体的催化氧化折叠增强了 12 倍。此外，pMePySH 靶向内质网内的 PDIA6 病灶，显着促进胰岛素分泌。
-- Keywords: folding, within, pdia6, oxidative, protein
+### 29. [MT5-MMP C 端突变减少 C99 和 β 积累：基于肽的阿尔茨海默病干预措施的基础](https://www.biorxiv.org/content/10.1101/2025.05.22.655451v3)
+- Original title: MT5-MMP C-terminal mutations reduce C99 and β accumulation: A foundation for peptide-based Alzheimer's interventions
+- Authors: Belio-Mairal, P., Kamitsou, A., Stephan, D., Jullien, N., Thiane, D. et al.
+- Meta: 2026-07-11 | cell biology | DOI: 10.1101/2025.05.22.655451
+- 中文摘要: 我们之前的工作确定了膜型 5-基质金属蛋白酶 (MT5-MMP) 在阿尔茨海默病 (AD) 发病机制中的关键作用，特别是通过其 C 端跨膜 (TM) 和细胞内 (IC) 结构域，影响有毒淀粉样前体蛋白 (APP) 代谢物的主要有毒代谢物的命运，特别是 C99 和 A{β}。假设这些结构域中的修饰可以调节 C99 和 A{β} 水平，我们设计了 MT5-MMP 变体，在 TM/IC 结构域或特定 IC 氨基酸簇中进行删除或替换。当共转染到积累 C99 的人类细胞系时，某些 IC 结构域突变促进了 C99 降解并降低了 A{β} 水平，而其他突变则具有不同的影响。
+- Abstract: Our prior work established a pivotal role for membrane-type 5-matrix metalloproteinase (MT5-MMP) in Alzheimer's disease (AD) pathogenesis, particularly through its C-terminal transmembrane (TM) and intracellular (IC) domains, which influence the fate of major toxic metabolites of toxic amyloid precursor protein (APP) metabolites, particularly C99 and A{beta}. Hypothesizing that modifications in these domains could m...
+- Summary (fallback): 机器翻译摘要显示：我们之前的工作确定了膜型 5-基质金属蛋白酶 (MT5-MMP) 在阿尔茨海默病 (AD) 发病机制中的关键作用，特别是通过其 C 端跨膜 (TM) 和细胞内 (IC) 结构域，影响有毒淀粉样前体蛋白 (APP) 代谢物的主要有毒代谢物的命运，特别是 C99 和 A{β}。假设这些结构域中的修饰可以调节 C99 和 A{β} 水平，我们设计了 MT5-MMP 变体，在 TM/IC 结构域或特定 IC 氨基酸簇中进行删除或替换。当共转染到积累 C99 的人类细胞系时，某些 IC 结构域突变促进了 C99 降解并降低了 A{β} 水平，而其他突变则具有不同的影响。
+- Keywords: mt5-mmp, beta, mutations, domains, levels
 
 ## medrxiv
 
-### 1. [肯尼亚公共卫生紧急事件分类和升级的人工智能辅助决策支持系统的开发和评估](https://www.medrxiv.org/content/10.64898/2026.07.07.26357475v1)
-- Original title: Development and Evaluation of Artificial Intelligence-Assisted Decision Support System for Public Health Emergency Classification and Escalation in Kenya
-- Authors: Nanyingi, M., Osoro, E., Siwo, G. H., Ngere, I., Kadivane, S. et al.
-- Meta: 2026-07-10 | public and global health | DOI: 10.64898/2026.07.07.26357475
-- 中文摘要: 背景 公共卫生事件的及时评估、分类和升级对于有效应对疫情至关重要，但由于指导分散，升级标准解释各异，事件检测后的决策仍然具有挑战性。为了加强公共卫生应急管理，肯尼亚开发了突发公共卫生事件决策工具（DMT-PHE），这是一个事件评估、分类、通知和升级的框架。随后开发了支持人工智能 (AI) 的版本 DMT-PHE AI Agent，以通过决策支持来操作该框架。本研究描述了 DMT-PHE AI 代理的开发，并评估了其性能、可用​​性、安全性和用户可接受性。
-- Abstract: Background Timely assessment, classification, and escalation of public health events are essential for effective outbreak response, yet decision-making after event detection remains challenging because of fragmented guidance and variable interpretation of escalation criteria.To strengthen public health emergency management, Kenya developed the Decision-Making Tool for Public Health Emergencies (DMT-PHE), a framework...
-- Summary (fallback): 机器翻译摘要显示：背景 公共卫生事件的及时评估、分类和升级对于有效应对疫情至关重要，但由于指导分散，升级标准解释各异，事件检测后的决策仍然具有挑战性。为了加强公共卫生应急管理，肯尼亚开发了突发公共卫生事件决策工具（DMT-PHE），这是一个事件评估、分类、通知和升级的框架。随后开发了支持人工智能 (AI) 的版本 DMT-PHE AI Agent，以通过决策支持来操作该框架。本研究描述了 DMT-PHE AI 代理的开发，并评估了其性能、可用​​性、安全性和用户可接受性。
-- Keywords: public, health, dmt-phe, agent, emergency
-
-### 2. [改良的血栓弹力测定法能够快速、实时评估补体驱动的免疫血栓形成](https://www.medrxiv.org/content/10.64898/2026.06.30.26356356v1)
-- Original title: A Modified Thromboelastometry Assay Enables Rapid, Real-Time Evaluation of Complement-Driven Immunothrombosis
-- Authors: Papadimitriou, E., Natsi, A.-M., Papagoras, C., Mastellos, D., Tsironidou, V. et al.
-- Meta: 2026-07-10 | health systems and quality improvement | DOI: 10.64898/2026.06.30.26356356
-- 中文摘要: 简介 补体和凝血是紧密相连的系统，有助于免疫血栓形成，并可引发炎症或血栓性疾病。利用这种关系和串扰，我们开发了一种使用血栓弹力测定法（补体驱动免疫血栓形成的热弹性测定法；TCDI）功能性评估补体诱导的凝血活性的方法。方法 为了研究补体依赖性凝血激活，在存在或不存在基于坎普他汀的 C3 抑制剂 Cp40 的情况下，将患者的贫血小板血浆 (PPP) 与健康血液混合。分析来自健康对照 (n = 10) 或抗磷脂综合征 (APS; n = 6)、严重 COVID-19 (n = 13)、类风湿性关节炎 (RA; n = 7) 或 RA 患者滑液 (SF) 患者的 PPP 诱导健康血液中补体激活的能力。
-- Abstract: Introduction Complement and coagulation are tightly interconnected systems that contribute to immunothrombosis and can drive inflammatory or thrombotic diseases. Leveraging this relationship and crosstalk we developed a method to functionally evaluate complement-induced coagulation activity using thromboelastometry (thermoelastometry of complement-driven immunothrombosis; TCDI). Methods To study the complement-depen...
-- Summary (fallback): 机器翻译摘要显示：简介 补体和凝血是紧密相连的系统，有助于免疫血栓形成，并可引发炎症或血栓性疾病。利用这种关系和串扰，我们开发了一种使用血栓弹力测定法（补体驱动免疫血栓形成的热弹性测定法；TCDI）功能性评估补体诱导的凝血活性的方法。方法 为了研究补体依赖性凝血激活，在存在或不存在基于坎普他汀的 C3 抑制剂 Cp40 的情况下，将患者的贫血小板血浆 (PPP) 与健康血液混合。分析来自健康对照 (n = 10) 或抗磷脂综合征 (APS; n = 6)、严重 COVID-19 (n = 13)、类风湿性关节炎 (RA; n = 7) 或 RA 患者滑液 (SF) 患者的 PPP 诱导健康血液中补体激活的能力。
-- Keywords: immunothrombosis, cp40, complement-driven, coagulation, tcdi
-
-### 3. [将因果推理融入药物警戒：针对医疗保险受益人阿托伐他汀起始主动信号检测的目标试验模拟](https://www.medrxiv.org/content/10.64898/2026.07.01.26356874v1)
-- Original title: Integrating Causal Inference into Pharmacovigilance: Target Trial Emulations for Proactive Signal Detection of Atorvastatin Initiation in Medicare Beneficiaries
-- Authors: Rowan, C. G., Tran, M., Srivastava, S.
-- Meta: 2026-07-10 | epidemiology | DOI: 10.64898/2026.07.01.26356874
-- 中文摘要: 重要性：老年人的药物不良事件是一个巨大的公共卫生负担，但由于报告不足和缺乏明确的人群，自发报告系统未能很好地发现这些事件。这些限制对于老年人来说尤其令人担忧，他们在批准前试验中的代表性不足，但由于多重用药、多发病以及与年龄相关的药物代谢变化而面临较高的风险。目的：开发并应用一个主动的、基于索赔的药物警戒框架，使用序贯目标试验模拟来检测老年人的不良药物事件信号，以阿托伐他汀作为初始应用。方法：利用 Medicare 按服务收费索赔（2017-2019 年），我们研究了 65 岁或以上的心肌梗塞或脑梗塞后未接受过他汀类药物治疗的受益人。
-- Abstract: Importance: Adverse drug events in older adults are a substantial public health burden, yet spontaneous reporting systems detect them poorly owing to underreporting and the lack of a defined population. These limitations are of particular concern for older adults, who are underrepresented in pre-approval trials yet at elevated risk owing to polypharmacy, multimorbidity, and age-related changes in drug metabolism. Ob...
-- Summary (fallback): 机器翻译摘要显示：重要性：老年人的药物不良事件是一个巨大的公共卫生负担，但由于报告不足和缺乏明确的人群，自发报告系统未能很好地发现这些事件。这些限制对于老年人来说尤其令人担忧，他们在批准前试验中的代表性不足，但由于多重用药、多发病以及与年龄相关的药物代谢变化而面临较高的风险。目的：开发并应用一个主动的、基于索赔的药物警戒框架，使用序贯目标试验模拟来检测老年人的不良药物事件信号，以阿托伐他汀作为初始应用。方法：利用 Medicare 按服务收费索赔（2017-2019 年），我们研究了 65 岁或以上的心肌梗塞或脑梗塞后未接受过他汀类药物治疗的受益人。
-- Keywords: atorvastatin, older, trial, drug, adults
-
-### 4. [从流行病到地方病：巴西先天性寨卡综合症的纵向监测](https://www.medrxiv.org/content/10.64898/2026.07.07.26357442v1)
-- Original title: From Epidemic to Endemic: Longitudinal Surveillance of Congenital Zika Syndrome in Brazil
-- Authors: Oliveira Ferreira, R., Ma, H. L., Pestana Garcez, P., Zatz, M.
-- Meta: 2026-07-10 | epidemiology | DOI: 10.64898/2026.07.07.26357442
-- 中文摘要: 寨卡病毒（ZIKV）于2015年在巴西出现，引发了前所未有的先天性寨卡综合症（CZS）流行。十年后，评估 CZS 负担时间趋势和地方异质性的纵向分析仍然有限。利用 SINAN/DATASUS 和 RESP-小头畸形登记处（SVS/卫生部，2024 年 7 月更新）的公开数据，我们对 2015 年至 2023 年巴西的 ZIKV 感染和 CZS 进行了描述性生态分析。在 331,309 例通报的寨卡病例中（2015-2023 年），其中 213,350 例发生在 2016 年，其次是 2016 年。 2017年下降91.75%，此后持续低水平流行。在 3,751 例确诊的小头畸形病例中，1,828 例确诊为寨卡病毒感染。东北地区人口约占全国27%，但仍占确诊病例的75.4%。
-- Abstract: Zika virus (ZIKV) emerged in Brazil in 2015, causing an unprecedented epidemic of Congenital Zika Syndrome (CZS). A decade later, longitudinal analyses evaluating temporal trends and subnational heterogeneity in CZS burden remain limited. Using publicly available data from SINAN/DATASUS and the RESP-Microcephaly registry (SVS/Ministry of Health, updated July 2024), we conducted a descriptive ecological analysis of Z...
-- Summary (fallback): 机器翻译摘要显示：寨卡病毒（ZIKV）于2015年在巴西出现，引发了前所未有的先天性寨卡综合症（CZS）流行。十年后，评估 CZS 负担时间趋势和地方异质性的纵向分析仍然有限。利用 SINAN/DATASUS 和 RESP-小头畸形登记处（SVS/卫生部，2024 年 7 月更新）的公开数据，我们对 2015 年至 2023 年巴西的 ZIKV 感染和 CZS 进行了描述性生态分析。在 331,309 例通报的寨卡病例中（2015-2023 年），其中 213,350 例发生在 2016 年，其次是 2016 年。 2017年下降91.75%，此后持续低水平流行。在 3,751 例确诊的小头畸形病例中，1,828 例确诊为寨卡病毒感染。东北地区人口约占全国27%，但仍占确诊病例的75.4%。
-- Keywords: zika, congenital, brazil, zikv, cases
-
-### 5. [基于 RoPE 的免对准双流变压器，用于 NICU 中 PPG 引导的新生儿心电图分段修复](https://www.medrxiv.org/content/10.64898/2026.07.06.26357087v1)
-- Original title: Alignment-Free RoPE-Based Dual-Stream Transformer for PPG-Guided Neonatal ECG Segment Inpainting in the NICU
-- Authors: Choi, S., Gu, G., Kim, Y., Lee, S., Sim, S.-i. et al.
-- Meta: 2026-07-10 | pediatrics | DOI: 10.64898/2026.07.06.26357087
-- 中文摘要: 新生儿重症监护病房 (NICU) 中使用的粘附性心电图 (ECG) 电极可能会导致早产儿皮肤受伤。尽管已经探索了基于光电体积描记法（PPG）的心电图重建，但现有研究主要集中于成人数据，并且通常依赖直接的 PPG 到心电图映射或人工信号对齐，这可能不适合脉搏到达时间（PAT）高度可变的新生儿。在本研究中，我们提出了一种基于 RoPE 的免对齐双流 Transformer，用于使用并发 PPG 信号和双向心电图上下文重建缺失的新生儿心电图片段。从 159 名 NICU 患者中提取了总共 52,566 个 10 秒 ECG-PPG 窗口，并在患者级别进行分割以防止数据泄漏。
-- Abstract: Adhesive electrocardiography (ECG) electrodes used in neonatal intensive care units (NICUs) may cause skin injury in premature infants. Although photoplethysmography (PPG)-based ECG reconstruction has been explored, existing studies have mainly focused on adult data and often rely on direct PPG-to-ECG mapping or artificial signal alignment, which may be unsuitable for neonates with highly variable pulse arrival time...
-- Summary (fallback): 机器翻译摘要显示：新生儿重症监护病房 (NICU) 中使用的粘附性心电图 (ECG) 电极可能会导致早产儿皮肤受伤。尽管已经探索了基于光电体积描记法（PPG）的心电图重建，但现有研究主要集中于成人数据，并且通常依赖直接的 PPG 到心电图映射或人工信号对齐，这可能不适合脉搏到达时间（PAT）高度可变的新生儿。在本研究中，我们提出了一种基于 RoPE 的免对齐双流 Transformer，用于使用并发 PPG 信号和双向心电图上下文重建缺失的新生儿心电图片段。从 159 名 NICU 患者中提取了总共 52,566 个 10 秒 ECG-PPG 窗口，并在患者级别进行分割以防止数据泄漏。
-- Keywords: neonatal, nicu, alignment-free, rope-based, dual-stream
-
-### 6. [正念介导热瑜伽期间抑郁症状的改善：随机对照试验的二次分析](https://www.medrxiv.org/content/10.64898/2026.07.01.26353530v1)
-- Original title: Mindfulness mediates depressive symptom improvement during heated yoga: A secondary analysis of a randomized controlled trial
-- Authors: Copeland, D., Mac Giollabhui, N., Sylvia, L., Cetinkaya, D., Puzak, S. J. et al.
-- Meta: 2026-07-10 | psychiatry and clinical psychology | DOI: 10.64898/2026.07.01.26353530
-- 中文摘要: 背景。尽管越来越多的证据表明生活方式干预可以减少抑郁症状，但这些影响背后的心理机制仍然知之甚少。这项研究检验了正念和沉思是否介导热瑜伽（HY）的抗抑郁作用，HY是一种结合身体活动、注意力训练和体温调节压力的多成分干预措施。方法。这种预先指定的二级中介分析建立在一项随机对照试验的基础上，其中 80 名患有中度至重度抑郁症 (IDS-CR > 23) 的成年人被随机分配到为期 8 周、每周两次的 HY 或候补名单对照。具有完整中介数据的子样本有助于沉思（n = 56）和正念（n = 60）模型。使用 10,000 个 bootstrap 重采样进行因果中介分析，通过第 4 周中介变量的变化估计对第 8 周抑郁症严重程度的间接影响。
-- Abstract: Background. Despite growing evidence that lifestyle interventions reduce depressive symptoms, the psychological mechanisms underlying these effects remain poorly understood. This study examined whether mindfulness and rumination mediate the antidepressant effects of heated yoga (HY), a multicomponent intervention combining physical activity, attentional training, and thermoregulatory stress. Methods. This prespecifi...
-- Summary (fallback): 机器翻译摘要显示：背景。尽管越来越多的证据表明生活方式干预可以减少抑郁症状，但这些影响背后的心理机制仍然知之甚少。这项研究检验了正念和沉思是否介导热瑜伽（HY）的抗抑郁作用，HY是一种结合身体活动、注意力训练和体温调节压力的多成分干预措施。方法。这种预先指定的二级中介分析建立在一项随机对照试验的基础上，其中 80 名患有中度至重度抑郁症 (IDS-CR > 23) 的成年人被随机分配到为期 8 周、每周两次的 HY 或候补名单对照。具有完整中介数据的子样本有助于沉思（n = 56）和正念（n = 60）模型。使用 10,000 个 bootstrap 重采样进行因果中介分析，通过第 4 周中介变量的变化估计对第 8 周抑郁症严重程度的间接影响。
-- Keywords: mindfulness, effects, rumination, depressive, week
-
-### 7. [从怀孕到产后五年母子关系满意度的轨迹和预测因素](https://www.medrxiv.org/content/10.64898/2026.07.01.26356966v1)
-- Original title: TRAJECTORY AND PREDICTORS OF MATERNAL RELATIONSHIP SATISFACTION FROM PREGNANCY TO FIVE YEARS POSTPARTUM
-- Authors: Crowther, M. E., Strakie, S. C. O., Pinnington, D. M., Drummond, S. P., Bei, B.
-- Meta: 2026-07-10 | psychiatry and clinical psychology | DOI: 10.64898/2026.07.01.26356966
-- 中文摘要: 目的：关系满意度是女性心理健康和幸福结果的关键因素，然而，关系满意度可能会在压力和不确定时期（例如围产期）发生变化。虽然围产期积极的浪漫关系可能会带来好处，但关系满意度的变化以及可能对它们产生纵向影响的因素目前尚不清楚。方法：157 名怀孕后期（妊娠 30 周）的女性参与了从怀孕到产后五年、跨越 8 个时间点的关系满意度的纵向分析。该研究是对睡眠和饮食干预的随机对照试验的二次分析。潜在增长模型用于检查关系满意度随时间变化的轨迹，并探索该轨迹的预测因素。
-- Abstract: Purpose: Relationship satisfaction is a key factor in women s mental health and wellbeing outcomes, however, relationship satisfaction may change in times of stress and uncertainty, such as the perinatal period. While positive romantic relationships during the perinatal period may offer benefits, changes in relationship satisfaction and what may contribute to them longitudinally is not currently well understood. Met...
-- Summary (fallback): 机器翻译摘要显示：目的：关系满意度是女性心理健康和幸福结果的关键因素，然而，关系满意度可能会在压力和不确定时期（例如围产期）发生变化。虽然围产期积极的浪漫关系可能会带来好处，但关系满意度的变化以及可能对它们产生纵向影响的因素目前尚不清楚。方法：157 名怀孕后期（妊娠 30 周）的女性参与了从怀孕到产后五年、跨越 8 个时间点的关系满意度的纵向分析。该研究是对睡眠和饮食干预的随机对照试验的二次分析。潜在增长模型用于检查关系满意度随时间变化的轨迹，并探索该轨迹的预测因素。
-- Keywords: relationship, satisfaction, pregnancy, postpartum, trajectory
-
-### 8. [滤泡外 B 细胞分化和炎症环境之间的前馈循环控制系统性红斑狼疮的缓解和复发](https://www.medrxiv.org/content/10.64898/2026.07.03.26356448v1)
-- Original title: A Feed-Forward Loop Between Extrafollicular B Cell Differentiation and the Inflammatory Milieu Governs Remission and Relapse in Systemic Lupus Erythematosus
-- Authors: Noethling, D.-M., Anoshkin, K., Gavin, P. G., Rothe, T., Bucci, L. et al.
-- Meta: 2026-07-10 | rheumatology | DOI: 10.64898/2026.07.03.26356448
-- 中文摘要: 系统性红斑狼疮 (SLE) 由致病性 B 细胞驱动。然而，为什么一些接受 B 细胞去除的患者获得持久缓解，而另一些患者却失败，仍不清楚。在此，我们使用 CD19 定向嵌合抗原受体 (CAR) T 细胞疗法作为机制探针，对 18 名难治性 SLE 患者进行治疗，纵向随访长达 40 个月。我们表明，持久、无药物缓解不仅仅取决于 B 细胞耗竭的深度，还取决于滤泡外 (EF) B 细胞分化轨迹的消除 - 具体来说，是激活的幼稚 B 细胞前体和 CD11c+ T-bet+ 双阴性2型B细胞。在长期应答者中，B 细胞重建重现了健康的个体发育，而 EF 通路仍然被截断，与富含干扰素的环境崩溃和 PD1hi T 外周辅助细胞收缩同时发生。
-- Abstract: Systemic lupus erythematosus (SLE) is driven by pathogenic B cells. Yet, why some patients receiving B cell depletion achieve durable remission, whilst others fail remains unclear. Herewe use CD19-directed chimeric antigen receptor (CAR) T cell therapy as a mechanistic probein 18 patients with refractory SLE, with longitudinal follow-up extending up to 40 months.We show that durable, drug-free remission is defined n...
-- Summary (fallback): 机器翻译摘要显示：系统性红斑狼疮 (SLE) 由致病性 B 细胞驱动。然而，为什么一些接受 B 细胞去除的患者获得持久缓解，而另一些患者却失败，仍不清楚。在此，我们使用 CD19 定向嵌合抗原受体 (CAR) T 细胞疗法作为机制探针，对 18 名难治性 SLE 患者进行治疗，纵向随访长达 40 个月。我们表明，持久、无药物缓解不仅仅取决于 B 细胞耗竭的深度，还取决于滤泡外 (EF) B 细胞分化轨迹的消除 - 具体来说，是激活的幼稚 B 细胞前体和 CD11c+ T-bet+ 双阴性2型B细胞。在长期应答者中，B 细胞重建重现了健康的个体发育，而 EF 通路仍然被截断，与富含干扰素的环境崩溃和 PD1hi T 外周辅助细胞收缩同时发生。
-- Keywords: cell, cells, differentiation, remission, extrafollicular
-
-### 9. [脑膨出相关颞叶癫痫的类淋巴系统](https://www.medrxiv.org/content/10.64898/2026.07.02.26356654v1)
-- Original title: Glymphatic System in Temporal Lobe Epilepsy Associated with Encephalocele
-- Authors: Di Giacomo, R., Biancheri, D., Burini, A., Doniselli, F. M., Rossini, L. et al.
-- Meta: 2026-07-10 | neurology | DOI: 10.64898/2026.07.02.26356654
-- 中文摘要: 目的 颞叶脑膨出 (ENC) 是耐药性颞叶癫痫 (TLE) 的诊断不足的原因，通常与特发性颅内高压 (IIH) 相关。新的证据表明 IIH 和 TLE 均存在类淋巴系统功能障碍。我们研究了与 ENC 相关的 TLE 中的类淋巴标志物，与不同病因的无癫痫术后 TLE 对照进行比较。方法 对 13 例 TLE-ENC 患者和 12 例 TLE 对照患者的手术标本进行分析。组织学类淋巴标志物包括水通道蛋白 4 (AQP4)、胶质原纤维酸性蛋白 (GFAP)、平足蛋白 (PDPN)、血管周围间隙 (PVS) 扩大和血管密度。高分辨率 MRI 用于评估整体 PVS 评分。
-- Abstract: Objective Temporal lobe encephaloceles (ENC) are underdiagnosed causes of drug-resistant temporal lobe epilepsy (TLE), frequently associated with idiopathic intracranial hypertension (IIH). Emerging evidence suggests glymphatic system dysfunction in both IIH and TLE. We investigated glymphatic markers in TLE associated with ENC compared with seizure-free postoperative TLE controls of different aetiology. Methods Sur...
-- Summary (fallback): 机器翻译摘要显示：目的 颞叶脑膨出 (ENC) 是耐药性颞叶癫痫 (TLE) 的诊断不足的原因，通常与特发性颅内高压 (IIH) 相关。新的证据表明 IIH 和 TLE 均存在类淋巴系统功能障碍。我们研究了与 ENC 相关的 TLE 中的类淋巴标志物，与不同病因的无癫痫术后 TLE 对照进行比较。方法 对 13 例 TLE-ENC 患者和 12 例 TLE 对照患者的手术标本进行分析。组织学类淋巴标志物包括水通道蛋白 4 (AQP4)、胶质原纤维酸性蛋白 (GFAP)、平足蛋白 (PDPN)、血管周围间隙 (PVS) 扩大和血管密度。高分辨率 MRI 用于评估整体 PVS 评分。
-- Keywords: glymphatic, patients, tle-enc, aqp4, temporal
-
-### 10. [社会概念依赖于腹侧前额叶皮层和岛叶中的通用前颞中枢和社会辐条](https://www.medrxiv.org/content/10.64898/2026.07.02.26357102v1)
-- Original title: Social concepts rely on a domain-general anterior-temporal hub and social spokes in ventral prefrontal cortex and insula
-- Authors: Rouse, M., Garrard, P., Rowe, J., Lambon Ralph, M., Rogers, T.
-- Meta: 2026-07-10 | neurology | DOI: 10.64898/2026.07.02.26357102
-- 中文摘要: 围绕社会概念的神经基础的长期争论涉及前颞叶（ATL）的作用。一种观点认为，ATL 次区域专门致力于社会知识；另一种观点认为，ATL 构成了概念知识的通用领域中心，但具有分级的功能专业化，具体取决于与特定模态辐条的连接性。由于社会和非社会知识测试中存在许多混杂因素，这些立场很难裁定。我们通过额颞叶痴呆 (FTD) 知识评估的三项创新来应对这些挑战。首先，我们引入一个新任务来控制几个潜在的混淆。其次，我们将混合线性模型应用于行为数据分析，从而进一步控制混杂因素。
-- Abstract: A long-standing debate surrounding the neural bases of social concepts concerns the role of anterior temporal lobe (ATL). One perspective suggests ATL subregions are dedicated specifically to social knowledge; another suggests the ATLs constitute a domain-general hub for conceptual knowledge, but with graded functional specialisation depending on connectivity to modality specific spokes. The positions have been diff...
-- Summary (fallback): 机器翻译摘要显示：围绕社会概念的神经基础的长期争论涉及前颞叶（ATL）的作用。一种观点认为，ATL 次区域专门致力于社会知识；另一种观点认为，ATL 构成了概念知识的通用领域中心，但具有分级的功能专业化，具体取决于与特定模态辐条的连接性。由于社会和非社会知识测试中存在许多混杂因素，这些立场很难裁定。我们通过额颞叶痴呆 (FTD) 知识评估的三项创新来应对这些挑战。首先，我们引入一个新任务来控制几个潜在的混淆。其次，我们将混合线性模型应用于行为数据分析，从而进一步控制混杂因素。
-- Keywords: social, knowledge, concepts, factors, non-social
-
-### 11. [使用高通量方法鉴定帕金森病痴呆的血液蛋白质组标记物](https://www.medrxiv.org/content/10.64898/2026.06.30.26356774v1)
-- Original title: Identifying Blood Proteomic Markers of Parkinson's Disease Dementia Using High-Throughput Approaches
-- Authors: Real, R., Ravazio, R., Nodehi, A., Ben-Shlomo, Y., Williams, N. et al.
-- Meta: 2026-07-10 | neurology | DOI: 10.64898/2026.06.30.26356774
-- 中文摘要: 简介：帕金森病 (PD) 表现为运动和非运动症状，包括痴呆，但认知能力下降的严重程度和速度各不相同，临床上难以预测。方法：我们使用高通量 SomaScan(R) 测定法对 834 名帕金森病患者的基线血清蛋白进行了定量，并进行了 Cox 回归以确定与痴呆症后续发展相关的蛋白。候选生物标志物蛋白在独立队列的 371 名个体中进行了复制并进行了荟萃分析。结果：与痴呆进展显着相关的蛋白质靶标主要涉及突触可塑性、蛋白质降解/溶酶体功能和细胞外基质组织。孟德尔随机化进一步揭示 Nogo 受体 RTN4R 的变化可能与路易体痴呆的发展存在因果关系。
-- Abstract: INTRODUCTION: Parkinson's disease (PD) presents with motor and non-motor symptoms, including dementia, but the severity and rate of cognitive decline are heterogeneous and difficult to predict clinically. METHODS: We quantified baseline serum proteins with the high-throughput SomaScan(R) assay in 834 PD individuals and performed Cox regression to identify proteins associated with subsequent development of dementia....
-- Summary (fallback): 机器翻译摘要显示：简介：帕金森病 (PD) 表现为运动和非运动症状，包括痴呆，但认知能力下降的严重程度和速度各不相同，临床上难以预测。方法：我们使用高通量 SomaScan(R) 测定法对 834 名帕金森病患者的基线血清蛋白进行了定量，并进行了 Cox 回归以确定与痴呆症后续发展相关的蛋白。候选生物标志物蛋白在独立队列的 371 名个体中进行了复制并进行了荟萃分析。结果：与痴呆进展显着相关的蛋白质靶标主要涉及突触可塑性、蛋白质降解/溶酶体功能和细胞外基质组织。孟德尔随机化进一步揭示 Nogo 受体 RTN4R 的变化可能与路易体痴呆的发展存在因果关系。
-- Keywords: dementia, proteins, individuals, associated, development
-
-### 12. [使用联合脑电图和压缩频谱阵列特征进行新生儿癫痫发作检测：机器学习概念验证研究](https://www.medrxiv.org/content/10.64898/2026.07.02.26354953v1)
-- Original title: Neonatal Seizure Detection Using Combined aEEG and Compressed Spectral Array Features: A Machine-Learning Proof-of-Concept Study
-- Authors: Edoigiawerie, S., Henry, J., Beaulieu-Jones, B., David, H., Issa, N.
-- Meta: 2026-07-10 | neurology | DOI: 10.64898/2026.07.02.26354953
-- 中文摘要: 背景 使用振幅积分脑电图 (aEEG) 和压缩频谱阵列 (CSA) 构建临床可转化的新生儿癫痫发作检测算法。方法 使用带注释的新生儿脑电图的公共数据集，从左右顶叶电极中提取 aEEG 和 CSA 的特征。然后，使用这些功能来训练和测试三种机器学习分类器：随机森林 (RF)、支持向量机 (SVM) 和人工神经网络 (ANN)。结果 经过训练的 RF、SVM 和 ANN 分类器捕获癫痫发作时间段的曲线下面积 (AUC) 分别为 0.80、0.69 和 0.79，捕获癫痫发作和非癫痫发作时间段的平均准确度分别为 0.91、0.90 和 0.92。
-- Abstract: Background To build a clinically translatable neonatal seizure detection algorithm using amplitude-integrated electroencephalography (aEEG) and compressed spectral array (CSA). Methods Using a public dataset of annotated neonatal EEGs, features of the aEEG and CSA were extracted from the left and right centroparietal electrodes. These features were then used to train and test three machine learning classifiers, Rand...
-- Summary (fallback): 机器翻译摘要显示：背景 使用振幅积分脑电图 (aEEG) 和压缩频谱阵列 (CSA) 构建临床可转化的新生儿癫痫发作检测算法。方法 使用带注释的新生儿脑电图的公共数据集，从左右顶叶电极中提取 aEEG 和 CSA 的特征。然后，使用这些功能来训练和测试三种机器学习分类器：随机森林 (RF)、支持向量机 (SVM) 和人工神经网络 (ANN)。结果 经过训练的 RF、SVM 和 ANN 分类器捕获癫痫发作时间段的曲线下面积 (AUC) 分别为 0.80、0.69 和 0.79，捕获癫痫发作和非癫痫发作时间段的平均准确度分别为 0.91、0.90 和 0.92。
-- Keywords: seizure, features, neonatal, detection, aeeg
-
-### 13. [口咽放疗后放射相关吞咽困难的四种纵向表型：潜在类别轨迹分析](https://www.medrxiv.org/content/10.64898/2026.07.06.26357052v1)
-- Original title: Four longitudinal phenotypes of radiation-associated dysphagia following oropharyngeal radiotherapy: a latent class trajectory analysis
-- Authors: Manduchi, B., Barbon, C. E., Moreno, A. C., Peterson, C. B., Swanson, D. M. et al.
-- Meta: 2026-07-10 | oncology | DOI: 10.64898/2026.07.06.26357052
-- 中文摘要: 背景和目的。接受放疗 (RT) 治疗的口咽癌 (OPC) 患者在恢复过程中表现出不同程度的放射相关吞咽困难 (RAD)，但大多数生存模型通常对 RAD 进行统一治疗。本研究旨在根据从治疗前到 RT 后 30 个月的成像分级吞咽功能，识别不同的、数据驱动的 RAD 纵向表型，并表征其基线预测因子。材料和方法。将异质线性混合效应潜在类别轨迹模型应用于 Stiefel MDA-OPC 前瞻性注册表的纵向 DIGEST 评分。符合条件的患者在基线和 RT 后 30 个月之间进行了 [≥]3 次改良吞钡 (MBS) 评估。跨功能形式和 1-5 个潜在类别对模型进行评估；最终选择使用贝叶斯信息准则。
-- Abstract: Background and purpose. Patients with oropharyngeal cancer (OPC) treated with radiotherapy (RT) exhibit heterogeneous courses of radiation-associated dysphagia (RAD) during recovery, yet most survivorship models typically treat RAD uniformly. This study aimed to identify distinct, data-driven RAD longitudinal Phenotypes based on imaging-graded swallow function from pre-treatment to 30 months post-RT and to character...
-- Summary (fallback): 机器翻译摘要显示：背景和目的。接受放疗 (RT) 治疗的口咽癌 (OPC) 患者在恢复过程中表现出不同程度的放射相关吞咽困难 (RAD)，但大多数生存模型通常对 RAD 进行统一治疗。本研究旨在根据从治疗前到 RT 后 30 个月的成像分级吞咽功能，识别不同的、数据驱动的 RAD 纵向表型，并表征其基线预测因子。材料和方法。将异质线性混合效应潜在类别轨迹模型应用于 Stiefel MDA-OPC 前瞻性注册表的纵向 DIGEST 评分。符合条件的患者在基线和 RT 后 30 个月之间进行了 [≥]3 次改良吞钡 (MBS) 评估。跨功能形式和 1-5 个潜在类别对模型进行评估；最终选择使用贝叶斯信息准则。
-- Keywords: phenotypes, longitudinal, baseline, four, latent
-
-### 14. [年轻发病肺癌风险和分子亚型的种系决定因素](https://www.medrxiv.org/content/10.64898/2026.06.30.26356693v1)
-- Original title: Germline determinants of risk and molecular subtype in young-onset lung cancer
-- Authors: LoPiccolo, J., Collins, R. L., Fields, N., Nakagawa, C., Taraszka, K. et al.
-- Meta: 2026-07-10 | oncology | DOI: 10.64898/2026.06.30.26356693
-- 中文摘要: 年轻发病的肺癌富含从不吸烟和癌基因驱动的肿瘤，但其遗传基础仍不清楚。我们对 251 例年轻发病的肺癌病例（中位年龄 37 岁）进行了种系全基因组测序，并与从不吸烟病例（n = 196；中位年龄 68）和无癌症对照（n = 1,883）进行了联合分析。我们在 55 个癌症相关基因组中发现了罕见有害编码变异的富集，包括 EGFR/ERBB2 信号传导和先前肺癌 GWAS 涉及的基因。对罕见编码变异的全外显子组分析证实 TP53 是一种渗透性肺癌易感基因（比值比 [OR]=36.1，p=1.02x10-7），并发现了两种新的全外显子组显着肿瘤亚型依赖性关联：融合驱动型肿瘤中的 IREB2（p=1.39x10-6）和融合阴性肿瘤中的 SMAD6（p=2.05x10-6）。
-- Abstract: Young-onset lung cancer is enriched for never-smoking and oncogene-driven tumors, yet its inherited genetic basis remains poorly defined. We performed germline whole-genome sequencing in 251 young-onset lung cancer cases (median age 37), which we jointly analyzed with never-smoking cases (n=196; median age 68) and cancer-free controls (n=1,883). We identified enrichments of rare deleterious coding variants across 55...
-- Summary (fallback): 机器翻译摘要显示：年轻发病的肺癌富含从不吸烟和癌基因驱动的肿瘤，但其遗传基础仍不清楚。我们对 251 例年轻发病的肺癌病例（中位年龄 37 岁）进行了种系全基因组测序，并与从不吸烟病例（n = 196；中位年龄 68）和无癌症对照（n = 1,883）进行了联合分析。我们在 55 个癌症相关基因组中发现了罕见有害编码变异的富集，包括 EGFR/ERBB2 信号传导和先前肺癌 GWAS 涉及的基因。对罕见编码变异的全外显子组分析证实 TP53 是一种渗透性肺癌易感基因（比值比 [OR]=36.1，p=1.02x10-7），并发现了两种新的全外显子组显着肿瘤亚型依赖性关联：融合驱动型肿瘤中的 IREB2（p=1.39x10-6）和融合阴性肿瘤中的 SMAD6（p=2.05x10-6）。
-- Keywords: lung, cancer, germline, risk, young-onset
-
-### 15. [肾上腺肿瘤患者血清脂质组学变化的初步研究](https://www.medrxiv.org/content/10.64898/2026.07.01.26356676v1)
-- Original title: A Pilot Study on Serum Lipidomic Alterations in Patients with Adrenal Tumors
-- Authors: Chocholouskova, M., Ctvrtlik, F., Tudos, Z., Hartmann, I., Schovanek, J. et al.
-- Meta: 2026-07-10 | oncology | DOI: 10.64898/2026.07.01.26356676
-- 中文摘要: 肾上腺皮质癌（ACC）是一种罕见的侵袭性恶性肿瘤，由于影像学和生化特征重叠，给诊断带来了重大挑战，特别是在将其与其他肾上腺肿瘤（如腺瘤和嗜铬细胞瘤）区分开来时。为了更早、更准确地对这种罕见癌症进行分类，迫切需要改进的非侵入性工具。这项初步研究分析了 ACC、嗜铬细胞瘤和腺瘤患者与健康志愿者的血清脂质组学特征。最显着的变化发生在鞘磷脂 (SM) 和二酰甘油 (DG) 中。所有肿瘤样本均显示极长奇数链 SM 减少（例如 SM 39:1、SM 41:1、SM 41:2）和 DG 升高（例如 DG 34:1、DG 34:2、DG 36:2）。这些异常在恶性肿瘤中最为明显：ACC 和转移瘤 (AUC = 0.933)，其次是嗜铬细胞瘤 (AUC = 0.800) 和腺瘤 (AUC = 0.711)。
-- Abstract: Adrenocortical carcinoma (ACC) is a rare, aggressive malignancy posing significant diagnostic challenges, particularly in distinguishing it from other adrenal tumors, such as adenoma and pheochromocytoma, due to overlapping imaging and biochemical features. Improved non-invasive tools are critically needed for earlier, more accurate classification of this rare cancer. This pilot study analyzed serum lipidomic profil...
-- Summary (fallback): 机器翻译摘要显示：肾上腺皮质癌（ACC）是一种罕见的侵袭性恶性肿瘤，由于影像学和生化特征重叠，给诊断带来了重大挑战，特别是在将其与其他肾上腺肿瘤（如腺瘤和嗜铬细胞瘤）区分开来时。为了更早、更准确地对这种罕见癌症进行分类，迫切需要改进的非侵入性工具。这项初步研究分析了 ACC、嗜铬细胞瘤和腺瘤患者与健康志愿者的血清脂质组学特征。最显着的变化发生在鞘磷脂 (SM) 和二酰甘油 (DG) 中。所有肿瘤样本均显示极长奇数链 SM 减少（例如 SM 39:1、SM 41:1、SM 41:2）和 DG 升高（例如 DG 34:1、DG 34:2、DG 36:2）。这些异常在恶性肿瘤中最为明显：ACC 和转移瘤 (AUC = 0.933)，其次是嗜铬细胞瘤 (AUC = 0.800) 和腺瘤 (AUC = 0.711)。
-- Keywords: pheochromocytoma, lipidomic, adrenal, adenoma, tumor
-
-### 16. [探索利益相关者对肩峰下疼痛综合征患者共同决策的内容、交付和情境交付的看法：一项包含未来研讨会和访谈的多方法研究](https://www.medrxiv.org/content/10.64898/2026.07.02.26356879v1)
-- Original title: Exploring stakeholder perspectives on the content, delivery, and contextual delivery of shared decision-making for people living with subacromial pain syndrome: a multimethod study with future workshops and interviews
-- Authors: Lyng, K. D., Johansen, S. K., Foster, N. E., Olesen, J. L., Thomsen, J. L. et al.
-- Meta: 2026-07-10 | pain medicine | DOI: 10.64898/2026.07.02.26356879
-- 中文摘要: 背景：共享决策 (SDM) 是以患者为中心的护理的关键组成部分，适用于因慢性肌肉骨骼疼痛（包括肩峰下疼痛综合征 (SAPS)）而咨询医疗保健的人。有限的研究探讨了患者、亲属和医疗保健专业人员如何看待 SDM 在初级保健中管理 SAPS 的内容和交付。因此，本研究旨在探讨利益相关者对 SAPS 特定情境 SDM 干预的内容、交付和情境要求的看法，并确定共同的挑战和共同开发想法，为干预措施的制定提供信息。方法：我们举办了三个独立的未来研讨会（患者/亲属、物理治疗师/脊椎按摩师和全科医生），每个研讨会都包含结构化批评、幻想和实施阶段。
-- Abstract: Background: Shared decision-making (SDM) is a key component in patient-centered care for people consulting health care due to chronic musculoskeletal pain, including subacromial pain syndrome (SAPS). Limited research has explored how patients, relatives, and healthcare professionals perceive the content and delivery of SDM for managing SAPS in primary care. Thus, this study aims to explore stakeholder perspectives o...
-- Summary (fallback): 机器翻译摘要显示：背景：共享决策 (SDM) 是以患者为中心的护理的关键组成部分，适用于因慢性肌肉骨骼疼痛（包括肩峰下疼痛综合征 (SAPS)）而咨询医疗保健的人。有限的研究探讨了患者、亲属和医疗保健专业人员如何看待 SDM 在初级保健中管理 SAPS 的内容和交付。因此，本研究旨在探讨利益相关者对 SAPS 特定情境 SDM 干预的内容、交付和情境要求的看法，并确定共同的挑战和共同开发想法，为干预措施的制定提供信息。方法：我们举办了三个独立的未来研讨会（患者/亲属、物理治疗师/脊椎按摩师和全科医生），每个研讨会都包含结构化批评、幻想和实施阶段。
-- Keywords: care, stakeholder, saps, delivery, shared
-
-### 17. [评估四个英国人群样本中神经精神疾病和大脑内表型的多基因指数的表现](https://www.medrxiv.org/content/10.64898/2026.07.07.26357467v1)
-- Original title: Evaluating the performance of polygenic indices of neuropsychiatric conditions and brain endophenotypes in four UK population samples
-- Authors: Dearman, A. R., Vrticka, P., Moore, J., Kumari, M., Schalkwyk, L.
-- Meta: 2026-07-10 | genetic and genomic medicine | DOI: 10.64898/2026.07.07.26357467
-- 中文摘要: 神经精神多基因指数（NPGI）被用作心理健康状况不佳的遗传预测因子。然而，NPGI 也与可能影响成年期心理健康的环境因素有关，包括抚养环境。因此，它们的“遗传”效应既是直接的，又是环境介导的。需要在没有环境信号的情况下识别替代遗传预测因子。针对大脑结构和功能进行训练的基于内表型的多基因指数 (EPGI) 是一种尚未得到充分研究的替代方案，由于它们在生物学上的相对接近性，可能会表现出与心理健康结果的关联，而这种关联比 NPGI 受环境影响较小。
-- Abstract: Neuropsychiatric polygenic indices (NPGIs) are used as genetic predictors of poor mental health. However, NPGIs are also associated with environmental factors which could affect mental health in adulthood, including the rearing environment. Hence, their "genetic" effects are both direct and environmentally mediated. There is a need to identify alternative genetic predictors without environmental signal. Endophenotyp...
-- Summary (fallback): 机器翻译摘要显示：神经精神多基因指数（NPGI）被用作心理健康状况不佳的遗传预测因子。然而，NPGI 也与可能影响成年期心理健康的环境因素有关，包括抚养环境。因此，它们的“遗传”效应既是直接的，又是环境介导的。需要在没有环境信号的情况下识别替代遗传预测因子。针对大脑结构和功能进行训练的基于内表型的多基因指数 (EPGI) 是一种尚未得到充分研究的替代方案，由于它们在生物学上的相对接近性，可能会表现出与心理健康结果的关联，而这种关联比 NPGI 受环境影响较小。
-- Keywords: mental, health, npgis, genetic, associated
-
-### 18. [OmicFormer：一种基于统计先验的转换器，用于对疾病和复杂性状进行准确且可概括的组学预测](https://www.medrxiv.org/content/10.64898/2026.07.06.26357359v1)
-- Original title: OmicFormer: a statistical priors-informed transformer for accurate and generalizable omics prediction of diseases and complex traits
-- Authors: Jiang, H., Yang, C., Qin, M., You, J., Feng, J. et al.
-- Meta: 2026-07-10 | health informatics | DOI: 10.64898/2026.07.06.26357359
-- 中文摘要: 精准医学面临着将高维组学数据转化为跨不同人群的可靠疾病预测的严峻挑战。当前的方法经常在分布变化的情况下失败，部分原因是它们无法编码复杂的生物特征依赖性。我们提出了 OmicFormer，一种基于 Transformer 的架构，它将两个互补的统计先验，即特征-标签关联和特征-特征依赖性，直接嵌入到其表示学习中。这种设计捕获了传统方法经常错过的局部和远程组学相互作用。
-- Abstract: Precision medicine faces a critical challenge in translating high-dimensional omics data into robust disease predictions across diverse populations. Current approaches often fail under distribution shifts, partly due to their inability to encode complex biological feature dependencies. We present OmicFormer, a Transformer-based architecture that embeds two complementary statistical priors, i.e., feature-label associ...
-- Summary (fallback): 机器翻译摘要显示：精准医学面临着将高维组学数据转化为跨不同人群的可靠疾病预测的严峻挑战。当前的方法经常在分布变化的情况下失败，部分原因是它们无法编码复杂的生物特征依赖性。我们提出了 OmicFormer，一种基于 Transformer 的架构，它将两个互补的统计先验，即特征-标签关联和特征-特征依赖性，直接嵌入到其表示学习中。这种设计捕获了传统方法经常错过的局部和远程组学相互作用。
-- Keywords: omicformer, across, statistical, prediction, generalizable
-
-### 19. [骨质疏松症预测的机器学习模型：系统回顾和荟萃分析](https://www.medrxiv.org/content/10.64898/2026.07.03.26357134v1)
-- Original title: Machine Learning Models for Osteoporosis Prediction: A Systematic Review and Meta-Analysis
-- Authors: de Carvalho, F. R., Gavaia, P. J.
-- Meta: 2026-07-10 | health informatics | DOI: 10.64898/2026.07.03.26357134
-- 中文摘要: 目的 机器学习 (ML) 在骨质疏松症预测中的应用已迅速扩展，但尚未有全面的荟萃分析综合这些模型在所有 ML 类别、数据类型和验证策略中的判别性能。这项系统综述和荟萃分析旨在评估机器学习和深度学习模型对成人骨质疏松症预测的诊断和预测准确性。方法 对 PubMed、Embase、Web of Science 和 IEEE Xplore 2020 年 1 月至 2026 年 2 月期间发表的研究进行系统检索。其中包括开发、验证或应用 ML 模型来预测成人骨质疏松症、低骨矿物质密度或骨质疏松性骨折的研究。使用预测模型偏倚风险评估工具 (PROBAST) 评估方法学质量。
-- Abstract: Purpose The application of machine learning (ML) to osteoporosis prediction has expanded rapidly, yet no comprehensive meta-analysis has synthesized the discriminative performance of these models across all ML categories, data types, and validation strategies. This systematic review and meta-analysis aimed to evaluate the diagnostic and predictive accuracy of ML and deep learning models for osteoporosis prediction i...
-- Summary (fallback): 机器翻译摘要显示：目的 机器学习 (ML) 在骨质疏松症预测中的应用已迅速扩展，但尚未有全面的荟萃分析综合这些模型在所有 ML 类别、数据类型和验证策略中的判别性能。这项系统综述和荟萃分析旨在评估机器学习和深度学习模型对成人骨质疏松症预测的诊断和预测准确性。方法 对 PubMed、Embase、Web of Science 和 IEEE Xplore 2020 年 1 月至 2026 年 2 月期间发表的研究进行系统检索。其中包括开发、验证或应用 ML 模型来预测成人骨质疏松症、低骨矿物质密度或骨质疏松性骨折的研究。使用预测模型偏倚风险评估工具 (PROBAST) 评估方法学质量。
-- Keywords: models, learning, prediction, studies, osteoporosis
-
-### 20. [如何最好地向临床医生解释机器学习模型：解释类型的用户研究](https://www.medrxiv.org/content/10.64898/2026.06.30.26356761v1)
-- Original title: How Best to Explain Machine Learning Models to Clinicians: A User Study of Explanation Types
-- Authors: Brown, B., Oguss, M., Carey, K. A., Martin, J., Kotula, C. A. et al.
-- Meta: 2026-07-10 | health informatics | DOI: 10.64898/2026.06.30.26356761
-- 中文摘要: 背景：解释在帮助临床医生理解黑盒机器学习模型如何在临床环境中进行预测方面发挥着至关重要的作用。已经开发了几种不同类型的解释，每种解释都对应于表征模型输入和预测之间关系的独特方法。然而，目前尚不清楚临床医生最看重哪种类型的解释。目的：为了提高机器学习在临床环境中的实用性，我们的目的是评估临床医生如何在临床重要指标上评价不同的解释方法，例如重要性、信任、理解，以及解释如何影响临床医生对患者的看法。方法：我们对 39 名重症监护和医院医学护士和医生进行了一项用户研究，以比较归因、反事实和基于规则的解释。
-- Abstract: Background: Explanations play a crucial role in helping clinicians understand how black-box machine learning models make predictions in clinical settings. Several different types of explanations have been developed, each corresponding to a unique approach for characterizing the relationships between model inputs and predictions. However, it remains unclear what types of explanations are the most valued by clinicians...
-- Summary (fallback): 机器翻译摘要显示：背景：解释在帮助临床医生理解黑盒机器学习模型如何在临床环境中进行预测方面发挥着至关重要的作用。已经开发了几种不同类型的解释，每种解释都对应于表征模型输入和预测之间关系的独特方法。然而，目前尚不清楚临床医生最看重哪种类型的解释。目的：为了提高机器学习在临床环境中的实用性，我们的目的是评估临床医生如何在临床重要指标上评价不同的解释方法，例如重要性、信任、理解，以及解释如何影响临床医生对患者的看法。方法：我们对 39 名重症监护和医院医学护士和医生进行了一项用户研究，以比较归因、反事实和基于规则的解释。
-- Keywords: explanations, clinicians, explanation, types, machine
-
-### 21. [评估初级保健远程医疗准备情况的设施级工具的适应性和心理测量验证](https://www.medrxiv.org/content/10.64898/2026.07.01.26356790v1)
-- Original title: Adaptation and Psychometric Validation of a Facility-Level Tool to Assess Telemedicine Readiness in Primary Care
-- Authors: Escobar-Agreda, S., Villarreal-Zegarra, D., Reategui-Rivera, C. M., Paredes-Gonzales, Y., Rojas-Mezarina, L.
-- Meta: 2026-07-10 | health informatics | DOI: 10.64898/2026.07.01.26356790
-- 中文摘要: 背景：远程医疗迅速扩展，但其在应急响应之外的持续使用仍然不平衡。设施和组织条件是医疗保健干预实施的可修改决定因素，准备情况评估是早期采用和进一步采用过程中的关键步骤。然而，许多远程医疗准备评估工具缺乏心理测量证据，限制了它们在基准测试、优先投资和大规模监测进展方面的价值。目标：调整并在心理测量上验证设施级别的远程医疗准备清单 (TRI-F)。方法：我们使用 2023 年 12 月至 2024 年 3 月期间对秘鲁初级保健机构 (PCF) 大样本在线评估的数据进行了横断面分析。
-- Abstract: Background: Telehealth has expanded rapidly, yet its sustained use beyond emergency responses remains uneven. Facility and organizational conditions are modifiable determinants of healthcare intervention implementation, and readiness assessments are key steps in the early adoption and further uptake process. However, many telemedicine readiness assessment instruments lack psychometric evidence, limiting their value...
-- Summary (fallback): 机器翻译摘要显示：背景：远程医疗迅速扩展，但其在应急响应之外的持续使用仍然不平衡。设施和组织条件是医疗保健干预实施的可修改决定因素，准备情况评估是早期采用和进一步采用过程中的关键步骤。然而，许多远程医疗准备评估工具缺乏心理测量证据，限制了它们在基准测试、优先投资和大规模监测进展方面的价值。目标：调整并在心理测量上验证设施级别的远程医疗准备清单 (TRI-F)。方法：我们使用 2023 年 12 月至 2024 年 3 月期间对秘鲁初级保健机构 (PCF) 大样本在线评估的数据进行了横断面分析。
-- Keywords: telemedicine, readiness, facility, internal, across
-
-### 22. [使用连续时间隐马尔可夫模型模拟抗生素治疗对脓毒症的有效性](https://www.medrxiv.org/content/10.64898/2026.07.03.26357092v1)
-- Original title: Modeling the Effectiveness of Antibiotic Therapies Against Sepsis Using Continuous-time Hidden Markov Models
-- Authors: Schmiegel, S., Marchi, H., Borgstedt, R., Rehberg, S., Fuchs, C. et al.
-- Meta: 2026-07-10 | health informatics | DOI: 10.64898/2026.07.03.26357092
-- 中文摘要: 脓毒症患者需要在脓毒症发病后的第一小时内接受有效的抗生素治疗，以降低死亡风险。然而，提供抗生素治疗适宜性信息的微生物数据通常只能在 72 小时后才能获得。因此，治疗医生需要根据患者的健康记录和一般健康状况来判断治疗的有效性。这种医疗评估很复杂，需要多年的经验。在我们的研究中，我们研究了统计模型如何有助于评估抗生素疗法的有效性。为此，我们通过使用三态连续时间隐马尔可夫模型（ctHMM）对脓毒症患者的健康状况进行建模来描述抗生素治疗的有效性。
-- Abstract: Patients suffering from sepsis need to be treated with an effective antibiotic therapy within the first hour after sepsis onset to decrease their risk of death. Microbiological data that provide information about the suitability of antibiotic therapies, however, is usually available only after 72 hours. Consequently, the treating physicians need to judge a therapy's effectiveness based on the patients' measured heal...
-- Summary (fallback): 机器翻译摘要显示：脓毒症患者需要在脓毒症发病后的第一小时内接受有效的抗生素治疗，以降低死亡风险。然而，提供抗生素治疗适宜性信息的微生物数据通常只能在 72 小时后才能获得。因此，治疗医生需要根据患者的健康记录和一般健康状况来判断治疗的有效性。这种医疗评估很复杂，需要多年的经验。在我们的研究中，我们研究了统计模型如何有助于评估抗生素疗法的有效性。为此，我们通过使用三态连续时间隐马尔可夫模型（ctHMM）对脓毒症患者的健康状况进行建模来描述抗生素治疗的有效性。
-- Keywords: antibiotic, effectiveness, therapies, sepsis, patients
-
-### 23. [使用链接电子病历设计和实施母婴临床试验招募警报，并评估研究人员感知的警报可用性](https://www.medrxiv.org/content/10.64898/2026.06.30.26356791v1)
-- Original title: Design and implementation of maternal-infant clinical trial recruitment alert using linked electronic medical records, and evaluation of researcher-perceived alert usability
-- Authors: Panganiban, H. P., Segal, A., Kuschel, C.
-- Meta: 2026-07-10 | health informatics | DOI: 10.64898/2026.06.30.26356791
-- 中文摘要: 背景 配置为电子病历警报的临床决策支持系统可以通过识别合格的参与者来支持临床试验招募。虽然它们通常用于评估单个患者记录，但它们在链接母婴图表中的应用尚未得到广泛探索。目标 该项目旨在使用链接的母婴记录设计和实施临床试验警报，并评估研究人员感知的可用性。材料和方法我们进行了一个两阶段的质量保证项目：（1）设计和实施与预期招聘工作流程一致的警报，以及（2）使用系统可用性量表评估可用性。基本内容分析描述了警报设计和实施过程，而定量评分则评估了感知的可用性。
-- Abstract: Background Clinical decision support systems configured as electronic medical records alerts can support clinical trial recruitment by identifying eligible participants. While they are typically used to evaluate a single patient record, their application for a linked maternal infant chart has not been extensively explored. Objective This project aimed to design and implement a clinical trial alert using linked mater...
-- Summary (fallback): 机器翻译摘要显示：背景 配置为电子病历警报的临床决策支持系统可以通过识别合格的参与者来支持临床试验招募。虽然它们通常用于评估单个患者记录，但它们在链接母婴图表中的应用尚未得到广泛探索。目标 该项目旨在使用链接的母婴记录设计和实施临床试验警报，并评估研究人员感知的可用性。材料和方法我们进行了一个两阶段的质量保证项目：（1）设计和实施与预期招聘工作流程一致的警报，以及（2）使用系统可用性量表评估可用性。基本内容分析描述了警报设计和实施过程，而定量评分则评估了感知的可用性。
-- Keywords: alert, usability, recruitment, clinical, workflow
-
-### 24. [NigBench：尼日利亚大语言模型的多语言床旁医疗查询基准研究](https://www.medrxiv.org/content/10.64898/2026.07.05.26356776v1)
-- Original title: NigBench: A multilingual point-of-care medical query benchmarking study of large language models in Nigeria
-- Authors: Olatunji, T., Aka, C., Okocha, C., Ayodele, E., Orisakwe, J. et al.
-- Meta: 2026-07-10 | health informatics | DOI: 10.64898/2026.07.05.26356776
-- 中文摘要: 在这项研究中，我们引入了一个新颖的基准，其中包含来自尼日利亚一线卫生工作者的 9,000 多个现实世界、现场护理、多语言和多模式临床问答对。使用该数据集，我们将当地的全科医生与多个领先的开放式和封闭式法学硕士进行比较。我们的结果揭示了关于法学硕士作为资源匮乏环境中的临床决策支持系统的适用性的几个重要见解。结果证实，性能因语言和输入方式（例如文本与语音）而异：虽然模型在英语文本输入上表现最佳，但对于本地语言语音，其准确性显着下降。至关重要的是，在获得法学硕士学位之前，通过将其他语言转录和翻译成英语，可以实现显着的性能提升——这对于非英语产品开发人员来说是一个重要的见解。
-- Abstract: In this study, we introduce a novel benchmark comprising over 9,000 real-world, point-of-care, multilingual, and multimodal clinical question-answer pairs sourced from frontline health workers in Nigeria. Using the dataset, we compare local general practitioners to multiple leading open and closed LLMs. Our results reveal several critical insights into the suitability of LLMs as clinical decision support systems in...
-- Summary (fallback): 机器翻译摘要显示：在这项研究中，我们引入了一个新颖的基准，其中包含来自尼日利亚一线卫生工作者的 9,000 多个现实世界、现场护理、多语言和多模式临床问答对。使用该数据集，我们将当地的全科医生与多个领先的开放式和封闭式法学硕士进行比较。我们的结果揭示了关于法学硕士作为资源匮乏环境中的临床决策支持系统的适用性的几个重要见解。结果证实，性能因语言和输入方式（例如文本与语音）而异：虽然模型在英语文本输入上表现最佳，但对于本地语言语音，其准确性显着下降。至关重要的是，在获得法学硕士学位之前，通过将其他语言转录和翻译成英语，可以实现显着的性能提升——这对于非英语产品开发人员来说是一个重要的见解。
-- Keywords: multilingual, point-of-care, language, models, nigeria
-
-### 25. [没有必要在便盆周围殴打：来自院内主要产生 NDM 的大肠杆菌携带爆发的教训：一项混合方法研究。](https://www.medrxiv.org/content/10.64898/2026.07.06.26354129v1)
-- Original title: No Point Beating Around the Bedpan: Lessons from a Major Intra-Hospital NDM-Producing Escherichia coli Carriage Outbreak : a Mixed-Methods Study.
-- Authors: Le Hir, A., Vincent, P., Sardi, F. S., Giglione, C., Bouton, N. et al.
-- Meta: 2026-07-10 | infectious diseases | DOI: 10.64898/2026.07.06.26354129
-- 中文摘要: 抗生素耐药性对全球公共卫生构成重大威胁。在新兴的广泛耐药细菌 (eXDR) 中，产生碳青霉烯酶的肠杆菌科细菌 (CPE) 使医院因快速传播而面临疫情爆发的风险，并面临治疗限制。通过流行病学-定性混合方法研究，我们报告了法国迄今为止最广泛的 CPE 携带疫情，该疫情发生在 2025 年 1 月至 6 月期间在马赛欧洲医院 (HEM)。到 2024 年 11 月底，一名从塞内加尔返回的指示患者入院，该患者携带产生 NDM 的大肠杆菌，导致了广泛的传播，尽管遵守了国家筛查和隔离指南。超过 7,500 次直肠筛查测试证实了 481 例 CPE 携带者（包括 343 例 NDM、129 例 OXA-48 样和 9 例其他 CPE）和 14 例耐万古霉素屎肠球菌携带者。
-- Abstract: Antimicrobial resistance constitutes a major threat to global public health. Among emerging extensively drug-resistant bacteria (eXDR), carbapenemase-producing Enterobacteriaceae (CPE) expose hospitals to outbreaks through rapid dissemination, and to therapeutic limitations. Through a mixed epidemiological-qualitative methods study, we report the most extensive CPE carriage outbreak known to date in France, which oc...
-- Summary (fallback): 机器翻译摘要显示：抗生素耐药性对全球公共卫生构成重大威胁。在新兴的广泛耐药细菌 (eXDR) 中，产生碳青霉烯酶的肠杆菌科细菌 (CPE) 使医院因快速传播而面临疫情爆发的风险，并面临治疗限制。通过流行病学-定性混合方法研究，我们报告了法国迄今为止最广泛的 CPE 携带疫情，该疫情发生在 2025 年 1 月至 6 月期间在马赛欧洲医院 (HEM)。到 2024 年 11 月底，一名从塞内加尔返回的指示患者入院，该患者携带产生 NDM 的大肠杆菌，导致了广泛的传播，尽管遵守了国家筛查和隔离指南。超过 7,500 次直肠筛查测试证实了 481 例 CPE 携带者（包括 343 例 NDM、129 例 OXA-48 样和 9 例其他 CPE）和 14 例耐万古霉素屎肠球菌携带者。
-- Keywords: outbreak, major, lessons, ndm-producing, escherichia
-
-### 26. [中心静脉血氧饱和度、二氧化碳静脉动脉梯度和乳酸水平作为心脏手术后组织灌注标志物的比较评估：一项前瞻性探索性观察研究](https://www.medrxiv.org/content/10.64898/2026.07.04.26357161v1)
-- Original title: Comparative Evaluation of Central Venous Oxygen Saturation, Carbon Dioxide Venous Arterial Gradient, and Lactate Levels as Markers of Tissue Perfusion After Cardiac Surgery: A Prospective Exploratory Observational Study
-- Authors: Neves, J. K., Venturini, V., Zeferino, S., Galas, F. R. B. G., Auler Junior, J.
-- Meta: 2026-07-10 | intensive care and critical care medicine | DOI: 10.64898/2026.07.04.26357161
-- 中文摘要: 目的：本研究旨在确定哪些组织灌注不足的标志物，特别是乳酸水平、中心静脉氧饱和度 (ScvO2) 和静脉动脉二氧化碳梯度 (CO2 梯度)，在预测心脏手术患者术后 48 小时内从 ICU 出院时具有最高的敏感性和特异性。这是一项探索性的、假设生成的调查。方法：前瞻性观察研究，涉及 InCor-HCFMUSP 外科 ICU 中 100 名接受体外循环心脏手术的患者。在 ICU 入院时和入院后 24 小时评估灌注标志物。结果：24 小时 ScvO2 是唯一与 ICU 出院显着相关的标志物（OR=1.096；95% CI=1.020-1.180；p=0.012）。
-- Abstract: Objective: This study aims to identify which markers of tissue hypoperfusion - specifically lactate levels, central venous oxygen saturation (ScvO2), and venous arterial carbon dioxide gradient (CO2 gradient) - have the highest sensitivity and specificity in predicting the discharge of postoperative cardiac surgical patients from the ICU within 48 hours. This is an exploratory, hypothesis-generating investigation. M...
-- Summary (fallback): 机器翻译摘要显示：目的：本研究旨在确定哪些组织灌注不足的标志物，特别是乳酸水平、中心静脉氧饱和度 (ScvO2) 和静脉动脉二氧化碳梯度 (CO2 梯度)，在预测心脏手术患者术后 48 小时内从 ICU 出院时具有最高的敏感性和特异性。这是一项探索性的、假设生成的调查。方法：前瞻性观察研究，涉及 InCor-HCFMUSP 外科 ICU 中 100 名接受体外循环心脏手术的患者。在 ICU 入院时和入院后 24 小时评估灌注标志物。结果：24 小时 ScvO2 是唯一与 ICU 出院显着相关的标志物（OR=1.096；95% CI=1.020-1.180；p=0.012）。
-- Keywords: venous, lactate, scvo2, hours, gradient
-
-### 27. [系统综述，批判性评价超加工食品、心血管疾病和高血压研究方法的严谨性](https://www.medrxiv.org/content/10.64898/2026.07.09.26357611v1)
-- Original title: A systematic review to critically appraise methodological rigour in research on ultra-processed food and cardiovascular disease and hypertension
-- Authors: Mekonnen, T. C., Bitew, Z. A., Dessie, A. M., Tegegne, T., Ushula, T. et al.
-- Meta: 2026-07-10 | cardiovascular medicine | DOI: 10.64898/2026.07.09.26357611
-- 中文摘要: 尽管越来越多的研究将超加工食品（UPF）的消费与心血管疾病（CVD）和高血压的风险联系起来，但还没有研究系统地评估这些关联背后的方法学严谨性。我们系统地检索了主要数据库以识别符合条件的研究。提取数据用于饮食评估方法、UPF 分类、协变量选择、混杂控制、统计模型和效果估计。进行随机效应荟萃分析以汇总效应估计。进行荟萃回归和敏感性分析来探索异质性的来源。在 46 项符合条件的研究中应用 NOVA 分类对 UPF 进行分类时观察到了显着的异质性。
-- Abstract: Despite growing research linking ultra-processed food (UPF) consumption to risk of cardiovascular disease (CVD) and hypertension, no study has systematically evaluated the methodological rigor underlying these associations. We systematically searched major databases to identify eligible studies. Data were extracted for dietary assessment methods, UPF classification, covariate selection, confounding control, statisti...
-- Summary (fallback): 机器翻译摘要显示：尽管越来越多的研究将超加工食品（UPF）的消费与心血管疾病（CVD）和高血压的风险联系起来，但还没有研究系统地评估这些关联背后的方法学严谨性。我们系统地检索了主要数据库以识别符合条件的研究。提取数据用于饮食评估方法、UPF 分类、协变量选择、混杂控制、统计模型和效果估计。进行随机效应荟萃分析以汇总效应估计。进行荟萃回归和敏感性分析来探索异质性的来源。在 46 项符合条件的研究中应用 NOVA 分类对 UPF 进行分类时观察到了显着的异质性。
-- Keywords: methodological, hypertension, higher, consumption, risk
-
-### 28. [MRI 衍生的脂肪库和心力衰竭风险背后的心脏代谢途径：孟德尔随机研究](https://www.medrxiv.org/content/10.64898/2026.07.06.26357230v1)
-- Original title: MRI-Derived Fat Depots and Cardiometabolic Pathways Underlying Heart Failure Risk: A Mendelian Randomization Study
-- Authors: Sharma, P., Levin, M.
-- Meta: 2026-07-10 | cardiovascular medicine | DOI: 10.64898/2026.07.06.26357230
-- 中文摘要: 背景：肥胖是心力衰竭（HF）的一个主要可改变危险因素，但体重指数（BMI）并不能区分生物学上不同的脂肪库。成像来源的脂肪组织库是否能够超越传统的人体测量方法来捕获心力衰竭风险的特定心脏代谢途径仍不确定。方法：我们使用已发表的全基因组关联研究摘要统计数据进行了两个样本孟德尔随机化 (MR) 和多变量 MR 中介分析。一般肥胖特征包括 BMI、腰臀比 (WHR) 以及根据 GIANT 和英国生物银行对多达 694,649 人的荟萃分析根据 BMI 调整的 WHR。 MRI 衍生的内脏脂肪组织 (VAT)、腹部皮下脂肪组织 (ASAT) 和臀股脂肪组织 (GFAT) 来自 38,965 名英国生物银行参与者。
-- Abstract: Background: Obesity is a major modifiable risk factor for heart failure (HF), but body mass index (BMI) does not distinguish biologically distinct fat depots. Whether imaging-derived adipose tissue depots capture specific cardiometabolic pathways underlying HF risk beyond conventional anthropometric measures remains uncertain. Methods: We performed two-sample Mendelian randomization (MR) and multivariable MR mediati...
-- Summary (fallback): 机器翻译摘要显示：背景：肥胖是心力衰竭（HF）的一个主要可改变危险因素，但体重指数（BMI）并不能区分生物学上不同的脂肪库。成像来源的脂肪组织库是否能够超越传统的人体测量方法来捕获心力衰竭风险的特定心脏代谢途径仍不确定。方法：我们使用已发表的全基因组关联研究摘要统计数据进行了两个样本孟德尔随机化 (MR) 和多变量 MR 中介分析。一般肥胖特征包括 BMI、腰臀比 (WHR) 以及根据 GIANT 和英国生物银行对多达 694,649 人的荟萃分析根据 BMI 调整的 WHR。 MRI 衍生的内脏脂肪组织 (VAT)、腹部皮下脂肪组织 (ASAT) 和臀股脂肪组织 (GFAT) 来自 38,965 名英国生物银行参与者。
-- Keywords: risk, adipose, cardiometabolic, tissue, asat
-
-### 29. [荷兰意外怀孕后的支持经历](https://www.medrxiv.org/content/10.64898/2026.07.03.26356675v1)
-- Original title: Support Experiences Following Unintended Pregnancy in the Netherlands
-- Authors: Inan, Z., Sprenger, M., Slagboom, N. M., Molenaar, J. M.
-- Meta: 2026-07-10 | sexual and reproductive health | DOI: 10.64898/2026.07.03.26356675
-- 中文摘要: 背景：意外怀孕会带来压力并改变生活轨迹。社会支持可能会缓冲这些影响，但其在意外怀孕和育儿早期的影响尚不清楚。本研究旨在了解这一时期所经历的社会支持的类型和差距。方法：本研究利用荷兰海牙 RISE UP 研究的访谈数据。 2024 年至 2025 年间，13 名经历过意外怀孕的母亲和 8 名伴侣参加了半结构化访谈。使用 House 的社会支持框架对访谈进行了主题分析。结果：从怀孕到早期为人父母的整个时间轴上强调了不同类型的支持，强调了其动态性质。情感和工具支持在整个过程中最为突出。
-- Abstract: Background: Unintended pregnancies can introduce stress and shift life trajectories. Social support may buffer these effects, yet its influence during an unintended pregnancy and into the early parenthood period is not clear. This study aimed to understand the types and gaps of social support experienced throughout this period. Methods: This study utilized interview data under the RISE UP study in The Hague, the Net...
-- Summary (fallback): 机器翻译摘要显示：背景：意外怀孕会带来压力并改变生活轨迹。社会支持可能会缓冲这些影响，但其在意外怀孕和育儿早期的影响尚不清楚。本研究旨在了解这一时期所经历的社会支持的类型和差距。方法：本研究利用荷兰海牙 RISE UP 研究的访谈数据。 2024 年至 2025 年间，13 名经历过意外怀孕的母亲和 8 名伴侣参加了半结构化访谈。使用 House 的社会支持框架对访谈进行了主题分析。结果：从怀孕到早期为人父母的整个时间轴上强调了不同类型的支持，强调了其动态性质。情感和工具支持在整个过程中最为突出。
-- Keywords: support, pregnancy, unintended, social, throughout
-
-### 30. [拉丁美洲人乳头瘤病毒筛查试验呈阳性、宫颈肿瘤或宫颈癌女性的生活质量](https://www.medrxiv.org/content/10.64898/2026.07.06.26357411v1)
-- Original title: Quality of life in women with a human papillomavirus-positive screening test, cervical neoplasia, or cervical cancer in Latin America
-- Authors: Tejada, R. A., Ramirez, A. T., Ferrera, A., Cabrera, Y., Teran, C. A. et al.
-- Meta: 2026-07-10 | sexual and reproductive health | DOI: 10.64898/2026.07.06.26357411
-- 中文摘要: 目的：人乳头瘤病毒 (HPV) 感染和 HPV 相关疾病影响健康相关的生活质量 (HRQOL)。我们的目的是测量拉丁美洲 HPV 检测结果呈阳性、患有宫颈上皮内瘤变 (CIN) 或宫颈癌的女性的 HRQOL。方法：我们招募了来自玻利维亚、哥伦比亚、洪都拉斯、秘鲁和乌拉圭的 18 至 75 岁女性。我们使用 EQ-5D-5L 工具根据特定国家/地区的健康偏好集（如果有）计算 EQ-5D 指数得分。我们计算了 EQ-5D 指数的中位数和四分位距 (IQR)，并进行了探索性分析，通过伽马回归比较了按诊断和国家划分的 HRQOL 损失。结果：我们展示了 1,073 名参与者的结果。中位年龄为 43 岁（IQR：34-52）。
-- Abstract: Purpose: Human papillomavirus (HPV) infection and HPV-associated diseases impact health-related quality of life (HRQOL). We aimed to measure HRQOL in women with HPV-positive test results, cervical intraepithelial neoplasia (CIN), or cervical cancer in Latin America. Methods: We enrolled women aged 18 to 75 years from Bolivia, Colombia, Honduras, Peru, and Uruguay. We used the EQ-5D-5L instrument to calculate EQ-5D i...
-- Summary (fallback): 机器翻译摘要显示：目的：人乳头瘤病毒 (HPV) 感染和 HPV 相关疾病影响健康相关的生活质量 (HRQOL)。我们的目的是测量拉丁美洲 HPV 检测结果呈阳性、患有宫颈上皮内瘤变 (CIN) 或宫颈癌的女性的 HRQOL。方法：我们招募了来自玻利维亚、哥伦比亚、洪都拉斯、秘鲁和乌拉圭的 18 至 75 岁女性。我们使用 EQ-5D-5L 工具根据特定国家/地区的健康偏好集（如果有）计算 EQ-5D 指数得分。我们计算了 EQ-5D 指数的中位数和四分位距 (IQR)，并进行了探索性分析，通过伽马回归比较了按诊断和国家划分的 HRQOL 损失。结果：我们展示了 1,073 名参与者的结果。中位年龄为 43 岁（IQR：34-52）。
-- Keywords: hrqol, cervical, women, diagnosis, test
+### 1. [PABformer：通过可穿戴加速度测量进行基于多通道变压器的身体活动表示学习，用于预测帕金森病](https://www.medrxiv.org/content/10.1101/2025.08.12.25333460v2)
+- Original title: PABformer: Multi-Channel Transformer-Based Physical Activity Representation Learning from Wearable Accelerometry for Prediction of Parkinson Disease
+- Authors: He, K., Fan, L., Qian, H., Li, C., Wang, M.
+- Meta: 2026-07-11 | health informatics | DOI: 10.1101/2025.08.12.25333460
+- 中文摘要: 帕金森病 (PD) 是一种常见的神经退行性疾病，由于明显的运动症状延迟发作以及长期行为变化的复杂性，其早期诊断和预测仍然具有挑战性。可穿戴加速度计提供了一种可扩展且非侵入性的方法，用于监测自由生活环境中的身体活动 (PA)，并已成为 PD 预测的一种有前景的工具。然而，现有的基于加速度计的方法通常依赖于粗略的汇总统计数据或模型，捕获多日加速度计记录中的远程时间依赖性的能力有限。在本研究中，我们提出了 PABformer，这是一种多通道 Transformer 框架，专为从加速度计数据学习长期 PA 行为表示而设计。
+- Abstract: Parkinson disease (PD) is a prevalent neurodegenerative disorder whose early diagnosis and prediction remain challenging due to the delayed onset of overt motor symptoms and the complexity of long-term behavioral changes. Wearable accelerometers provide a scalable and non-invasive approach for monitoring physical activity (PA) in free-living environments and have emerged as a promising tool for PD prediction. Howeve...
+- Summary (fallback): 机器翻译摘要显示：帕金森病 (PD) 是一种常见的神经退行性疾病，由于明显的运动症状延迟发作以及长期行为变化的复杂性，其早期诊断和预测仍然具有挑战性。可穿戴加速度计提供了一种可扩展且非侵入性的方法，用于监测自由生活环境中的身体活动 (PA)，并已成为 PD 预测的一种有前景的工具。然而，现有的基于加速度计的方法通常依赖于粗略的汇总统计数据或模型，捕获多日加速度计记录中的远程时间依赖性的能力有限。在本研究中，我们提出了 PABformer，这是一种多通道 Transformer 框架，专为从加速度计数据学习长期 PA 行为表示而设计。
+- Keywords: pabformer, prediction, learning, accelerometer, activity
